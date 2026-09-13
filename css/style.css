@@ -147,22 +147,15 @@ img { max-width: 100%; display: block; }
 
 .nav-logo {
   display: flex;
-  flex-direction: column;
-  line-height: 1.2;
+  align-items: center;
+  line-height: 1;
 }
 
-.nav-logo-name {
-  font-family: 'Playfair Display', serif;
-  font-size: 18px;
-  color: var(--white);
-  font-weight: 700;
-}
-
-.nav-logo-tagline {
-  font-size: 10px;
-  color: var(--gold);
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
+.nav-logo-img {
+  display: block;
+  height: 44px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -630,10 +623,11 @@ footer {
   margin-bottom: 24px;
 }
 
-.footer-brand-name {
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  color: var(--white);
+.footer-logo-img {
+  display: block;
+  height: 52px;
+  width: auto;
+  object-fit: contain;
   margin-bottom: 6px;
 }
 

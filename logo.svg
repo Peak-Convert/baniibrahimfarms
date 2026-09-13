@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100">
+  <defs>
+    <style>
+      .brand-green { fill: #1B4332; }
+      .brand-gold  { fill: #C9A84C; }
+      .brand-white { fill: #FFFFFF; }
+      .text-name   { font-family: 'Georgia', 'Times New Roman', serif; font-size: 22px; font-weight: 700; fill: #1B4332; letter-spacing: 0.5px; }
+      .text-sub    { font-family: 'Arial', sans-serif; font-size: 9.5px; font-weight: 400; fill: #C9A84C; letter-spacing: 2.5px; }
+      .text-tagline{ font-family: 'Arial', sans-serif; font-size: 7.5px; fill: #4A7C5F; letter-spacing: 1px; }
+    </style>
+  </defs>
+
+  <!-- ── ICON BADGE ── -->
+  <!-- Hexagon background -->
+  <polygon points="46,6 74,6 88,30 74,54 46,54 32,30" fill="#1B4332"/>
+  <!-- Inner hexagon ring -->
+  <polygon points="46,11 72,11 85,30 72,49 46,49 33,30" fill="none" stroke="#C9A84C" stroke-width="1.2"/>
+
+  <!-- Goat silhouette (simplified, facing right) -->
+  <!-- Body -->
+  <ellipse cx="60" cy="34" rx="11" ry="8" fill="#FAF7F0"/>
+  <!-- Head -->
+  <circle cx="73" cy="27" r="6" fill="#FAF7F0"/>
+  <!-- Snout -->
+  <ellipse cx="78" cy="29" rx="3" ry="2.2" fill="#FAF7F0"/>
+  <!-- Eye -->
+  <circle cx="74" cy="25.5" r="1" fill="#1B4332"/>
+  <!-- Ear -->
+  <ellipse cx="70" cy="22.5" rx="2" ry="3.5" fill="#C9A84C" transform="rotate(-20 70 22.5)"/>
+  <!-- Horn -->
+  <path d="M72 22 Q68 14 73 11" stroke="#C9A84C" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <rect x="52" y="41" width="3" height="9" rx="1.5" fill="#FAF7F0"/>
+  <rect x="57" y="41" width="3" height="9" rx="1.5" fill="#FAF7F0"/>
+  <rect x="63" y="41" width="3" height="9" rx="1.5" fill="#FAF7F0"/>
+  <rect x="68" y="41" width="3" height="9" rx="1.5" fill="#FAF7F0"/>
+  <!-- Tail -->
+  <path d="M49 33 Q44 28 46 24" stroke="#FAF7F0" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Beard -->
+  <path d="M78 31 Q80 35 78 37" stroke="#C9A84C" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Crescent moon (halal symbol, top-left of badge) -->
+  <path d="M40 13 A5 5 0 1 1 40 23 A3.5 3.5 0 1 0 40 13 Z" fill="#C9A84C" transform="rotate(-30 40 18)"/>
+
+  <!-- ── WORDMARK ── -->
+  <!-- Business name -->
+  <text x="100" y="32" class="text-name">Bani Ibrahim</text>
+  <text x="100" y="52" class="text-name" font-size="22px">Farms</text>
+  <!-- Divider line -->
+  <line x1="100" y1="58" x2="305" y2="58" stroke="#C9A84C" stroke-width="0.8"/>
+  <!-- Subtext -->
+  <text x="100" y="71" class="text-sub">LADANG TERNAKAN HALAL</text>
+  <text x="100" y="83" class="text-tagline">Gunung Pulai, Johor  ·  Aqiqah  ·  Qurban  ·  Susu Kambing</text>
+</svg>
