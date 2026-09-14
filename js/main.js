@@ -59,7 +59,10 @@ const T = {
     svc4_link:    "Enquire via WhatsApp",
     svc5_name:    "Goat Milk",
     svc5_desc:    "Fresh, natural goat milk sourced directly from our farm. Rich in nutrients and easier to digest than cow's milk. Available for pickup at the farm or local delivery within Johor.",
-    svc5_link:    "Order Now",
+    svc5_link:    "Learn More",
+    svc6_name:    "Fresh Vegetables",
+    svc6_desc:    "Fresh vegetables picked daily from our highland farm in Gunung Pulai. Grown naturally with minimal pesticides — for families, restaurants, and bulk orders. Available for farm pickup or delivery within Johor.",
+    svc6_link:    "Learn More",
 
     // WHY
     why_label:    "Why Choose Us",
@@ -195,7 +198,10 @@ const T = {
     svc4_link:    "Tanya via WhatsApp",
     svc5_name:    "Susu Kambing",
     svc5_desc:    "Susu kambing segar dan semulajadi terus dari ladang kami. Kaya dengan nutrien dan lebih mudah dihadamkan berbanding susu lembu. Tersedia untuk pengambilan di ladang atau penghantaran tempatan dalam Johor.",
-    svc5_link:    "Pesan Sekarang",
+    svc5_link:    "Ketahui Lebih Lanjut",
+    svc6_name:    "Sayur Segar",
+    svc6_desc:    "Sayur segar dipetik setiap hari dari ladang tanah tinggi kami di Gunung Pulai. Ditanam secara semulajadi dengan pestisid minimum — untuk keluarga, restoran, dan pesanan pukal. Tersedia untuk pengambilan di ladang atau penghantaran dalam Johor.",
+    svc6_link:    "Ketahui Lebih Lanjut",
 
     // WHY
     why_label:    "Kenapa Pilih Kami",
