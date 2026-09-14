@@ -119,23 +119,28 @@
 }
 
 .step-card p {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-light);
   line-height: 1.6;
 }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
-  .info-grid { grid-template-columns: 1fr; }
+  .info-grid { grid-template-columns: 1fr; gap: 32px; }
   .steps-grid { grid-template-columns: repeat(2, 1fr); }
-  .steps-grid .step-card:last-child { grid-column: 1 / -1; max-width: 280px; margin: 0 auto; }
+  .steps-grid .step-card:last-child { grid-column: 1 / -1; max-width: 320px; margin: 0 auto; }
 }
 
 @media (max-width: 600px) {
-  .page-hero { padding: 100px 0 56px; }
+  .page-hero { padding: 96px 0 48px; }
+  .page-hero-sub { font-size: 16px; }
   .info-cards { grid-template-columns: 1fr 1fr; }
   .steps-grid { grid-template-columns: 1fr; }
   .steps-grid .step-card:last-child { grid-column: auto; max-width: none; margin: 0; }
+}
+
+@media (max-width: 480px) {
+  .info-cards { grid-template-columns: 1fr; }
 }
 
 /* ── COMPARISON TABLE ── */
@@ -163,6 +168,7 @@
   padding: 12px 20px;
   border-bottom: 1px solid var(--border);
   color: var(--text-light);
+  word-break: break-word;
 }
 
 .compare-table tr:nth-child(even) td { background: var(--cream); }
