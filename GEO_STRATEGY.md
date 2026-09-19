@@ -1,6 +1,6 @@
 # Bani Ibrahim Farms — GEO Strategy (Generative Engine Optimization)
 **Domain:** baniibrahimfarms.com
-**Last updated:** 2026-09-12
+**Last updated:** 2026-09-19
 
 GEO = optimizing for AI-generated answers (Google AI Overviews, ChatGPT, Perplexity, Bing Copilot).
 The goal is for Bani Ibrahim Farms to appear as the cited source when users ask AI about:
@@ -12,12 +12,16 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 ---
 
 ## Current GEO Status
-- [x] FAQPage schema — 6 Q&As on homepage
+- [x] FAQPage schema — 10 Q&As on homepage, more on each subpage
 - [x] LocalBusiness + Farm schema
-- [ ] HowTo schema — not yet added
-- [ ] Speakable schema — not yet added
-- [ ] Direct answer content blocks — not yet structured
-- [ ] Article/BlogPosting schema — no blog yet
+- [x] HowTo schema — 3x on homepage (aqiqah, qurban, farm visit) + dedicated subpages ✅ 2026-09-12
+- [x] Speakable schema — homepage + all subpages ✅ 2026-09-12
+- [x] Article/BlogPosting schema — 3 blog articles ✅ 2026-09-14
+- [x] Event schema — Qurban 2027 on qurban-johor.html ✅ 2026-09-19
+- [x] WebSite schema with SearchAction on homepage ✅ 2026-09-19
+- [x] BreadcrumbList on all subpages + blog ✅ 2026-09-12
+- [ ] Direct answer content blocks — FAQs cover this partially; structured visible answer boxes not yet added
+- [ ] AggregateRating — pending customer reviews (need 5+)
 
 ---
 
