@@ -727,20 +727,6 @@ footer {
   .qa-grid { grid-template-columns: 1fr; }
 }
 
-/* ── LOGO IMAGES ── */
-.nav-logo-img {
-  display: block;
-  height: 40px;
-  width: auto;
-}
-
-.footer-logo-img {
-  display: block;
-  height: 48px;
-  width: auto;
-  margin-bottom: 8px;
-}
-
 /* ── QUICK ANSWERS ── */
 .qa-grid {
   display: grid;
