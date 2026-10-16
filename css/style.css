@@ -759,3 +759,136 @@ footer {
 @media (max-width: 900px) {
   .qa-grid { grid-template-columns: 1fr; }
 }
+
+/* ── OWNERSHEEP PROGRAMME ── */
+.os-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  margin-top: 48px;
+  align-items: start;
+}
+
+.os-sub-h {
+  font-size: 20px;
+  color: var(--green);
+  margin-bottom: 14px;
+}
+
+.os-body {
+  color: var(--text-light);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.os-benefits {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.os-benefits li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  color: var(--text-light);
+  font-size: 15px;
+}
+
+.os-tick {
+  color: var(--gold-dark);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.os-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.os-step {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.os-step-num {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.os-step-num-gold { background: var(--gold); }
+
+.os-step-h {
+  font-size: 16px;
+  color: var(--green);
+  margin-bottom: 4px;
+}
+
+.os-step-p {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.os-network-banner {
+  margin-top: 48px;
+  padding: 28px 36px;
+  background: var(--green);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.os-network-text { flex: 1; min-width: 220px; }
+
+.os-network-label {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.os-network-p {
+  color: rgba(255,255,255,0.82);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.os-cta {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--white);
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.os-cta:hover { opacity: 0.88; }
+
+@media (max-width: 900px) {
+  .os-grid { grid-template-columns: 1fr; gap: 36px; }
+  .os-network-banner { flex-direction: column; align-items: flex-start; }
+>>>>>>> 5417ce1 (feat(homepage): add OwnerSheep Programme section, remove goat milk)
+}
