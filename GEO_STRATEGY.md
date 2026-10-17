@@ -1,6 +1,6 @@
 # Bani Ibrahim Farms — GEO Strategy (Generative Engine Optimization)
 **Domain:** baniibrahimfarms.com
-**Last updated:** 2026-09-19
+**Last updated:** 2026-10-17
 
 GEO = optimizing for AI-generated answers (Google AI Overviews, ChatGPT, Perplexity, Bing Copilot).
 The goal is for Bani Ibrahim Farms to appear as the cited source when users ask AI about:
@@ -16,11 +16,13 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] LocalBusiness + Farm schema
 - [x] HowTo schema — 3x on homepage (aqiqah, qurban, farm visit) + dedicated subpages ✅ 2026-09-12
 - [x] Speakable schema — homepage + all subpages ✅ 2026-09-12
-- [x] Article/BlogPosting schema — 3 blog articles ✅ 2026-09-14
+- [x] Article/BlogPosting schema — 4 blog articles ✅ 2026-10-17
 - [x] Event schema — Qurban 2027 on qurban-johor.html ✅ 2026-09-19
 - [x] WebSite schema with SearchAction on homepage ✅ 2026-09-19
 - [x] BreadcrumbList on all subpages + blog ✅ 2026-09-12
-- [ ] Direct answer content blocks — FAQs cover this partially; structured visible answer boxes not yet added
+- [x] Testimonials section on homepage (social proof, 3 quotes) ✅ 2026-10-17
+- [x] AboutPage schema — about.html ✅ 2026-10-17
+- [x] `blog/aqiqah-vs-qurban.html` — EN comparison guide with FAQPage + Speakable ✅ 2026-10-17
 - [ ] AggregateRating — pending customer reviews (need 5+)
 
 ---
@@ -212,22 +214,20 @@ Add 10 more FAQs covering:
 ### 3.2 Blog / Article Pages
 Each article should have `Article` + `HowTo` or `FAQPage` schema:
 
-| Article | GEO Target Query | Schema |
-|---------|-----------------|--------|
-| "What is Aqiqah in Islam?" | what is aqiqah | Article + FAQPage |
-| "Aqiqah vs Qurban: Key Differences" | aqiqah vs qurban | Article + FAQPage |
-| "How to Choose a Healthy Goat for Qurban" | cara pilih kambing qurban | HowTo |
-| "Goat Milk Benefits: Why Switch from Cow Milk" | manfaat susu kambing | Article |
-| "What Happens During Aqiqah? Step by Step" | how is aqiqah done | HowTo |
-| "Qurban 2027 Johor: Book Your Slot Early" | qurban 2027 johor | Article + Event |
+| Article | GEO Target Query | Schema | Status |
+|---------|-----------------|--------|--------|
+| "What is Aqiqah in Islam?" | what is aqiqah | Article + FAQPage | ✅ `/blog/apa-itu-aqiqah` (MS) |
+| "Aqiqah vs Qurban: Key Differences" | aqiqah vs qurban | Article + FAQPage | ✅ `/blog/aqiqah-vs-qurban` (EN) |
+| "How to Choose a Healthy Goat for Qurban" | cara pilih kambing qurban | HowTo | Pending |
+| "Goat Milk Benefits: Why Switch from Cow Milk" | manfaat susu kambing | Article | ✅ `/blog/manfaat-susu-kambing` |
+| "What Happens During Aqiqah? Step by Step" | how is aqiqah done | HowTo | Pending |
+| "Qurban 2027 Johor: Book Your Slot Early" | qurban 2027 johor | Article + Event | ✅ `/blog/qurban-2027-johor` |
 
 ### 3.3 Dedicated "About the Farm" Page
-A detailed About page increases E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness):
-- Farm founding story
-- Family members / team
-- Certifications and licenses (scan images)
-- Photos of the farm, goats, slaughter facility
-- "Why Gunung Pulai?" — geography, climate, natural feed
+- [x] `about.html` created ✅ 2026-10-17 — farm story, 6 values, stats, location, AboutPage schema
+- [ ] Add farm owner's name and photo (when client approves)
+- [ ] Add certification/licence images when available
+- [ ] Add farm photos when available
 
 ---
 
@@ -236,10 +236,10 @@ A detailed About page increases E-E-A-T (Experience, Expertise, Authoritativenes
 Google and AI models weight content from demonstrably experienced, authoritative sources.
 
 ### 4.1 Reviews & Testimonials
-- [ ] Collect WhatsApp testimonials from past customers
-- [ ] Add `AggregateRating` schema once 5+ reviews collected
+- [x] Add testimonial section to homepage ✅ 2026-10-17 (3 customer quotes, bilingual)
+- [ ] Collect WhatsApp testimonials from past customers (to replace placeholder quotes)
+- [ ] Add `AggregateRating` schema once 5+ real reviews collected
 - [ ] Encourage Google Business Profile reviews
-- [ ] Add testimonial section to homepage
 
 ### 4.2 Author/Entity Pages
 - [ ] Add farm owner's name to About page
