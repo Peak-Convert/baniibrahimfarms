@@ -40,7 +40,7 @@ img { max-width: 100%; display: block; }
 
 /* ── UTILITY ── */
 .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
-.section { padding: 80px 0; }
+.section { padding: 96px 0; }
 .section-alt { background: var(--white); }
 .section-dark { background: var(--green); color: var(--white); }
 
@@ -54,7 +54,7 @@ img { max-width: 100%; display: block; }
 }
 
 .section-title {
-  font-size: clamp(28px, 4vw, 42px);
+  font-size: clamp(30px, 4vw, 46px);
   color: var(--green);
   margin-bottom: 16px;
 }
@@ -80,7 +80,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   gap: 8px;
   padding: 14px 28px;
-  border-radius: 4px;
+  border-radius: 6px;
   font-weight: 600;
   font-size: 15px;
   transition: all 0.2s;
@@ -300,10 +300,10 @@ img { max-width: 100%; display: block; }
 .hero h1 span { color: var(--gold); }
 
 .hero-sub {
-  font-size: 18px;
+  font-size: 19px;
   color: rgba(255,255,255,0.8);
   margin-bottom: 40px;
-  max-width: 560px;
+  max-width: 580px;
 }
 
 .hero-ctas { display: flex; gap: 16px; flex-wrap: wrap; }
@@ -374,15 +374,17 @@ img { max-width: 100%; display: block; }
 }
 
 .stat-card {
-  background: var(--cream);
+  background: var(--white);
   border: 1px solid var(--border);
+  border-top: 3px solid var(--gold);
   border-radius: 8px;
   padding: 20px;
+  box-shadow: 0 2px 12px rgba(27,67,50,0.07);
 }
 
 .stat-number {
   font-family: 'Playfair Display', serif;
-  font-size: 32px;
+  font-size: 36px;
   color: var(--green);
   font-weight: 700;
   line-height: 1;
@@ -390,7 +392,7 @@ img { max-width: 100%; display: block; }
 }
 
 .stat-label {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-light);
 }
 
@@ -405,7 +407,7 @@ img { max-width: 100%; display: block; }
   background: var(--cream);
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 32px;
+  padding: 36px;
   transition: all 0.3s;
   position: relative;
   overflow: hidden;
@@ -417,16 +419,13 @@ img { max-width: 100%; display: block; }
   top: 0; left: 0; right: 0;
   height: 3px;
   background: var(--gold);
-  transform: scaleX(0);
-  transition: transform 0.3s;
+  transform: scaleX(1);
   transform-origin: left;
 }
 
-.service-card:hover::before { transform: scaleX(1); }
-
 .service-card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow);
+  box-shadow: 0 8px 32px rgba(27,67,50,0.13);
   border-color: var(--gold);
 }
 
@@ -486,9 +485,15 @@ img { max-width: 100%; display: block; }
 .why-card:hover { background: rgba(255,255,255,0.12); }
 
 .why-icon {
-  font-size: 32px;
-  margin-bottom: 12px;
-  display: block;
+  font-size: 28px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: rgba(201,168,76,0.15);
+  border-radius: 50%;
 }
 
 .why-card h3 {
@@ -526,6 +531,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   gap: 16px;
   transition: color 0.2s;
+  letter-spacing: 0.1px;
 }
 
 .faq-question:hover { color: var(--gold-dark); }
@@ -545,7 +551,7 @@ img { max-width: 100%; display: block; }
   transition: max-height 0.4s ease, padding 0.3s;
 }
 
-.faq-item.open .faq-answer { max-height: 200px; padding-bottom: 20px; }
+.faq-item.open .faq-answer { max-height: 500px; padding-bottom: 20px; }
 
 .faq-answer p {
   color: var(--text-light);
@@ -557,11 +563,12 @@ img { max-width: 100%; display: block; }
 .contact-wrapper {
   background: var(--cream);
   border-radius: 12px;
-  padding: 56px;
+  padding: 64px 72px;
   text-align: center;
   border: 1px solid var(--border);
   max-width: 680px;
   margin: 0 auto;
+  box-shadow: 0 4px 32px rgba(27,67,50,0.09);
 }
 
 .contact-wrapper .section-title { color: var(--green); }
@@ -682,7 +689,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .section { padding: 40px 0; }
+  .section { padding: 48px 0; }
   .services-grid { grid-template-columns: 1fr; }
   .why-grid { grid-template-columns: 1fr; }
   .hero-features { gap: 16px; }
@@ -890,5 +897,31 @@ footer {
 @media (max-width: 900px) {
   .os-grid { grid-template-columns: 1fr; gap: 36px; }
   .os-network-banner { flex-direction: column; align-items: flex-start; }
->>>>>>> 5417ce1 (feat(homepage): add OwnerSheep Programme section, remove goat milk)
+}
+
+/* ── FLOATING WHATSAPP ── */
+.wa-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 999;
+  width: 56px;
+  height: 56px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.45);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+  color: white;
+}
+.wa-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 28px rgba(37,211,102,0.55);
+}
+@media (max-width: 600px) {
+  .wa-float { bottom: 20px; right: 20px; width: 50px; height: 50px; font-size: 24px; }
 }
