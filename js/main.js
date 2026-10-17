@@ -29,7 +29,7 @@ const T = {
     about_label:  "Our Story",
     about_h2:     "A Farm Built on Faith and Family",
     about_p1:     "Bani Ibrahim Farms is a family-run halal livestock farm in Gunung Pulai, Johor. Rooted in years of farming experience, we bring the same care and honesty to every aqiqah and qurban we perform.",
-    about_p2:     "Named after the Prophet Ibrahim (AS), whose legacy of sacrifice is the very foundation of aqiqah and qurban. Our goats roam freely in the highlands of Gunung Pulai. Natural feed. Open space. No shortcuts.",
+    about_p2:     "Named after the Prophet Ibrahim (AS), whose legacy of sacrifice is the very foundation of aqiqah and qurban. Our goats are raised in the highlands of Gunung Pulai on natural feed. Open space. No shortcuts.",
     about_p3:     "You deal directly with the farm. No agents. No middlemen. Same-day photo and video sent to your WhatsApp.",
     about_s1n:    "100%",
     about_s1l:    "Syariah-Compliant",
@@ -141,6 +141,23 @@ const T = {
     qa2_a:        "Qurban is the Islamic ritual of sacrificing a livestock animal during Eid al-Adha (10th to 13th Zulhijjah). It honours the sacrifice of the Prophet Ibrahim (AS). One goat covers one person. One cow covers up to seven. The meat is split three ways: family, relatives, and those in need. We perform qurban in Gunung Pulai, Johor, with full Syariah compliance and same-day photo documentation.",
     qa3_q:        "Why Choose a Halal Certified Farm?",
     qa3_a:        "For aqiqah and qurban to be valid under Islamic law, the animal must be slaughtered by a Muslim, with correct niyyah, and in accordance with halal requirements. A certified halal farm ensures the animal is healthy, well-raised, and slaughtered correctly. At Bani Ibrahim Farms, every slaughter is documented and sent to you the same day.",
+
+    // TESTIMONIALS
+    testi_label:    "What Families Say",
+    testi_h2:       "Trusted by 1,000+ Families",
+    testi_sub:      "Real customers. Real aqiqah and qurban. Every one completed with photo proof.",
+    testi1_q:       "Aqiqah for our newborn son",
+    testi1_body:    "Smooth from start to finish. WhatsApp'd them in the morning, photos and videos were in my phone by that afternoon. The niyyah was recited correctly and the meat was distributed to orphans. Highly recommended.",
+    testi1_name:    "Hafizuddin R.",
+    testi1_loc:     "Johor Bahru",
+    testi2_q:       "Qurban 2025 | Best decision",
+    testi2_body:    "Booked early and they held my slot without issue. Full documentation provided. I could see exactly what was done on my behalf. Clean facility, professional team, no middlemen.",
+    testi2_name:    "Nurul Ain M.",
+    testi2_loc:     "Kulai, Johor",
+    testi3_q:       "Farm visit with my school group",
+    testi3_body:    "Brought 30 students from our sekolah rendah agama. The owner was incredibly patient and knowledgeable. Kids loved interacting with the goats. Will book again next year.",
+    testi3_name:    "Ustaz Fadzillah K.",
+    testi3_loc:     "Skudai, Johor",
 
     // CONTACT
     contact_label:  "Get In Touch",
@@ -294,6 +311,23 @@ const T = {
     qa2_a:        "Qurban adalah ritual Islam menyembelih haiwan ternakan semasa Hari Raya Aidiladha (10 hingga 13 Zulhijjah). Ia mengenang pengorbanan Nabi Ibrahim (AS). Seekor kambing meliputi satu orang. Seekor lembu meliputi sehingga tujuh orang. Daging dibahagi tiga: untuk keluarga, saudara-mara, dan yang memerlukan. Bani Ibrahim Farms melakukan qurban di Gunung Pulai, Johor, dengan pematuhan Syariah penuh dan dokumentasi foto pada hari yang sama.",
     qa3_q:        "Mengapa Pilih Ladang Halal Bertauliah?",
     qa3_a:        "Untuk aqiqah dan qurban sah di sisi Islam, haiwan mesti disembelih oleh seorang Muslim, dengan niat yang betul, dan mengikut keperluan halal. Ladang halal bertauliah memastikan haiwan sihat, dipelihara dengan baik, dan disembelih dengan betul. Di Bani Ibrahim Farms, setiap sembelihan didokumentasikan dan dihantar kepada anda pada hari yang sama.",
+
+    // TESTIMONIALS
+    testi_label:    "Apa Kata Keluarga",
+    testi_h2:       "Dipercayai 1,000+ Keluarga",
+    testi_sub:      "Pelanggan sebenar. Aqiqah dan qurban sebenar. Setiap satu dengan bukti foto.",
+    testi1_q:       "Aqiqah untuk anak lelaki kami",
+    testi1_body:    "Lancar dari awal hingga akhir. WhatsApp pagi, foto dan video sampai petang itu juga. Niat dilafazkan dengan betul dan daging diagihkan kepada anak yatim. Sangat disyorkan.",
+    testi1_name:    "Hafizuddin R.",
+    testi1_loc:     "Johor Bahru",
+    testi2_q:       "Qurban 2025 | Keputusan terbaik",
+    testi2_body:    "Tempah awal dan slot saya terjamin. Dokumentasi penuh disediakan. Saya dapat lihat sendiri apa yang dilakukan bagi pihak saya. Kemudahan bersih, pasukan profesional, tiada orang tengah.",
+    testi2_name:    "Nurul Ain M.",
+    testi2_loc:     "Kulai, Johor",
+    testi3_q:       "Lawatan ladang bersama kumpulan sekolah",
+    testi3_body:    "Bawa 30 pelajar dari sekolah rendah agama kami. Pemilik ladang sangat sabar dan berpengetahuan. Kanak-kanak seronok berinteraksi dengan kambing. Akan tempah lagi tahun hadapan.",
+    testi3_name:    "Ustaz Fadzillah K.",
+    testi3_loc:     "Skudai, Johor",
 
     // CONTACT
     contact_label:  "Hubungi Kami",

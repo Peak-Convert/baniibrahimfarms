@@ -696,42 +696,25 @@ footer {
   .contact-wrapper { padding: 28px 20px; }
   .contact-info { gap: 20px; }
   .hero-ctas { flex-direction: column; }
+  .hero-ctas .btn { justify-content: center; }
   .about-stats { grid-template-columns: 1fr 1fr; }
   .footer-inner { flex-direction: column; gap: 16px; }
   .section-sub { font-size: 15px; margin-bottom: 32px; }
+  .os-network-banner { padding: 24px 20px; }
+  .service-card { padding: 28px 24px; }
 }
 
-/* ── QUICK ANSWERS ── */
-.qa-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin-top: 40px;
-}
-
-.qa-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--gold);
-  border-radius: 0 8px 8px 0;
-  padding: 28px;
-}
-
-.qa-question {
-  font-size: 17px;
-  color: var(--green);
-  margin-bottom: 12px;
-  font-family: 'Playfair Display', serif;
-}
-
-.qa-answer {
-  font-size: 14px;
-  color: var(--text-light);
-  line-height: 1.8;
-}
-
-@media (max-width: 900px) {
-  .qa-grid { grid-template-columns: 1fr; }
+@media (max-width: 480px) {
+  .hero h1 { font-size: clamp(28px, 9vw, 40px); }
+  .hero-sub { font-size: 16px; }
+  .about-stats { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .stat-number { font-size: 28px; }
+  .stat-card { padding: 16px; }
+  .hero-features { flex-direction: column; gap: 12px; }
+  .section-title { font-size: clamp(24px, 7vw, 36px); }
+  .os-cta { width: 100%; text-align: center; }
+  .footer-links { flex-direction: column; gap: 8px; }
+  .footer-bottom { flex-direction: column; text-align: center; gap: 6px; }
 }
 
 /* ── QUICK ANSWERS ── */
@@ -897,6 +880,61 @@ footer {
 @media (max-width: 900px) {
   .os-grid { grid-template-columns: 1fr; gap: 36px; }
   .os-network-banner { flex-direction: column; align-items: flex-start; }
+}
+
+/* ── TESTIMONIALS ── */
+.testi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.testi-card {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 32px 28px;
+}
+
+.testi-stars {
+  color: var(--gold);
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.testi-quote {
+  font-size: 15px;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.testi-author {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.testi-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.testi-label {
+  font-size: 12px;
+  color: rgba(255,255,255,0.5);
+}
+
+@media (max-width: 900px) {
+  .testi-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .testi-grid { gap: 16px; }
 }
 
 /* ── FLOATING WHATSAPP ── */
