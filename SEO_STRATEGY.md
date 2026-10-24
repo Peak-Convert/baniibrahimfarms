@@ -43,6 +43,10 @@
 - [x] Homepage title updated to include year (Aqiqah & Qurban 2027) ✅ 2026-09-19
 - [ ] Add photos to GBP (farm, goats, packaging)
 - [ ] Collect first 3–5 customer reviews on GBP
+- [x] `beli-kambing-johor.html` — major SEO/GEO enhancement 2026-10-24 (commit 6d6d6ce): full keyword cluster for live goat/sheep sale, Kambing vs Biri-Biri section, ItemList+Product schema, FAQPage 6→12 Q&As, internal link to blog
+- [x] `blog/cara-pilih-kambing.html` — new article 2026-10-24 (commit 6d6d6ce): targets cara pilih kambing, syarat kambing sembelihan, pilih baka, harga kambing hidup johor; Article+HowTo+FAQPage+Speakable schema
+- [x] Sitemap updated to 12 URLs — added /blog/cara-pilih-kambing ✅ 2026-10-24
+- [x] Bing submission: beli-kambing-johor + blog/cara-pilih-kambing + blog/ + sitemap.xml ✅ 2026-10-24
 
 ---
 
