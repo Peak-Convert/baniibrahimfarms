@@ -26,6 +26,22 @@
   <link rel="stylesheet" href="css/subpage.css">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
+  <style>
+    /* Comparison table: ensure readable on small screens */
+    @media (max-width:600px) {
+      #kambing-vs-biri-biri table { font-size:13px; }
+      #kambing-vs-biri-biri th, #kambing-vs-biri-biri td { padding:9px 10px !important; }
+      #kambing-vs-biri-biri .compare-table { overflow-x:auto; display:block; }
+    }
+    /* Breed card feature grids: 1 col on small phones */
+    @media (max-width:480px) {
+      .breed-feat { grid-template-columns:1fr !important; }
+      #jenis-kambing .service-card p[style*="font-size:13px"] { font-size:12px !important; }
+      /* CTA box buttons */
+      #hubungi .wa-btn { font-size:15px; padding:14px 20px; }
+    }
+  </style>
+
   <!-- Schema: LocalBusiness -->
   <script type="application/ld+json">
   {

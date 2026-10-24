@@ -143,6 +143,26 @@
   .info-cards { grid-template-columns: 1fr; }
 }
 
+/* ── MOBILE: HERO CTAS ── */
+@media (max-width: 600px) {
+  .hero-ctas { flex-direction: column; align-items: flex-start; }
+  .hero-ctas .btn { width: 100%; max-width: 320px; justify-content: center; }
+  .wa-btn { display: flex; width: 100%; max-width: 360px; justify-content: center; }
+}
+
+/* ── MOBILE: 480px GLOBAL ── */
+@media (max-width: 480px) {
+  .page-hero { padding: 72px 0 36px; }
+  .page-hero-sub { font-size: 15px; }
+  .section-title { font-size: clamp(20px, 5.5vw, 28px) !important; }
+  .section { padding: 36px 0; }
+  .step-card { padding: 18px 14px; }
+  .service-card { padding: 24px 18px; }
+  .compare-table th, .compare-table td { padding: 9px 10px; font-size: 13px; }
+  .faq-question { font-size: 14px; padding: 18px 0; }
+  .faq-item.open .faq-answer { max-height: 300px; }
+}
+
 /* ── COMPARISON TABLE ── */
 .compare-table {
   width: 100%;
