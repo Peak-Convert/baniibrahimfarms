@@ -1,7 +1,7 @@
 # Bani Ibrahim Farms — SEO Strategy & Enhancement Plan
 **Domain:** baniibrahimfarms.com
 **Location:** Gunung Pulai, Johor, Malaysia
-**Last updated:** 2026-10-17
+**Last updated:** 2026-09-19
 
 ---
 
@@ -21,7 +21,7 @@
 - [x] `lawatan-ladang-johor.html` — built + live + Bing submitted ✅ 2026-09-12
 - [x] `sayur-segar-johor.html` — built + live + Bing submitted ✅ 2026-09-13
 - [x] SVG logo (3 variants) + 720×720 JPG for GBP ✅ 2026-09-13
-- [x] Google Business Profile — created + verified ✅ 2026-09-12, GBP URL: `https://share.google/nEvMfdhIC09yPJPk1`
+- [x] Google Business Profile — created + verified ✅ 2026-09-12, GBP URL: `https://share.google/OPGjjtMYCiRZ5G29f`
 - [x] `sameAs` GBP link on all 7 pages ✅ 2026-09-12 (commit b7417cb)
 - [x] Sitemap submitted to GSC UI ✅ 2026-09-12 — `https://baniibrahimfarms.com/sitemap.xml`
 - [ ] Delete old www sitemap from GSC — `https://www.baniibrahimfarms.com/sitemap.xml` (if still listed)
@@ -35,18 +35,12 @@
 - [x] GSC: blog/apa-itu-aqiqah — **already indexed** ✅ (crawled 2026-09-14)
 - [x] GSC: blog/qurban-2027-johor — **already indexed** ✅ (crawled 2026-09-14)
 - [x] GSC: blog/manfaat-susu-kambing — **already indexed** ✅ (crawled 2026-09-14)
-- [x] GSC Request Indexing for blog/index.html — submit ✅ 2026-10-17 (action needed)
+- [ ] GSC Request Indexing for blog/index.html — deploy first, then submit
 - [x] `blog/index.html` — blog index page created + sitemap updated ✅ 2026-09-19
 - [x] WebSite schema with SearchAction added to homepage ✅ 2026-09-19
 - [x] Event schema for Qurban 2027 added to qurban-johor.html ✅ 2026-09-19
-- [x] dateModified updated to 2026-10-17 on homepage + blog index ✅ 2026-10-17
+- [x] dateModified updated to 2026-09-19 on all 7 service pages ✅ 2026-09-19
 - [x] Homepage title updated to include year (Aqiqah & Qurban 2027) ✅ 2026-09-19
-- [x] Testimonials section added to homepage (3 customer quotes, bilingual) ✅ 2026-10-17
-- [x] `about.html` created — farm story, values, stats, location, AboutPage schema ✅ 2026-10-17
-- [x] `blog/aqiqah-vs-qurban.html` — EN comparison article, FAQPage + Article schema ✅ 2026-10-17
-- [x] Sitemap updated to 13 URLs ✅ 2026-10-17
-- [x] Mobile polish — 480px breakpoint rules, hero CTAs centred, footer stacks ✅ 2026-10-17
-- [ ] Submit /about + /blog/aqiqah-vs-qurban to GSC Request Indexing
 - [ ] Add photos to GBP (farm, goats, packaging)
 - [ ] Collect first 3–5 customer reviews on GBP
 
@@ -75,7 +69,7 @@
 - [ ] Add more photos (farm exterior, goats, slaughter area, packaging)
 - [ ] Enable WhatsApp contact in GBP
 - [ ] Collect first 3–5 customer reviews on GBP
-- **GBP confirmed URL:** `https://share.google/nEvMfdhIC09yPJPk1`
+- **GBP confirmed URL:** `https://share.google/OPGjjtMYCiRZ5G29f`
 - **Why:** GBP drives local pack rankings and Maps visibility — critical for "aqiqah johor" searches
 
 ### 1.4 Sitemap
@@ -102,7 +96,7 @@ Each service needs its own page for keyword targeting. Build these as individual
 | `susu-kambing-johor.html` | goat milk johor, fresh goat milk johor | susu kambing johor, susu kambing segar | 🟡 Medium |
 | `lawatan-ladang-johor.html` | farm visit johor, goat farm visit johor | lawatan ladang johor, ladang kambing johor | ✅ Done |
 | `sayur-segar-johor.html` | fresh vegetables johor, organic vegetables johor | sayur segar johor, sayur organik johor, sayur ladang johor | ✅ Done 2026-09-13 |
-| `about.html` | bani ibrahim farms, halal farm gunung pulai | ladang halal johor, ternakan halal johor | ✅ Done 2026-10-17 |
+| `about.html` | bani ibrahim farms, halal farm gunung pulai | ladang halal johor, ternakan halal johor | 🟢 Low |
 
 ### 2.2 Homepage Meta Improvements
 - [x] Title tag updated with year — "Bani Ibrahim Farms — Halal Livestock Farm Johor | Aqiqah & Qurban 2027" ✅ 2026-09-19
@@ -155,7 +149,7 @@ Target informational keywords that drive discovery:
 |--------------|---------------|----------|
 | "What is Aqiqah and When Should It Be Done?" | what is aqiqah malaysia | EN |
 | ~~"Apa Itu Aqiqah dan Bilakah Perlu Dilakukan?"~~ ✅ `/blog/apa-itu-aqiqah` | apa itu aqiqah | MS |
-| ~~"Aqiqah vs Qurban: What's the Difference?"~~ ✅ `/blog/aqiqah-vs-qurban` | aqiqah vs qurban | EN |
+| "Aqiqah vs Qurban: What's the Difference?" | aqiqah vs qurban | EN |
 | "How to Choose a Halal Goat for Qurban in Malaysia" | pilih kambing qurban | EN/MS |
 | ~~"Benefits of Goat Milk vs Cow Milk"~~ ✅ `/blog/manfaat-susu-kambing` | manfaat susu kambing | EN/MS |
 | "Farm-to-Table: How We Raise Our Goats in Gunung Pulai" | ladang kambing johor | EN |
