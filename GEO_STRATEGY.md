@@ -1,6 +1,6 @@
 # Bani Ibrahim Farms — GEO Strategy (Generative Engine Optimization)
 **Domain:** baniibrahimfarms.com
-**Last updated:** 2026-10-17
+**Last updated:** 2026-11-01
 
 GEO = optimizing for AI-generated answers (Google AI Overviews, ChatGPT, Perplexity, Bing Copilot).
 The goal is for Bani Ibrahim Farms to appear as the cited source when users ask AI about:
@@ -16,14 +16,17 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] LocalBusiness + Farm schema
 - [x] HowTo schema — 3x on homepage (aqiqah, qurban, farm visit) + dedicated subpages ✅ 2026-09-12
 - [x] Speakable schema — homepage + all subpages ✅ 2026-09-12
-- [x] Article/BlogPosting schema — 4 blog articles ✅ 2026-10-17
+- [x] Article/BlogPosting schema — 6 blog articles ✅ 2026-11-01
 - [x] Event schema — Qurban 2027 on qurban-johor.html ✅ 2026-09-19
 - [x] WebSite schema with SearchAction on homepage ✅ 2026-09-19
 - [x] BreadcrumbList on all subpages + blog ✅ 2026-09-12
 - [x] Testimonials section on homepage (social proof, 3 quotes) ✅ 2026-10-17
 - [x] AboutPage schema — about.html ✅ 2026-10-17
 - [x] `blog/aqiqah-vs-qurban.html` — EN comparison guide with FAQPage + Speakable ✅ 2026-10-17
+- [x] `blog/cara-pilih-kambing.html` — HowTo + Article + FAQPage schema ✅ 2026-10-24
+- [x] `blog/biri-biri-hidup-johor.html` — targets biri-biri hidup johor, harga biri-biri johor ✅ 2026-10-24
 - [ ] AggregateRating — pending customer reviews (need 5+)
+- [x] `about.html` added to sitemap.xml ✅ 2026-11-01
 
 ---
 
@@ -218,8 +221,9 @@ Each article should have `Article` + `HowTo` or `FAQPage` schema:
 |---------|-----------------|--------|--------|
 | "What is Aqiqah in Islam?" | what is aqiqah | Article + FAQPage | ✅ `/blog/apa-itu-aqiqah` (MS) |
 | "Aqiqah vs Qurban: Key Differences" | aqiqah vs qurban | Article + FAQPage | ✅ `/blog/aqiqah-vs-qurban` (EN) |
-| "How to Choose a Healthy Goat for Qurban" | cara pilih kambing qurban | HowTo | Pending |
+| "How to Choose a Healthy Goat for Qurban" | cara pilih kambing qurban | HowTo + Article + FAQPage | ✅ `/blog/cara-pilih-kambing` 2026-10-24 |
 | "Goat Milk Benefits: Why Switch from Cow Milk" | manfaat susu kambing | Article | ✅ `/blog/manfaat-susu-kambing` |
+| "Biri-Biri Hidup Johor: Harga & Cara Beli" | biri-biri hidup johor | Article + FAQPage | ✅ `/blog/biri-biri-hidup-johor` 2026-10-24 |
 | "What Happens During Aqiqah? Step by Step" | how is aqiqah done | HowTo | Pending |
 | "Qurban 2027 Johor: Book Your Slot Early" | qurban 2027 johor | Article + Event | ✅ `/blog/qurban-2027-johor` |
 

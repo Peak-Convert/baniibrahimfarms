@@ -1,7 +1,7 @@
 # Bani Ibrahim Farms — SEO Strategy & Enhancement Plan
 **Domain:** baniibrahimfarms.com
 **Location:** Gunung Pulai, Johor, Malaysia
-**Last updated:** 2026-09-19
+**Last updated:** 2026-11-01
 
 ---
 
@@ -47,6 +47,13 @@
 - [x] `blog/cara-pilih-kambing.html` — new article 2026-10-24 (commit 6d6d6ce): targets cara pilih kambing, syarat kambing sembelihan, pilih baka, harga kambing hidup johor; Article+HowTo+FAQPage+Speakable schema
 - [x] Sitemap updated to 12 URLs — added /blog/cara-pilih-kambing ✅ 2026-10-24
 - [x] Bing submission: beli-kambing-johor + blog/cara-pilih-kambing + blog/ + sitemap.xml ✅ 2026-10-24
+- [x] `about.html` — built + deployed ✅ 2026-10-17 (farm story, 6 values, AboutPage schema)
+- [x] `blog/aqiqah-vs-qurban.html` — built + deployed ✅ 2026-10-17 (EN comparison guide, Article+FAQPage+Speakable schema)
+- [x] `blog/biri-biri-hidup-johor.html` — built + deployed + in sitemap ✅ (targets biri-biri hidup johor, harga biri-biri)
+- [x] Sitemap updated to 13 URLs — added /blog/biri-biri-hidup-johor ✅
+- [x] `about.html` added to sitemap.xml as 14th URL ✅ 2026-11-01
+- [ ] Resubmit sitemap to GSC + Bing after about.html addition
+- [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + updated sitemap
 
 ---
 
@@ -100,7 +107,7 @@ Each service needs its own page for keyword targeting. Build these as individual
 | `susu-kambing-johor.html` | goat milk johor, fresh goat milk johor | susu kambing johor, susu kambing segar | 🟡 Medium |
 | `lawatan-ladang-johor.html` | farm visit johor, goat farm visit johor | lawatan ladang johor, ladang kambing johor | ✅ Done |
 | `sayur-segar-johor.html` | fresh vegetables johor, organic vegetables johor | sayur segar johor, sayur organik johor, sayur ladang johor | ✅ Done 2026-09-13 |
-| `about.html` | bani ibrahim farms, halal farm gunung pulai | ladang halal johor, ternakan halal johor | 🟢 Low |
+| `about.html` | bani ibrahim farms, halal farm gunung pulai | ladang halal johor, ternakan halal johor | ✅ Done 2026-10-17 |
 
 ### 2.2 Homepage Meta Improvements
 - [x] Title tag updated with year — "Bani Ibrahim Farms — Halal Livestock Farm Johor | Aqiqah & Qurban 2027" ✅ 2026-09-19
@@ -153,8 +160,9 @@ Target informational keywords that drive discovery:
 |--------------|---------------|----------|
 | "What is Aqiqah and When Should It Be Done?" | what is aqiqah malaysia | EN |
 | ~~"Apa Itu Aqiqah dan Bilakah Perlu Dilakukan?"~~ ✅ `/blog/apa-itu-aqiqah` | apa itu aqiqah | MS |
-| "Aqiqah vs Qurban: What's the Difference?" | aqiqah vs qurban | EN |
-| "How to Choose a Halal Goat for Qurban in Malaysia" | pilih kambing qurban | EN/MS |
+| ~~"Aqiqah vs Qurban: What's the Difference?"~~ ✅ `/blog/aqiqah-vs-qurban` | aqiqah vs qurban | EN |
+| ~~"How to Choose a Halal Goat for Qurban in Malaysia"~~ ✅ `/blog/cara-pilih-kambing` | cara pilih kambing, pilih kambing qurban | EN/MS |
+| "Biri-Biri Hidup Johor: Harga & Cara Beli" ✅ `/blog/biri-biri-hidup-johor` | biri-biri hidup johor, harga biri-biri johor | MS |
 | ~~"Benefits of Goat Milk vs Cow Milk"~~ ✅ `/blog/manfaat-susu-kambing` | manfaat susu kambing | EN/MS |
 | "Farm-to-Table: How We Raise Our Goats in Gunung Pulai" | ladang kambing johor | EN |
 | ~~"Qurban 2027: Book Early to Secure Your Slot"~~ ✅ `/blog/qurban-2027-johor` | qurban 2027 malaysia | EN/MS |
