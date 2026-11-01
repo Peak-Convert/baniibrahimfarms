@@ -16,7 +16,7 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] LocalBusiness + Farm schema
 - [x] HowTo schema — 3x on homepage (aqiqah, qurban, farm visit) + dedicated subpages ✅ 2026-09-12
 - [x] Speakable schema — homepage + all subpages ✅ 2026-09-12
-- [x] Article/BlogPosting schema — 6 blog articles ✅ 2026-11-01
+- [x] Article/BlogPosting schema — 7 blog articles ✅ 2026-11-01
 - [x] Event schema — Qurban 2027 on qurban-johor.html ✅ 2026-09-19
 - [x] WebSite schema with SearchAction on homepage ✅ 2026-09-19
 - [x] BreadcrumbList on all subpages + blog ✅ 2026-09-12
@@ -33,6 +33,11 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] Pricing cluster + religious authority FAQs added to aqiqah-johor + qurban-johor ✅ 2026-11-01 (commit 363b80f)
 - [x] Location terms (JB, Skudai, Kulai) embedded across all service pages ✅ 2026-11-01
 - [x] School/corporate/agro tourism cluster added to lawatan-ladang-johor ✅ 2026-11-01
+- [x] `blog/proses-aqiqah.html` — 7-step HowTo process guide, targets "proses aqiqah" / "apa yang berlaku semasa aqiqah" ✅ 2026-11-01 (commit dab06b4)
+- [x] susu-kambing-johor title/meta updated for "near me" + delivery CTR (was 1.74% at pos 8.9) ✅ 2026-11-01
+- [x] aqiqah-johor: Seelong + Senai added to keywords, content, schema (new impression terms from GSC) ✅ 2026-11-01
+- [x] beli-kambing-johor: internal link added to biri-biri-hidup-johor blog (pos 9.4, needs push to p1) ✅ 2026-11-01
+- [x] sitemap.xml updated to 16 URLs — added /blog/proses-aqiqah + /blog/aqiqah-vs-qurban (was missing) ✅ 2026-11-01
 
 ---
 
@@ -230,7 +235,7 @@ Each article should have `Article` + `HowTo` or `FAQPage` schema:
 | "How to Choose a Healthy Goat for Qurban" | cara pilih kambing qurban | HowTo + Article + FAQPage | ✅ `/blog/cara-pilih-kambing` 2026-10-24 |
 | "Goat Milk Benefits: Why Switch from Cow Milk" | manfaat susu kambing | Article | ✅ `/blog/manfaat-susu-kambing` |
 | "Biri-Biri Hidup Johor: Harga & Cara Beli" | biri-biri hidup johor | Article + FAQPage | ✅ `/blog/biri-biri-hidup-johor` 2026-10-24 |
-| "What Happens During Aqiqah? Step by Step" | how is aqiqah done | HowTo | Pending |
+| "What Happens During Aqiqah? Step by Step" | proses aqiqah, apa yang berlaku semasa aqiqah | HowTo + Article + FAQPage | ✅ `/blog/proses-aqiqah` 2026-11-01 |
 | "Qurban 2027 Johor: Book Your Slot Early" | qurban 2027 johor | Article + Event | ✅ `/blog/qurban-2027-johor` |
 
 ### 3.3 Dedicated "About the Farm" Page
