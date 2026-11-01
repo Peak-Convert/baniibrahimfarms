@@ -41,6 +41,16 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] `blog/fresh-vegetables-johor-singapore.html` — EN guide for SG visitors, targets "fresh vegetables johor bahru singapore", "organic farm near singapore", Gunung Pulai day trip angle ✅ 2026-11-01 (commit b75ca84)
 - [x] sayur-segar-johor: Singapore CTA section added, fixes orphaned page ✅ 2026-11-01
 - [x] Internal linking: all service pages and blog articles cross-linked ✅ 2026-11-01 (commit f644d6e)
+- [x] Susu kambing purchase refs removed from all pages except susu-kambing-johor.html (farm does not sell yet) ✅ 2026-11-01 (commit 9555e16)
+- [x] Em dashes removed site-wide — zero em dashes across all HTML pages ✅ 2026-11-01 (commit 9555e16)
+- [x] Mobile CSS added to proses-aqiqah.html — HowTo steps stack on ≤480px ✅ 2026-11-01 (commit 9555e16)
+- [x] sitemap.xml updated to 17 URLs ✅ 2026-11-01 (commit 9555e16)
+- [ ] Manually resubmit sitemap in GSC UI (17 URLs) — pending client action
+- [ ] Replace 3 placeholder testimonials with real customer WhatsApp quotes
+- [ ] Farm owner name + photo for about.html
+- [ ] Product schemas (susu-kambing, sayur-segar, beli-kambing) — re-add once price ranges + farm photos provided
+- [ ] AggregateRating schema — pending 5+ Google Business Profile reviews
+- [ ] GBP photos: farm exterior, goats, slaughter area
 
 ---
 
