@@ -51,6 +51,10 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [ ] Product schemas (susu-kambing, sayur-segar, beli-kambing) — re-add once price ranges + farm photos provided
 - [ ] AggregateRating schema — pending 5+ Google Business Profile reviews
 - [ ] GBP photos: farm exterior, goats, slaughter area
+- [x] Cross-site backlinking with sgaqiqah.com ✅ 2026-11-01 (BIF commit 1c6fc5b, sgaqiqah commit aa50cab)
+  - sgaqiqah.com → BIF: FAQ on where-to-do-aqiqah-in-singapore, related links on best-aqiqah-service + ownersheep-farm-visit
+  - BIF → sgaqiqah.com: aqiqah-johor Singapore note upgraded + fresh-vegetables blog partner note
+  - Purpose: domain authority transfer to newer BIF domain, referral SG traffic, topical link ecosystem
 
 ---
 
