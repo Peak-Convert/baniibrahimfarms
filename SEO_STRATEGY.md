@@ -47,12 +47,21 @@
 - [x] `blog/cara-pilih-kambing.html` — new article 2026-10-24 (commit 6d6d6ce): targets cara pilih kambing, syarat kambing sembelihan, pilih baka, harga kambing hidup johor; Article+HowTo+FAQPage+Speakable schema
 - [x] Sitemap updated to 12 URLs — added /blog/cara-pilih-kambing ✅ 2026-10-24
 - [x] Bing submission: beli-kambing-johor + blog/cara-pilih-kambing + blog/ + sitemap.xml ✅ 2026-10-24
+- [x] Pricing cluster added to aqiqah-johor + qurban-johor (pakej sections + new FAQs + schema) ✅ 2026-11-01 (commit 363b80f)
+- [x] Location cluster (JB, Skudai, Kulai) added across aqiqah, qurban, susu-kambing, beli-kambing, lawatan ✅ 2026-11-01
+- [x] Religious authority FAQs added to aqiqah + qurban (niyyah, wajib/sunat, syarat kambing, arwah) ✅ 2026-11-01
+- [x] Goat milk cluster expansion: susu-kambing-johor enhanced (pesakit, bayi, delivery, harga) ✅ 2026-11-01
+- [x] Breed/livestock cluster: beli-kambing enhanced (anak kambing, harga sekilogram) ✅ 2026-11-01
+- [x] School/corporate cluster: lawatan-ladang enhanced (pakej kumpulan, LSB, team building, agro tourism) ✅ 2026-11-01
+- [x] Broken Product/ItemList schemas removed from sayur-segar, susu-kambing, beli-kambing ✅ 2026-11-01
+- [ ] Add Product schemas back once farm photos and price ranges confirmed by client
 - [x] `about.html` — built + deployed ✅ 2026-10-17 (farm story, 6 values, AboutPage schema)
 - [x] `blog/aqiqah-vs-qurban.html` — built + deployed ✅ 2026-10-17 (EN comparison guide, Article+FAQPage+Speakable schema)
 - [x] `blog/biri-biri-hidup-johor.html` — built + deployed + in sitemap ✅ (targets biri-biri hidup johor, harga biri-biri)
 - [x] Sitemap updated to 13 URLs — added /blog/biri-biri-hidup-johor ✅
 - [x] `about.html` added to sitemap.xml as 14th URL ✅ 2026-11-01
-- [ ] Resubmit sitemap to GSC + Bing after about.html addition
+- [x] All 15 pages confirmed indexed in GSC ✅ 2026-11-01 (sitemap UI "0 indexed" was a known GSC display bug)
+- [ ] Resubmit sitemap to GSC + Bing (manually — MCP has no submit endpoint)
 - [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + updated sitemap
 
 ---

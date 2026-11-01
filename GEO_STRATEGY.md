@@ -27,6 +27,12 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] `blog/biri-biri-hidup-johor.html` — targets biri-biri hidup johor, harga biri-biri johor ✅ 2026-10-24
 - [ ] AggregateRating — pending customer reviews (need 5+)
 - [x] `about.html` added to sitemap.xml ✅ 2026-11-01
+- [x] All 15 pages confirmed indexed in GSC ✅ 2026-11-01
+- [x] Broken Product/ItemList schemas removed from sayur-segar, susu-kambing, beli-kambing — were causing FAIL on rich results due to missing price + image ✅ 2026-11-01
+- [ ] Re-add Product schemas once client confirms price ranges and farm photos are uploaded
+- [x] Pricing cluster + religious authority FAQs added to aqiqah-johor + qurban-johor ✅ 2026-11-01 (commit 363b80f)
+- [x] Location terms (JB, Skudai, Kulai) embedded across all service pages ✅ 2026-11-01
+- [x] School/corporate/agro tourism cluster added to lawatan-ladang-johor ✅ 2026-11-01
 
 ---
 
