@@ -37,7 +37,10 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] susu-kambing-johor title/meta updated for "near me" + delivery CTR (was 1.74% at pos 8.9) ✅ 2026-11-01
 - [x] aqiqah-johor: Seelong + Senai added to keywords, content, schema (new impression terms from GSC) ✅ 2026-11-01
 - [x] beli-kambing-johor: internal link added to biri-biri-hidup-johor blog (pos 9.4, needs push to p1) ✅ 2026-11-01
-- [x] sitemap.xml updated to 16 URLs — added /blog/proses-aqiqah + /blog/aqiqah-vs-qurban (was missing) ✅ 2026-11-01
+- [x] sitemap.xml updated to 17 URLs ✅ 2026-11-01
+- [x] `blog/fresh-vegetables-johor-singapore.html` — EN guide for SG visitors, targets "fresh vegetables johor bahru singapore", "organic farm near singapore", Gunung Pulai day trip angle ✅ 2026-11-01 (commit b75ca84)
+- [x] sayur-segar-johor: Singapore CTA section added, fixes orphaned page ✅ 2026-11-01
+- [x] Internal linking: all service pages and blog articles cross-linked ✅ 2026-11-01 (commit f644d6e)
 
 ---
 
