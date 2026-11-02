@@ -145,8 +145,8 @@
 
 /* ── MOBILE: HERO CTAS ── */
 @media (max-width: 600px) {
-  .hero-ctas { flex-direction: column; align-items: flex-start; }
-  .hero-ctas .btn { width: 100%; max-width: 320px; justify-content: center; }
+  .hero-ctas { flex-direction: column; align-items: stretch; }
+  .hero-ctas .btn { width: 100%; justify-content: center; }
   .wa-btn { display: flex; width: 100%; max-width: 360px; justify-content: center; }
 }
 
@@ -160,7 +160,43 @@
   .service-card { padding: 24px 18px; }
   .compare-table th, .compare-table td { padding: 9px 10px; font-size: 13px; }
   .faq-question { font-size: 14px; padding: 18px 0; }
-  .faq-item.open .faq-answer { max-height: 300px; }
+  /* Fix FAQ answer truncation — 300px cuts off long answers */
+  .faq-item.open .faq-answer { max-height: 1000px; }
+  /* Article intro box — reduce horizontal padding */
+  .article-intro { padding: 20px !important; }
+  /* Proses/HowTo step — stack vertically */
+  .proses-step { flex-direction: column; gap: 12px; padding: 16px; }
+  /* WA button — full width, no max-width cap */
+  .wa-btn { max-width: 100%; }
+  /* Article section label */
+  .section-label { font-size: 11px; }
+}
+
+/* ── PROSES / HOWTO STEP (reusable for all blog HowTo layouts) ── */
+.proses-step {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 20px 24px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.proses-step-num {
+  width: 44px;
+  height: 44px;
+  background: var(--green);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  flex-shrink: 0;
+  font-family: 'Playfair Display', serif;
 }
 
 /* ── COMPARISON TABLE ── */
