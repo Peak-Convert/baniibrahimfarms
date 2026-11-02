@@ -45,7 +45,6 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] Em dashes removed site-wide — zero em dashes across all HTML pages ✅ 2026-11-01 (commit 9555e16)
 - [x] Mobile CSS added to proses-aqiqah.html — HowTo steps stack on ≤480px ✅ 2026-11-01 (commit 9555e16)
 - [x] sitemap.xml updated to 17 URLs ✅ 2026-11-01 (commit 9555e16)
-- [ ] Manually resubmit sitemap in GSC UI (17 URLs) — pending client action
 - [ ] Replace 3 placeholder testimonials with real customer WhatsApp quotes
 - [ ] Farm owner name + photo for about.html
 - [ ] Product schemas (susu-kambing, sayur-segar, beli-kambing) — re-add once price ranges + farm photos provided
@@ -55,6 +54,17 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
   - sgaqiqah.com → BIF: FAQ on where-to-do-aqiqah-in-singapore, related links on best-aqiqah-service + ownersheep-farm-visit
   - BIF → sgaqiqah.com: aqiqah-johor Singapore note upgraded + fresh-vegetables blog partner note
   - Purpose: domain authority transfer to newer BIF domain, referral SG traffic, topical link ecosystem
+- [x] GSC-driven title/meta rewrites ✅ 2026-11-02 (commit 5caac39)
+  - index.html: "Aqiqah & Qurban Johor 2027 | Kambing Hidup | Bani Ibrahim Farms" — front-loads primary keyword
+  - aqiqah-johor.html: "Aqiqah Johor 2027 | Sembelih di Ladang, Foto Bukti ke WhatsApp" — differentiator in title
+  - Both OG tags updated to match
+- [x] `blog/harga-aqiqah-johor.html` — MS pricing guide, Article + FAQPage + BreadcrumbList ✅ 2026-11-02 (commit 5caac39)
+- [x] `blog/cara-beli-kambing-johor.html` — MS buying guide, Article + HowTo + FAQPage + BreadcrumbList ✅ 2026-11-02 (commit 5caac39)
+- [x] blog/index.html: 2 new article cards (8 + 9), CollectionPage schema updated ✅ 2026-11-02 (commit 5caac39)
+- [x] biri-biri-hidup-johor.html: harga table + seasonal price warning added ✅ 2026-11-02 (commit 5caac39)
+- [x] sayur-segar-johor.html: quarterly seasonal produce schedule table added ✅ 2026-11-02 (commit 5caac39)
+- [x] sitemap.xml updated to 19 URLs ✅ 2026-11-02 (commit 5caac39)
+- [ ] Manually resubmit sitemap in GSC UI (now 19 URLs) — pending client action
 
 ---
 
