@@ -64,7 +64,7 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] biri-biri-hidup-johor.html: harga table + seasonal price warning added ✅ 2026-11-02 (commit 5caac39)
 - [x] sayur-segar-johor.html: quarterly seasonal produce schedule table added ✅ 2026-11-02 (commit 5caac39)
 - [x] sitemap.xml updated to 19 URLs ✅ 2026-11-02 (commit 5caac39)
-- [ ] Manually resubmit sitemap in GSC UI (now 19 URLs) — pending client action
+- [x] Manually resubmit sitemap in GSC UI (19 URLs) ✅ 2026-11-02
 
 ---
 
