@@ -65,6 +65,15 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] sayur-segar-johor.html: quarterly seasonal produce schedule table added ✅ 2026-11-02 (commit 5caac39)
 - [x] sitemap.xml updated to 19 URLs ✅ 2026-11-02 (commit 5caac39)
 - [x] Manually resubmit sitemap in GSC UI (19 URLs) ✅ 2026-11-02
+- [x] blog/apa-itu-aqiqah rewrite ✅ 2026-11-02 (commit c58038a)
+  - Was: pos 49.9, 63 impressions, 0 clicks. Title had no year, dateModified stale (Sep 2026), no Johor content
+  - New title: "Apa Itu Aqiqah dalam Islam? Hukum, Bilakah & Berapa Ekor Kambing [2027]"
+  - Added: Johor-specific section, 2 local FAQs (di mana buat aqiqah Johor + harga aqiqah Johor 2027), harga-aqiqah-johor link box
+- [x] qurban-johor.html title/meta rewrite ✅ 2026-11-02 (commit c58038a)
+  - New title: "Qurban Johor 2027 | Tempah Awal, Slot Terhad | Bani Ibrahim Farms"
+  - Meta: switched to Malay with urgency + differentiator
+- [x] blog/qurban-2027-johor expanded ✅ 2026-11-02 (commit c58038a)
+  - Added: syarat kambing section (5 cards), Event schema, 3 new visible FAQs, cara-pilih-kambing + aqiqah-vs-qurban links
 
 ---
 
