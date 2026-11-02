@@ -74,6 +74,11 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
   - Meta: switched to Malay with urgency + differentiator
 - [x] blog/qurban-2027-johor expanded ✅ 2026-11-02 (commit c58038a)
   - Added: syarat kambing section (5 cards), Event schema, 3 new visible FAQs, cara-pilih-kambing + aqiqah-vs-qurban links
+- [x] Mobile optimisation — full audit + fixes across all 19 pages ✅ 2026-11-02 (commits b71ab9c / 2effc85)
+  - Fixed repeat(N,1fr) inline grids in harga-aqiqah-johor, cara-beli-kambing-johor, biri-biri-hidup-johor
+  - Fixed inline grid override blocking CSS in susu-kambing-johor steps section
+  - subpage.css: FAQ answer max-height raised (was truncating), .proses-step CSS class added (reusable), hero-ctas + wa-btn full width at mobile breakpoints
+  - Rule: all future pages use repeat(auto-fit,minmax()) or .steps-grid/.why-grid/.info-grid CSS classes
 
 ---
 
