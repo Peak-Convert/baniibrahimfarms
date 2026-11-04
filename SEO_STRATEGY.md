@@ -21,8 +21,8 @@
 - [x] `lawatan-ladang-johor.html` — built + live + Bing submitted ✅ 2026-09-12
 - [x] `sayur-segar-johor.html` — built + live + Bing submitted ✅ 2026-09-13
 - [x] SVG logo (3 variants) + 720×720 JPG for GBP ✅ 2026-09-13
-- [x] Google Business Profile — created + verified ✅ 2026-09-12, GBP URL: `https://share.google/OPGjjtMYCiRZ5G29f`
-- [x] `sameAs` GBP link on all 7 pages ✅ 2026-09-12 (commit b7417cb)
+- [x] Google Business Profile — created + verified ✅ 2026-09-12, GBP Maps URL: `https://maps.app.goo.gl/ZKN2n42nJRwjob2E8`
+- [x] `sameAs` GBP link on all 11 pages ✅ 2026-11-04 (commit 020dcad) — updated from share.google to canonical Maps URL
 - [x] Sitemap submitted to GSC UI ✅ 2026-09-12 — `https://baniibrahimfarms.com/sitemap.xml`
 - [ ] Delete old www sitemap from GSC — `https://www.baniibrahimfarms.com/sitemap.xml` (if still listed)
 - [x] GSC Request Indexing submitted 2026-09-14 for: /beli-kambing-johor, /susu-kambing-johor, /lawatan-ladang-johor, /sayur-segar-johor — monitor by 2026-09-21
@@ -99,7 +99,8 @@
 - [ ] Add more photos (farm exterior, goats, slaughter area, packaging)
 - [ ] Enable WhatsApp contact in GBP
 - [ ] Collect first 3–5 customer reviews on GBP
-- **GBP confirmed URL:** `https://share.google/OPGjjtMYCiRZ5G29f`
+- **GBP confirmed URL:** `https://maps.app.goo.gl/ZKN2n42nJRwjob2E8`
+- [x] GBP fully populated: name, category, website, phone, hours, address ✅ 2026-11-04
 - **Why:** GBP drives local pack rankings and Maps visibility — critical for "aqiqah johor" searches
 
 ### 1.4 Sitemap
