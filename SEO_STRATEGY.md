@@ -64,9 +64,12 @@
 - [x] `blog/aqiqah-berapa-ekor.html` — NEW ✅ 2026-11-03 (commit 48f1aab): targets "aqiqah berapa ekor", "aqiqah anak lelaki/perempuan berapa ekor". Article + FAQPage + Speakable.
 - [x] `areaServed` (JB, Skudai, Kulai, Kluang, Pontian, Senai, Johor) added to LocalBusiness schema on all 8 pages (index + 7 service pages) ✅ 2026-11-03/04
 - [x] `blog/cara-ternakan-kambing-johor.html` — NEW ✅ 2026-11-04: targets "cara ternakan kambing", "ladang kambing johor", "penternak kambing johor". Article + FAQPage + Speakable.
-- [x] sitemap.xml updated to 21 URLs ✅ 2026-11-04
+- [x] `blog/pesticide-free-vegetables-johor-singapore.html` — NEW ✅ 2026-11-04: EN article targeting Singaporeans. Keywords: "pesticide free vegetables singapore/johor". Article + FAQPage + Speakable.
+- [x] Homepage cleanup ✅ 2026-11-04: Goat Milk card removed; "Free-Range Goats" and "minimal pesticides" copy corrected across index.html + main.js + sayur-segar-johor FAQ.
+- [x] `baja-organik-johor.html` — NEW service page ✅ 2026-11-04: organic goat manure fertiliser. Keywords: "baja organik johor", "baja najis kambing johor", "organic goat manure johor". LocalBusiness + Product + FAQPage + BreadcrumbList + Speakable. svc7 card added to homepage + main.js translations (EN + MS) + footer links added to all pages.
+- [x] sitemap.xml updated to 23 URLs ✅ 2026-11-04
 - [ ] Resubmit sitemap to GSC + Bing (manually — MCP has no submit endpoint)
-- [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + updated sitemap
+- [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + updated sitemap
 
 ---
 

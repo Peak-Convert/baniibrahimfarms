@@ -83,9 +83,16 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] `index.html` LocalBusiness schema: `areaServed` added (JB, Skudai, Kulai, Kluang, Pontian, Senai, Johor) ✅ 2026-11-03 (commit 48f1aab)
 - [x] `areaServed` schema rolled out to all 7 remaining service pages (aqiqah-johor, qurban-johor, beli-kambing-johor, susu-kambing-johor, lawatan-ladang-johor, sayur-segar-johor, about) ✅ 2026-11-04
 - [x] `blog/cara-ternakan-kambing-johor.html` — NEW ✅ 2026-11-04: targets "cara ternakan kambing", "ladang kambing johor", "penternak kambing johor", "kambing halal gunung pulai". Article + FAQPage (6 Q&As) + BreadcrumbList + Speakable. Covers baka (Boer, Kacang, Biri-Biri), pemakanan, penjagaan, piawaian Syariah, farm-to-aqiqah/qurban angle.
-- [x] sitemap.xml updated to 21 URLs ✅ 2026-11-04
+- [x] `blog/pesticide-free-vegetables-johor-singapore.html` — NEW ✅ 2026-11-04: EN article targeting Singaporeans. Keywords: "pesticide free vegetables singapore/johor", "clean vegetables near singapore". Article + FAQPage (6 Q&As) + BreadcrumbList + Speakable. Covers SFA customs note, Gunung Pulai day-trip, WhatsApp pre-fill for SG buyers.
+- [x] Homepage: Goat Milk service card removed (farm not currently selling goat milk) ✅ 2026-11-04
+- [x] Homepage: "Free-Range Goats" fallback fixed to "Naturally Fed Goats"; "minimal pesticides" fixed to "pesticide-free" across index.html + main.js (EN + MS) + sayur-segar-johor FAQ ✅ 2026-11-04
+- [x] `baja-organik-johor.html` — NEW ✅ 2026-11-04: MS-language service page for organic goat manure fertiliser. Keywords: "baja organik johor", "baja najis kambing johor", "organic goat manure johor", "baja organik untuk sayur/kebun". LocalBusiness + Product + FAQPage (7 Q&As) + BreadcrumbList + Speakable. Comparison table (goat vs cow vs chicken vs chemical NPK), 6 benefit cards, 6 "who it's for" categories, 3-step usage guide, SG buyer section with AVA/nparks customs note.
+- [x] Homepage: svc7 card added for Organic Goat Manure Fertiliser; LocalBusiness + hasOfferCatalog schemas updated ✅ 2026-11-04
+- [x] main.js: svc7 EN + MS translations added ✅ 2026-11-04
+- [x] `baja-organik-johor` footer link added to all 7 service pages + about.html ✅ 2026-11-04
+- [x] sitemap.xml updated to 23 URLs ✅ 2026-11-04
 - [ ] Resubmit sitemap to GSC + Bing (manually — MCP has no submit endpoint)
-- [ ] Bing submission: aqiqah-berapa-ekor + cara-ternakan-kambing-johor + updated sitemap
+- [ ] Bing submission: aqiqah-berapa-ekor + cara-ternakan-kambing-johor + pesticide-free-vegetables-johor-singapore + baja-organik-johor + updated sitemap
 
 ---
 

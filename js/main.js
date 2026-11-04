@@ -59,6 +59,9 @@ const T = {
     svc6_name:    "Fresh Vegetables",
     svc6_desc:    "Picked fresh daily from our highland farm in Gunung Pulai. Grown pesticide-free, naturally. Available for pickup or delivery within Johor.",
     svc6_link:    "Learn More",
+    svc7_name:    "Organic Goat Manure Fertiliser",
+    svc7_desc:    "Own-made organic fertiliser from our pesticide-free goats. Zero chemicals. Rich in NPK. For home gardens, vegetable farms, and orchards. Johor pickup or delivery.",
+    svc7_link:    "Learn More",
 
     // WHY
     why_label:    "Why Choose Us",
@@ -212,6 +215,9 @@ const T = {
     svc6_name:    "Sayur Segar",
     svc6_desc:    "Dipetik segar setiap hari dari ladang tanah tinggi kami di Gunung Pulai. Ditanam secara semulajadi, bebas pestisid. Tersedia untuk pengambilan atau penghantaran dalam Johor.",
     svc6_link:    "Ketahui Lebih Lanjut",
+    svc7_name:    "Baja Organik Najis Kambing",
+    svc7_desc:    "Baja organik buatan sendiri dari kambing kami yang bebas pestisid. Tiada bahan kimia. Kaya nitrogen, fosforus, dan kalium. Untuk kebun, ladang sayur, dan dusun. Pickup atau penghantaran dalam Johor.",
+    svc7_link:    "Ketahui Lebih Lanjut",
 
     // WHY
     why_label:    "Kenapa Pilih Kami",
