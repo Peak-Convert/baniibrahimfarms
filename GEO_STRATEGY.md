@@ -94,7 +94,7 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] Sheep-first language across all service pages ✅ 2026-11-04 (commit 635ed0a): biri-biri leads before kambing in schema, body, and Malay translations on aqiqah-johor, qurban-johor, beli-kambing-johor, lawatan-ladang-johor, about.html.
 - [x] Inaccurate E-E-A-T claims corrected ✅ 2026-11-04 (commit 70703e3): "Licensed Farm" removed (not verified). "Experienced Team / years in livestock" removed (livestock started 2026). Replaced with "Family Farm" / "Est. 2015" (vegetables since 2015, founder Yusof Ibrahim). Accurate founding history now consistent in schema + copy.
 - [x] Documentation delivery accuracy fix ✅ 2026-11-04 (commit 05bfd9f): Removed "same-day" timing claim. Changed delivery channel from "WhatsApp" to "email" across 8 files. GEO benefit: AI engines cite factual, fulfillable claims — removing unverifiable commitments reduces hallucination risk in AI-generated answers about the farm.
-- [ ] Resubmit sitemap to GSC + Bing (manually — MCP has no submit endpoint)
+- [x] Resubmit sitemap to GSC ✅ 2026-11-04 (manually submitted by client)
 - [ ] Bing submission: aqiqah-berapa-ekor + cara-ternakan-kambing-johor + pesticide-free-vegetables-johor-singapore + baja-organik-johor + updated sitemap
 
 ---

@@ -71,7 +71,7 @@
 - [x] Sheep-first language across all service pages (aqiqah-johor, qurban-johor, beli-kambing, lawatan-ladang, about) ✅ 2026-11-04 (commit 635ed0a). Biri-Biri card first in beli-kambing. All en dashes (35–45) fixed.
 - [x] Inaccurate claims removed ✅ 2026-11-04 (commit 70703e3): "Licensed Farm" → "Family Farm" / "Est. 2015". "Experienced Team / years in livestock" → "Honest. Direct. Documented." Added missing hero_f3 + why4 keys to main.js.
 - [x] Documentation delivery updated ✅ 2026-11-04 (commit 05bfd9f): "Same-Day Photo Proof" → "Photo & Video Proof". All "sent to WhatsApp same day" → "sent to your email after slaughter". 8 files updated (main.js EN+MS, index, about, aqiqah-johor, qurban-johor, 2x blog).
-- [ ] Resubmit sitemap to GSC + Bing (manually — MCP has no submit endpoint)
+- [x] Resubmit sitemap to GSC ✅ 2026-11-04 (manually submitted by client after sitemap grew to 23 URLs)
 - [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + updated sitemap
 
 ---
