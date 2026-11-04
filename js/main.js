@@ -215,7 +215,7 @@ const T = {
     svc6_name:    "Sayur Segar",
     svc6_desc:    "Dipetik segar setiap hari dari ladang tanah tinggi kami di Gunung Pulai. Ditanam secara semulajadi, bebas pestisid. Tersedia untuk pengambilan atau penghantaran dalam Johor.",
     svc6_link:    "Ketahui Lebih Lanjut",
-    svc7_name:    "Baja Organik Najis Kambing",
+    svc7_name:    "Baja Organik Tahi Kambing",
     svc7_desc:    "Baja organik buatan sendiri dari kambing kami yang bebas pestisid. Tiada bahan kimia. Kaya nitrogen, fosforus, dan kalium. Untuk kebun, ladang sayur, dan dusun. Pickup atau penghantaran dalam Johor.",
     svc7_link:    "Ketahui Lebih Lanjut",
 
