@@ -79,6 +79,13 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
   - Fixed inline grid override blocking CSS in susu-kambing-johor steps section
   - subpage.css: FAQ answer max-height raised (was truncating), .proses-step CSS class added (reusable), hero-ctas + wa-btn full width at mobile breakpoints
   - Rule: all future pages use repeat(auto-fit,minmax()) or .steps-grid/.why-grid/.info-grid CSS classes
+- [x] `blog/aqiqah-berapa-ekor.html` — NEW ✅ 2026-11-03 (commit 48f1aab): targets "aqiqah berapa ekor", "aqiqah anak lelaki berapa ekor", "aqiqah anak perempuan berapa ekor". Article + FAQPage (6 Q&As) + BreadcrumbList + Speakable. Covers dalil hadith, 1 vs 2 ekor ruling, syarat kambing, niyyah.
+- [x] `index.html` LocalBusiness schema: `areaServed` added (JB, Skudai, Kulai, Kluang, Pontian, Senai, Johor) ✅ 2026-11-03 (commit 48f1aab)
+- [x] `areaServed` schema rolled out to all 7 remaining service pages (aqiqah-johor, qurban-johor, beli-kambing-johor, susu-kambing-johor, lawatan-ladang-johor, sayur-segar-johor, about) ✅ 2026-11-04
+- [x] `blog/cara-ternakan-kambing-johor.html` — NEW ✅ 2026-11-04: targets "cara ternakan kambing", "ladang kambing johor", "penternak kambing johor", "kambing halal gunung pulai". Article + FAQPage (6 Q&As) + BreadcrumbList + Speakable. Covers baka (Boer, Kacang, Biri-Biri), pemakanan, penjagaan, piawaian Syariah, farm-to-aqiqah/qurban angle.
+- [x] sitemap.xml updated to 21 URLs ✅ 2026-11-04
+- [ ] Resubmit sitemap to GSC + Bing (manually — MCP has no submit endpoint)
+- [ ] Bing submission: aqiqah-berapa-ekor + cara-ternakan-kambing-johor + updated sitemap
 
 ---
 

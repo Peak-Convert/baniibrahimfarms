@@ -1,7 +1,7 @@
 # Bani Ibrahim Farms — SEO Strategy & Enhancement Plan
 **Domain:** baniibrahimfarms.com
 **Location:** Gunung Pulai, Johor, Malaysia
-**Last updated:** 2026-11-01
+**Last updated:** 2026-11-04
 
 ---
 
@@ -61,8 +61,12 @@
 - [x] Sitemap updated to 13 URLs — added /blog/biri-biri-hidup-johor ✅
 - [x] `about.html` added to sitemap.xml as 14th URL ✅ 2026-11-01
 - [x] All 15 pages confirmed indexed in GSC ✅ 2026-11-01 (sitemap UI "0 indexed" was a known GSC display bug)
+- [x] `blog/aqiqah-berapa-ekor.html` — NEW ✅ 2026-11-03 (commit 48f1aab): targets "aqiqah berapa ekor", "aqiqah anak lelaki/perempuan berapa ekor". Article + FAQPage + Speakable.
+- [x] `areaServed` (JB, Skudai, Kulai, Kluang, Pontian, Senai, Johor) added to LocalBusiness schema on all 8 pages (index + 7 service pages) ✅ 2026-11-03/04
+- [x] `blog/cara-ternakan-kambing-johor.html` — NEW ✅ 2026-11-04: targets "cara ternakan kambing", "ladang kambing johor", "penternak kambing johor". Article + FAQPage + Speakable.
+- [x] sitemap.xml updated to 21 URLs ✅ 2026-11-04
 - [ ] Resubmit sitemap to GSC + Bing (manually — MCP has no submit endpoint)
-- [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + updated sitemap
+- [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + updated sitemap
 
 ---
 
@@ -173,7 +177,7 @@ Target informational keywords that drive discovery:
 | ~~"How to Choose a Halal Goat for Qurban in Malaysia"~~ ✅ `/blog/cara-pilih-kambing` | cara pilih kambing, pilih kambing qurban | EN/MS |
 | "Biri-Biri Hidup Johor: Harga & Cara Beli" ✅ `/blog/biri-biri-hidup-johor` | biri-biri hidup johor, harga biri-biri johor | MS |
 | ~~"Benefits of Goat Milk vs Cow Milk"~~ ✅ `/blog/manfaat-susu-kambing` | manfaat susu kambing | EN/MS |
-| "Farm-to-Table: How We Raise Our Goats in Gunung Pulai" | ladang kambing johor | EN |
+| ~~"Farm-to-Table: How We Raise Our Goats in Gunung Pulai"~~ ✅ `/blog/cara-ternakan-kambing-johor` | ladang kambing johor, cara ternakan kambing | MS |
 | ~~"Qurban 2027: Book Early to Secure Your Slot"~~ ✅ `/blog/qurban-2027-johor` | qurban 2027 malaysia | EN/MS |
 
 ### 4.2 Dedicated Malay Pages
