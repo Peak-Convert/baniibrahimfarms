@@ -23,6 +23,7 @@ const T = {
     hero_cta2:    "See Our Services",
     hero_f1:      "Syariah-Compliant",
     hero_f2:      "Same-Day Photo Proof",
+    hero_f3:      "Family Farm",
     hero_f4:      "Naturally Fed Sheep",
 
     // ABOUT
@@ -73,6 +74,8 @@ const T = {
     why2_p:       "Our sheep and goats are raised on natural feed in the Gunung Pulai highlands. No crowded pens. No shortcuts.",
     why3_h:       "Same-Day Documentation",
     why3_p:       "You get photo and video of every aqiqah and qurban. Sent to your WhatsApp on the same day. No waiting.",
+    why4_h:       "Est. 2015",
+    why4_p:       "Yusof Ibrahim started farming in Gunung Pulai in 2015. A decade of growing roots. Livestock added in 2026.",
     why5_h:       "Direct from Farm",
     why5_p:       "No agents. No middlemen. You talk directly to the farm. Transparent pricing every time.",
     why6_h:       "Honest. Direct. Documented.",
@@ -179,6 +182,7 @@ const T = {
     hero_cta2:    "Lihat Perkhidmatan",
     hero_f1:      "Patuh Syariah",
     hero_f2:      "Bukti Foto Hari Sama",
+    hero_f3:      "Ladang Keluarga",
     hero_f4:      "Biri-Biri Diberi Makan Semulajadi",
 
     // ABOUT
@@ -229,6 +233,8 @@ const T = {
     why2_p:       "Biri-biri dan kambing kami dibesarkan dengan makanan semulajadi di tanah tinggi Gunung Pulai. Tiada kandang sesak. Tiada jalan pintas.",
     why3_h:       "Dokumentasi Hari Sama",
     why3_p:       "Anda dapat foto dan video setiap aqiqah dan qurban. Dihantar ke WhatsApp anda pada hari yang sama. Tanpa tunggu.",
+    why4_h:       "Est. 2015",
+    why4_p:       "Yusof Ibrahim mula bertani di Gunung Pulai sejak 2015. Selapas satu dekad menanam, ternakan biri-biri dan kambing bermula pada 2026.",
     why5_h:       "Terus dari Ladang",
     why5_p:       "Tiada ejen. Tiada orang tengah. Anda bercakap terus dengan pemilik ladang. Harga yang telus setiap kali.",
     why6_h:       "Jujur. Terus. Terdokumentasi.",
