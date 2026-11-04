@@ -57,7 +57,7 @@ const T = {
     svc4_desc:    "Buy direct from the farm. No agents. No markup. Various breeds available year-round. WhatsApp us for today's pricing.",
     svc4_link:    "Enquire via WhatsApp",
     svc6_name:    "Fresh Vegetables",
-    svc6_desc:    "Picked fresh daily from our highland farm in Gunung Pulai. Grown naturally with minimal pesticides. Available for pickup or delivery within Johor.",
+    svc6_desc:    "Picked fresh daily from our highland farm in Gunung Pulai. Grown pesticide-free, naturally. Available for pickup or delivery within Johor.",
     svc6_link:    "Learn More",
 
     // WHY
@@ -210,7 +210,7 @@ const T = {
     svc4_desc:    "Beli terus dari ladang. Tiada ejen. Tiada tambahan harga. Pelbagai baka tersedia sepanjang tahun. WhatsApp kami untuk harga hari ini.",
     svc4_link:    "Tanya via WhatsApp",
     svc6_name:    "Sayur Segar",
-    svc6_desc:    "Dipetik segar setiap hari dari ladang tanah tinggi kami di Gunung Pulai. Ditanam secara semulajadi dengan pestisid minimum. Tersedia untuk pengambilan atau penghantaran dalam Johor.",
+    svc6_desc:    "Dipetik segar setiap hari dari ladang tanah tinggi kami di Gunung Pulai. Ditanam secara semulajadi, bebas pestisid. Tersedia untuk pengambilan atau penghantaran dalam Johor.",
     svc6_link:    "Ketahui Lebih Lanjut",
 
     // WHY
