@@ -1,7 +1,7 @@
 # Bani Ibrahim Farms — SEO Strategy & Enhancement Plan
 **Domain:** baniibrahimfarms.com
 **Location:** Gunung Pulai, Johor, Malaysia
-**Last updated:** 2026-11-04
+**Last updated:** 2026-11-04 (session 2)
 
 ---
 
@@ -68,6 +68,9 @@
 - [x] Homepage cleanup ✅ 2026-11-04: Goat Milk card removed; "Free-Range Goats" and "minimal pesticides" copy corrected across index.html + main.js + sayur-segar-johor FAQ.
 - [x] `baja-organik-johor.html` — NEW service page ✅ 2026-11-04: organic goat manure fertiliser. Keywords: "baja organik johor", "baja tahi kambing johor", "organic goat manure johor". LocalBusiness + Product + FAQPage + BreadcrumbList + Speakable. svc7 card added to homepage + main.js translations (EN + MS) + footer links added to all pages.
 - [x] sitemap.xml updated to 23 URLs ✅ 2026-11-04
+- [x] Sheep-first language across all service pages (aqiqah-johor, qurban-johor, beli-kambing, lawatan-ladang, about) ✅ 2026-11-04 (commit 635ed0a). Biri-Biri card first in beli-kambing. All en dashes (35–45) fixed.
+- [x] Inaccurate claims removed ✅ 2026-11-04 (commit 70703e3): "Licensed Farm" → "Family Farm" / "Est. 2015". "Experienced Team / years in livestock" → "Honest. Direct. Documented." Added missing hero_f3 + why4 keys to main.js.
+- [x] Documentation delivery updated ✅ 2026-11-04 (commit 05bfd9f): "Same-Day Photo Proof" → "Photo & Video Proof". All "sent to WhatsApp same day" → "sent to your email after slaughter". 8 files updated (main.js EN+MS, index, about, aqiqah-johor, qurban-johor, 2x blog).
 - [ ] Resubmit sitemap to GSC + Bing (manually — MCP has no submit endpoint)
 - [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + updated sitemap
 
