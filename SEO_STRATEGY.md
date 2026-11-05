@@ -1,7 +1,7 @@
 # Bani Ibrahim Farms — SEO Strategy & Enhancement Plan
 **Domain:** baniibrahimfarms.com
 **Location:** Gunung Pulai, Johor, Malaysia
-**Last updated:** 2026-11-04 (session 2)
+**Last updated:** 2026-11-05 (session 3)
 
 ---
 
@@ -72,7 +72,14 @@
 - [x] Inaccurate claims removed ✅ 2026-11-04 (commit 70703e3): "Licensed Farm" → "Family Farm" / "Est. 2015". "Experienced Team / years in livestock" → "Honest. Direct. Documented." Added missing hero_f3 + why4 keys to main.js.
 - [x] Documentation delivery updated ✅ 2026-11-04 (commit 05bfd9f): "Same-Day Photo Proof" → "Photo & Video Proof". All "sent to WhatsApp same day" → "sent to your email after slaughter". 8 files updated (main.js EN+MS, index, about, aqiqah-johor, qurban-johor, 2x blog).
 - [x] Resubmit sitemap to GSC ✅ 2026-11-04 (manually submitted by client after sitemap grew to 23 URLs)
-- [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + updated sitemap
+- [x] Person schema rotation across all 13 blog articles ✅ 2026-11-04 (commit f7352c7): replaced generic Organization author with named family members (Yusof Ibrahim, Umar Yusof, Amir Yusof, Shalihin Yusof) for E-E-A-T signal to AI engines.
+- [x] Product/ItemList schema added to beli-kambing-johor.html ✅ 2026-11-04 (commit f7352c7): 3 products with researched price ranges from DVS Malaysia data — Biri-biri/Dorper RM850–2000, Boer RM750–1500, Kacang RM400–800.
+- [x] `blog/harga-qurban-johor-2027.html` — NEW ✅ 2026-11-05 (commit 5696860): MS pricing guide for qurban 2027. Keywords: "harga qurban johor 2027", "harga kambing qurban johor". Article + FAQPage (5 Q&As) + BreadcrumbList. Author: Umar Yusof.
+- [x] `blog/jenis-kambing-qurban-sah.html` — NEW ✅ 2026-11-05 (commit 5696860): MS Syariah compliance guide. Keywords: "jenis kambing qurban sah", "syarat haiwan qurban", "kambing qurban yang sah". Article + FAQPage (5 Q&As) + BreadcrumbList. Author: Shalihin Yusof.
+- [x] `blog/cara-beli-kambing-online-johor.html` — NEW ✅ 2026-11-05 (commit 5696860): MS guide for safely buying livestock online. Keywords: "cara beli kambing online johor", "beli kambing online selamat". Article + HowTo (5 steps) + FAQPage (5 Q&As) + BreadcrumbList. Author: Amir Yusof.
+- [x] blog/index.html: 3 new article cards (13–15), CollectionPage schema updated, Article 6 card description "WhatsApp" → "email" ✅ 2026-11-05 (commit 5696860)
+- [x] sitemap.xml updated to 26 URLs ✅ 2026-11-05 (commit 5696860)
+- [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + harga-qurban-johor-2027 + jenis-kambing-qurban-sah + cara-beli-kambing-online-johor + updated sitemap
 
 ---
 

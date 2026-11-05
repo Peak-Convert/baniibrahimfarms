@@ -1,6 +1,6 @@
 # Bani Ibrahim Farms — GEO Strategy (Generative Engine Optimization)
 **Domain:** baniibrahimfarms.com
-**Last updated:** 2026-11-04 (session 2)
+**Last updated:** 2026-11-05 (session 3)
 
 GEO = optimizing for AI-generated answers (Google AI Overviews, ChatGPT, Perplexity, Bing Copilot).
 The goal is for Bani Ibrahim Farms to appear as the cited source when users ask AI about:
@@ -95,7 +95,12 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] Inaccurate E-E-A-T claims corrected ✅ 2026-11-04 (commit 70703e3): "Licensed Farm" removed (not verified). "Experienced Team / years in livestock" removed (livestock started 2026). Replaced with "Family Farm" / "Est. 2015" (vegetables since 2015, founder Yusof Ibrahim). Accurate founding history now consistent in schema + copy.
 - [x] Documentation delivery accuracy fix ✅ 2026-11-04 (commit 05bfd9f): Removed "same-day" timing claim. Changed delivery channel from "WhatsApp" to "email" across 8 files. GEO benefit: AI engines cite factual, fulfillable claims — removing unverifiable commitments reduces hallucination risk in AI-generated answers about the farm.
 - [x] Resubmit sitemap to GSC ✅ 2026-11-04 (manually submitted by client)
-- [ ] Bing submission: aqiqah-berapa-ekor + cara-ternakan-kambing-johor + pesticide-free-vegetables-johor-singapore + baja-organik-johor + updated sitemap
+- [x] Person author schema rotated across all 13 blog articles ✅ 2026-11-04 (commit f7352c7): named family members (Yusof Ibrahim, Umar Yusof, Amir Yusof, Shalihin Yusof) replace Organization — stronger E-E-A-T signal for AI engines citing farm content.
+- [x] Product/ItemList schema on beli-kambing-johor.html ✅ 2026-11-04 (commit f7352c7): AggregateOffer price ranges sourced from DVS Malaysia data (Kacang RM400–800, Boer RM750–1500, Biri-biri RM850–2000). Enables Google Shopping rich results.
+- [x] `blog/harga-qurban-johor-2027.html` — NEW ✅ 2026-11-05 (commit 5696860): MS qurban price guide with price table, 3 price-factor cards, 5 Syariah compliance cards, booking guide. Article + FAQPage + BreadcrumbList. Author: Umar Yusof. Targets AI queries: "berapa harga qurban johor 2027", "harga kambing qurban".
+- [x] `blog/jenis-kambing-qurban-sah.html` — NEW ✅ 2026-11-05 (commit 5696860): MS Syariah compliance guide covering valid animal types, age requirements, health conditions, 3 popular breeds with prices. Article + FAQPage + BreadcrumbList. Author: Shalihin Yusof. Targets AI queries: "kambing qurban yang sah", "syarat haiwan qurban".
+- [x] `blog/cara-beli-kambing-online-johor.html` — NEW ✅ 2026-11-05 (commit 5696860): MS risk + safety guide for online livestock purchase. 3 risk cards, 5-step process, seller checklist, farm vs middleman table. Article + HowTo + FAQPage + BreadcrumbList. Author: Amir Yusof. Targets AI queries: "cara beli kambing online selamat", "beli kambing hidup johor".
+- [ ] Bing submission: aqiqah-berapa-ekor + cara-ternakan-kambing-johor + pesticide-free-vegetables-johor-singapore + baja-organik-johor + harga-qurban-johor-2027 + jenis-kambing-qurban-sah + cara-beli-kambing-online-johor + updated sitemap
 
 ---
 
