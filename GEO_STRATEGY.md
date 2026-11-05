@@ -1,6 +1,6 @@
 # Bani Ibrahim Farms — GEO Strategy (Generative Engine Optimization)
 **Domain:** baniibrahimfarms.com
-**Last updated:** 2026-11-05 (session 3)
+**Last updated:** 2026-11-05 (session 3b)
 
 GEO = optimizing for AI-generated answers (Google AI Overviews, ChatGPT, Perplexity, Bing Copilot).
 The goal is for Bani Ibrahim Farms to appear as the cited source when users ask AI about:
@@ -100,6 +100,9 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] `blog/harga-qurban-johor-2027.html` — NEW ✅ 2026-11-05 (commit 5696860): MS qurban price guide with price table, 3 price-factor cards, 5 Syariah compliance cards, booking guide. Article + FAQPage + BreadcrumbList. Author: Umar Yusof. Targets AI queries: "berapa harga qurban johor 2027", "harga kambing qurban".
 - [x] `blog/jenis-kambing-qurban-sah.html` — NEW ✅ 2026-11-05 (commit 5696860): MS Syariah compliance guide covering valid animal types, age requirements, health conditions, 3 popular breeds with prices. Article + FAQPage + BreadcrumbList. Author: Shalihin Yusof. Targets AI queries: "kambing qurban yang sah", "syarat haiwan qurban".
 - [x] `blog/cara-beli-kambing-online-johor.html` — NEW ✅ 2026-11-05 (commit 5696860): MS risk + safety guide for online livestock purchase. 3 risk cards, 5-step process, seller checklist, farm vs middleman table. Article + HowTo + FAQPage + BreadcrumbList. Author: Amir Yusof. Targets AI queries: "cara beli kambing online selamat", "beli kambing hidup johor".
+- [x] HowTo schema added to harga-qurban-johor-2027 + jenis-kambing-qurban-sah ✅ 2026-11-05 (commit ad88975): enables Google featured snippet step-boxes for "cara tempah qurban" and "cara semak haiwan qurban" queries. All 3 new articles now have HowTo schema.
+- [x] FAQPage expanded to 7 items on all 3 new articles ✅ 2026-11-05 (commit ad88975): more SERP real estate for FAQ rich results. New Q&As cover: daging yield, qurban untuk arwah, kambing hamil ruling, qurban sekeluarga, process timeline, anti-swap verification.
+- [x] Internal body links tightened across all 3 new articles ✅ 2026-11-05 (commit ad88975): 3 contextual links per article pointing into existing cluster (cara-pilih-kambing, biri-biri-hidup-johor, aqiqah-johor, beli-kambing-johor, harga-qurban-johor-2027). Improves topical authority and crawl depth.
 - [ ] Bing submission: aqiqah-berapa-ekor + cara-ternakan-kambing-johor + pesticide-free-vegetables-johor-singapore + baja-organik-johor + harga-qurban-johor-2027 + jenis-kambing-qurban-sah + cara-beli-kambing-online-johor + updated sitemap
 
 ---

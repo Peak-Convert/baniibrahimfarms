@@ -1,7 +1,7 @@
 # Bani Ibrahim Farms — SEO Strategy & Enhancement Plan
 **Domain:** baniibrahimfarms.com
 **Location:** Gunung Pulai, Johor, Malaysia
-**Last updated:** 2026-11-05 (session 3)
+**Last updated:** 2026-11-05 (session 3b)
 
 ---
 
@@ -79,6 +79,9 @@
 - [x] `blog/cara-beli-kambing-online-johor.html` — NEW ✅ 2026-11-05 (commit 5696860): MS guide for safely buying livestock online. Keywords: "cara beli kambing online johor", "beli kambing online selamat". Article + HowTo (5 steps) + FAQPage (5 Q&As) + BreadcrumbList. Author: Amir Yusof.
 - [x] blog/index.html: 3 new article cards (13–15), CollectionPage schema updated, Article 6 card description "WhatsApp" → "email" ✅ 2026-11-05 (commit 5696860)
 - [x] sitemap.xml updated to 26 URLs ✅ 2026-11-05 (commit 5696860)
+- [x] HowTo schema added to harga-qurban-johor-2027 (4-step booking) + jenis-kambing-qurban-sah (4-step Syariah verification) ✅ 2026-11-05 (commit ad88975)
+- [x] FAQPage expanded 5 → 7 items on all 3 new articles (daging yield, arwah niyyah, kambing hamil, sekeluarga, timeline, anti-swap proof) ✅ 2026-11-05 (commit ad88975)
+- [x] Contextual body links added: 3 per article across all 3 new articles, linking into existing cluster (cara-pilih-kambing, biri-biri-hidup-johor, aqiqah-johor, beli-kambing-johor) ✅ 2026-11-05 (commit ad88975)
 - [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + harga-qurban-johor-2027 + jenis-kambing-qurban-sah + cara-beli-kambing-online-johor + updated sitemap
 
 ---
