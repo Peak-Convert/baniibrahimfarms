@@ -52,7 +52,7 @@
 
   <url>
     <loc>https://baniibrahimfarms.com/blog/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -159,6 +159,27 @@
   <url>
     <loc>https://baniibrahimfarms.com/baja-organik-johor</loc>
     <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://baniibrahimfarms.com/blog/harga-qurban-johor-2027</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://baniibrahimfarms.com/blog/jenis-kambing-qurban-sah</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://baniibrahimfarms.com/blog/cara-beli-kambing-online-johor</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
