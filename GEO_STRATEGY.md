@@ -107,6 +107,7 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] aqiqah-johor location push ✅ 2026-11-06 (commit 4514a4a): "Kawasan Yang Kami Layani" section (6 town cards + distances), 2 location FAQ schema + visible accordions (Seelong + Senai), Related Guides 4→6, dateModified updated. Targets GSC queries at pos 25–32 with 0 clicks.
 - [x] IndexNow key deployed ✅ 2026-11-06 (commit 5a5e50f): key file at /c72e26dd4082464e932443cce4ebacb1.txt. Reusable for all future Bing/Yandex submissions. First batch 14 URLs (HTTP 202), second batch 2 URLs (HTTP 200).
 - [x] beli-kambing-johor + blog/biri-biri-hidup-johor location push ✅ 2026-11-06 (commit 2d9b669): "near me" in both titles, location sections (6 town cards), 2 FAQPage schema + visible accordions per page. Targets "kambing hidup near me" pos 6.2 (12 impr, 0 CTR), "jual kambing hidup terdekat" pos 5, "tempat jual kambing terdekat" pos 10. IndexNow submitted.
+- [x] susu-kambing-johor + sayur-segar-johor + blog/manfaat-susu-kambing location push ✅ 2026-11-06 (commit fda3bf9). Location sections on all 3. manfaat-susu-kambing: title "near me", 2 FAQPage schema + accordions, dateModified updated. IndexNow HTTP 200.
 - [x] Sitemap resubmitted to GSC ✅ 2026-11-06 (26 URLs, manually submitted by client)
 - [x] GSC indexing requested for 3 new blog articles + aqiqah-johor ✅ 2026-11-06 (by client)
 - [x] Bing IndexNow submission — all 14 pending URLs ✅ 2026-11-06 (HTTP 202)

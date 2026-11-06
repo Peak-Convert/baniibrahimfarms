@@ -99,6 +99,11 @@
   - beli-kambing: title "near me" + "terdekat", location section (6 towns), 2 FAQPage schema entries + visible accordions (Kulai/Skudai + Seelong/Senai)
   - biri-biri blog: title "near me", location section, 2 FAQPage schema entries + visible accordions, dateModified 2026-11-06
   - Targets: "kambing hidup near me" pos 6.2 (12 impr, 0 CTR), "jual kambing hidup terdekat" pos 5, "tempat jual kambing terdekat" pos 10
+- [x] susu-kambing-johor + sayur-segar-johor + blog/manfaat-susu-kambing location push ✅ 2026-11-06 (commit fda3bf9). IndexNow HTTP 200.
+  - susu-kambing: location section (6 towns) added
+  - sayur-segar: location section (6 towns) added
+  - manfaat-susu-kambing: title/meta/OG "near me", FAQPage 2 new location Q&As, location section + 2 visible accordions, dateModified 2026-11-06
+  - Targets: "susu kambing near me" pos 10.4 (17 impr), "susu kambing segar near me" pos 8.5 (13 impr), "beza susu lembu dengan susu kambing" pos 7 (4 impr) — all 0 clicks
 
 ---
 
