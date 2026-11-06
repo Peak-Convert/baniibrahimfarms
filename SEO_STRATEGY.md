@@ -87,6 +87,13 @@
   - susu-kambing-johor: "near me" added to title, "semak stok" CTA in meta — targets "susu kambing near me" (17 impr, pos 10.4, 0 clicks)
   - sayur-segar-johor: "near me" + "dipetik hari sama" differentiator — targets "sayur near me" (pos 1), "kedai sayur near me" (pos 11)
   - lawatan-ladang-johor: audience segments + "40 Min dari JB" proximity hook — was pos 5.0, 20 impr, 0 clicks
+- [x] aqiqah-johor content push — location section + FAQ + related guides ✅ 2026-11-06 (commit 4514a4a)
+  - Target: GSC queries "kambing aqiqah seelong" (pos 29), "kambing aqiqah senai" (pos 25), "kambing aqiqah kulai" (pos 32), "kambing aqiqah johor bahru" (pos 32) — all 0 clicks
+  - Added "Kawasan Yang Kami Layani" section: 6 town cards (JB, Skudai, Kulai, Senai, Seelong, Kluang/Pontian) with explicit distances
+  - FAQPage schema: 2 new location Q&As (Seelong + Senai) — total 12 FAQ schema entries
+  - Visible FAQ: 2 new accordion items matching schema (total 12 visible FAQ items)
+  - Related Guides expanded 4→6 (added aqiqah-berapa-ekor + cara-pilih-kambing)
+  - dateModified: 2026-11-06 (freshness signal for recrawl)
 - [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + harga-qurban-johor-2027 + jenis-kambing-qurban-sah + cara-beli-kambing-online-johor + updated sitemap
 
 ---
