@@ -1,6 +1,6 @@
 # Bani Ibrahim Farms — GEO Strategy (Generative Engine Optimization)
 **Domain:** baniibrahimfarms.com
-**Last updated:** 2026-11-05 (session 3b)
+**Last updated:** 2026-11-06 (session 3c)
 
 GEO = optimizing for AI-generated answers (Google AI Overviews, ChatGPT, Perplexity, Bing Copilot).
 The goal is for Bani Ibrahim Farms to appear as the cited source when users ask AI about:
@@ -103,7 +103,13 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] HowTo schema added to harga-qurban-johor-2027 + jenis-kambing-qurban-sah ✅ 2026-11-05 (commit ad88975): enables Google featured snippet step-boxes for "cara tempah qurban" and "cara semak haiwan qurban" queries. All 3 new articles now have HowTo schema.
 - [x] FAQPage expanded to 7 items on all 3 new articles ✅ 2026-11-05 (commit ad88975): more SERP real estate for FAQ rich results. New Q&As cover: daging yield, qurban untuk arwah, kambing hamil ruling, qurban sekeluarga, process timeline, anti-swap verification.
 - [x] Internal body links tightened across all 3 new articles ✅ 2026-11-05 (commit ad88975): 3 contextual links per article pointing into existing cluster (cara-pilih-kambing, biri-biri-hidup-johor, aqiqah-johor, beli-kambing-johor, harga-qurban-johor-2027). Improves topical authority and crawl depth.
-- [ ] Bing submission: aqiqah-berapa-ekor + cara-ternakan-kambing-johor + pesticide-free-vegetables-johor-singapore + baja-organik-johor + harga-qurban-johor-2027 + jenis-kambing-qurban-sah + cara-beli-kambing-online-johor + updated sitemap
+- [x] CTR fix — title/meta rewrite on 3 zero-click pages ✅ 2026-11-06 (commit 30220b6): susu-kambing "near me" title, sayur-segar "near me" + "dipetik hari sama", lawatan-ladang audience + "40 Min dari JB". All driven by GSC impression data.
+- [x] aqiqah-johor location push ✅ 2026-11-06 (commit 4514a4a): "Kawasan Yang Kami Layani" section (6 town cards + distances), 2 location FAQ schema + visible accordions (Seelong + Senai), Related Guides 4→6, dateModified updated. Targets GSC queries at pos 25–32 with 0 clicks.
+- [x] IndexNow key deployed ✅ 2026-11-06 (commit 5a5e50f): key file at /c72e26dd4082464e932443cce4ebacb1.txt. Reusable for all future Bing/Yandex submissions. First batch 14 URLs (HTTP 202), second batch 2 URLs (HTTP 200).
+- [x] beli-kambing-johor + blog/biri-biri-hidup-johor location push ✅ 2026-11-06 (commit 2d9b669): "near me" in both titles, location sections (6 town cards), 2 FAQPage schema + visible accordions per page. Targets "kambing hidup near me" pos 6.2 (12 impr, 0 CTR), "jual kambing hidup terdekat" pos 5, "tempat jual kambing terdekat" pos 10. IndexNow submitted.
+- [x] Sitemap resubmitted to GSC ✅ 2026-11-06 (26 URLs, manually submitted by client)
+- [x] GSC indexing requested for 3 new blog articles + aqiqah-johor ✅ 2026-11-06 (by client)
+- [x] Bing IndexNow submission — all 14 pending URLs ✅ 2026-11-06 (HTTP 202)
 
 ---
 
