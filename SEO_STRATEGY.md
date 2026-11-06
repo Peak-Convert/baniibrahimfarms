@@ -82,6 +82,7 @@
 - [x] HowTo schema added to harga-qurban-johor-2027 (4-step booking) + jenis-kambing-qurban-sah (4-step Syariah verification) ✅ 2026-11-05 (commit ad88975)
 - [x] FAQPage expanded 5 → 7 items on all 3 new articles (daging yield, arwah niyyah, kambing hamil, sekeluarga, timeline, anti-swap proof) ✅ 2026-11-05 (commit ad88975)
 - [x] Contextual body links added: 3 per article across all 3 new articles, linking into existing cluster (cara-pilih-kambing, biri-biri-hidup-johor, aqiqah-johor, beli-kambing-johor) ✅ 2026-11-05 (commit ad88975)
+- [x] Resubmit sitemap to GSC ✅ 2026-11-06 (manually submitted by client — 26 URLs, up from 23)
 - [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + harga-qurban-johor-2027 + jenis-kambing-qurban-sah + cara-beli-kambing-online-johor + updated sitemap
 
 ---
