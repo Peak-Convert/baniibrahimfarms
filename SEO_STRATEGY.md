@@ -100,6 +100,13 @@
   - biri-biri blog: title "near me", location section, 2 FAQPage schema entries + visible accordions, dateModified 2026-11-06
   - Targets: "kambing hidup near me" pos 6.2 (12 impr, 0 CTR), "jual kambing hidup terdekat" pos 5, "tempat jual kambing terdekat" pos 10
 - [x] susu-kambing-johor + sayur-segar-johor + blog/manfaat-susu-kambing location push ✅ 2026-11-06 (commit fda3bf9). IndexNow HTTP 200.
+- [x] blog/apa-itu-aqiqah content expansion ✅ 2026-11-06 (commit ea8c4af). IndexNow HTTP 200.
+  - Was: pos 50.1, 66 impressions, 0 clicks. Content depth insufficient to compete.
+  - Added 3 new H2 sections: Hukum Aqiqah (mazhab breakdown), Niyyah Aqiqah (exact lafaz x3), Aqiqah Dewasa (4-card section)
+  - FAQPage expanded 8→12 items (wajib/sunat, niyyah lafaz, biri-biri ok, kenduri gabung)
+  - 4 new visible FAQ accordions (total 12)
+  - Removed inaccurate "1,000 keluarga" claim (was already removed from other pages)
+  - dateModified: 2026-11-06. Targets: "aqiqah" pos 61 (34 impr), "aqiqah anak" pos 47, "apa itu aqiqah" pos 38
   - susu-kambing: location section (6 towns) added
   - sayur-segar: location section (6 towns) added
   - manfaat-susu-kambing: title/meta/OG "near me", FAQPage 2 new location Q&As, location section + 2 visible accordions, dateModified 2026-11-06
