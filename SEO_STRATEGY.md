@@ -83,6 +83,10 @@
 - [x] FAQPage expanded 5 → 7 items on all 3 new articles (daging yield, arwah niyyah, kambing hamil, sekeluarga, timeline, anti-swap proof) ✅ 2026-11-05 (commit ad88975)
 - [x] Contextual body links added: 3 per article across all 3 new articles, linking into existing cluster (cara-pilih-kambing, biri-biri-hidup-johor, aqiqah-johor, beli-kambing-johor) ✅ 2026-11-05 (commit ad88975)
 - [x] Resubmit sitemap to GSC ✅ 2026-11-06 (manually submitted by client — 26 URLs, up from 23)
+- [x] CTR fix — title/meta rewrite on 3 zero-click pages ✅ 2026-11-06 (commit 30220b6)
+  - susu-kambing-johor: "near me" added to title, "semak stok" CTA in meta — targets "susu kambing near me" (17 impr, pos 10.4, 0 clicks)
+  - sayur-segar-johor: "near me" + "dipetik hari sama" differentiator — targets "sayur near me" (pos 1), "kedai sayur near me" (pos 11)
+  - lawatan-ladang-johor: audience segments + "40 Min dari JB" proximity hook — was pos 5.0, 20 impr, 0 clicks
 - [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + harga-qurban-johor-2027 + jenis-kambing-qurban-sah + cara-beli-kambing-online-johor + updated sitemap
 
 ---
