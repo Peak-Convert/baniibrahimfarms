@@ -95,6 +95,10 @@
   - Related Guides expanded 4→6 (added aqiqah-berapa-ekor + cara-pilih-kambing)
   - dateModified: 2026-11-06 (freshness signal for recrawl)
 - [x] Bing IndexNow submission ✅ 2026-11-06 (HTTP 202) — 14 URLs submitted via IndexNow API (key: c72e26dd4082464e932443cce4ebacb1). Key file live at /c72e26dd4082464e932443cce4ebacb1.txt. Covers: about, baja-organik-johor, aqiqah-johor, susu-kambing-johor, sayur-segar-johor, lawatan-ladang-johor + 8 blog articles.
+- [x] beli-kambing-johor + blog/biri-biri-hidup-johor location push ✅ 2026-11-06 (commit 2d9b669). IndexNow HTTP 200.
+  - beli-kambing: title "near me" + "terdekat", location section (6 towns), 2 FAQPage schema entries + visible accordions (Kulai/Skudai + Seelong/Senai)
+  - biri-biri blog: title "near me", location section, 2 FAQPage schema entries + visible accordions, dateModified 2026-11-06
+  - Targets: "kambing hidup near me" pos 6.2 (12 impr, 0 CTR), "jual kambing hidup terdekat" pos 5, "tempat jual kambing terdekat" pos 10
 
 ---
 
