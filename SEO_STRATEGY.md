@@ -289,6 +289,31 @@ Consider separate `/ms/` subpages or a language subdirectory for Malay SEO:
 
 ---
 
+## Cross-Site Backlinks
+
+### umaryusof.com → baniibrahimfarms.com (Nov 2026)
+Commits: 13fa5fe + 49b1329 (umar-yusof-automation repo)
+
+**umaryusof.com/farm/index.html** — 4 links:
+- Hero CTA "Tempah Aqiqah Johor" → baniibrahimfarms.com/aqiqah-johor.html
+- FAQ aqiqah answer → baniibrahimfarms.com/blog/apa-itu-aqiqah.html
+- OwnerSheep body text → baniibrahimfarms.com (homepage)
+- CTA block "Book Aqiqah in Johor" → baniibrahimfarms.com/aqiqah-johor.html
+
+**umaryusof.com/farm/cara-buat-aqiqah-johor.html** — 3 links:
+- "khidmat aqiqah di Johor" → baniibrahimfarms.com/aqiqah-johor.html
+- "panduan lengkap apa itu aqiqah" → baniibrahimfarms.com/blog/apa-itu-aqiqah.html
+- Homepage hyperlink → baniibrahimfarms.com
+
+Note: /blog/cara-buat-aqiqah-johor redirects to /farm/cara-buat-aqiqah-johor (301-style meta-refresh).
+
+### sgaqiqah.com (bidirectional, Nov 2026)
+Commits: 1c6fc5b / aa50cab
+- sgaqiqah.com → BIF: FAQ on where-to-do-aqiqah-in-singapore.html, related links on best-aqiqah-service-singapore.html + ownersheep-farm-visit.html
+- BIF → sgaqiqah.com: aqiqah-johor.html Singapore note links to where-to-do-aqiqah-in-singapore, fresh-vegetables blog partner note
+
+---
+
 ## Monitoring Checklist
 Once GSC is set up, check monthly:
 - [ ] Impressions + clicks for "aqiqah johor"
