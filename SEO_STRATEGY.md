@@ -94,7 +94,7 @@
   - Visible FAQ: 2 new accordion items matching schema (total 12 visible FAQ items)
   - Related Guides expanded 4→6 (added aqiqah-berapa-ekor + cara-pilih-kambing)
   - dateModified: 2026-11-06 (freshness signal for recrawl)
-- [ ] Bing submission: about + blog/aqiqah-vs-qurban + blog/biri-biri-hidup-johor + blog/aqiqah-berapa-ekor + blog/cara-ternakan-kambing-johor + blog/pesticide-free-vegetables-johor-singapore + baja-organik-johor + harga-qurban-johor-2027 + jenis-kambing-qurban-sah + cara-beli-kambing-online-johor + updated sitemap
+- [x] Bing IndexNow submission ✅ 2026-11-06 (HTTP 202) — 14 URLs submitted via IndexNow API (key: c72e26dd4082464e932443cce4ebacb1). Key file live at /c72e26dd4082464e932443cce4ebacb1.txt. Covers: about, baja-organik-johor, aqiqah-johor, susu-kambing-johor, sayur-segar-johor, lawatan-ladang-johor + 8 blog articles.
 
 ---
 
