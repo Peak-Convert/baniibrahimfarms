@@ -111,6 +111,12 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
 - [x] Sitemap resubmitted to GSC ✅ 2026-11-06 (26 URLs, manually submitted by client)
 - [x] GSC indexing requested for 3 new blog articles + aqiqah-johor ✅ 2026-11-06 (by client)
 - [x] Bing IndexNow submission — all 14 pending URLs ✅ 2026-11-06 (HTTP 202)
+- [x] CTR title/meta rewrites — 5 pages ✅ 2026-11-14:
+  - susu-kambing-johor: "Johor Bahru" in title (query "susu kambing johor bahru" pos 8.7)
+  - harga-qurban-johor-2027: "/ Kurban" spelling variant in title (query "harga kambing kurban 2027" pos 4.0)
+  - biri-biri-hidup-johor: "Johor Bahru" + "Harga 2027" in title (44 impr, pos 14.7, 0 clicks)
+  - lawatan-ladang-johor: title truncation fixed — shortened from ~90 → 60 chars ("40 Min dari JB" was being cut)
+  - manfaat-susu-kambing: H2 "Apa Beza Susu Kambing dengan Susu Lembu?" (query "beza susu lembu dengan susu kambing" pos 7.0)
 
 ---
 
@@ -346,21 +352,21 @@ Google and AI models weight content from demonstrably experienced, authoritative
 
 ---
 
-## GEO Action Priority Summary
+## GEO Action Priority Summary (Updated 2026-11-14)
 
-| Action | Impact | Effort | Do When |
-|--------|--------|--------|---------|
-| Add HowTo schemas (aqiqah + qurban) | High | Low | Now |
-| Add Speakable schema | High | Low | Now |
-| Add 10 more FAQs | High | Low | Now |
-| Add direct answer content blocks | High | Low | Now |
-| Create GBP listing | High | Medium | This week |
-| Build aqiqah-johor.html subpage | High | Medium | This week |
-| Build qurban-johor.html subpage | High | Medium | This week |
-| Write "What is Aqiqah?" article | Medium | Medium | Next 2 weeks |
-| Collect + display testimonials | Medium | Low | Ongoing |
-| Social media profiles | Medium | Medium | This month |
-| Blog with 5 articles | Medium | High | Next month |
+All foundation GEO work complete. 26 pages live. Remaining actions:
+
+| Action | Impact | Effort | Status |
+|--------|--------|--------|--------|
+| Replace 3 placeholder testimonials with real WhatsApp quotes | High | Low | Pending (client) |
+| AggregateRating schema — need 5+ GBP reviews | High | Low | Pending (client) |
+| GBP photos (farm, goats, slaughter area) | High | Low | Pending (client) |
+| Facebook/Instagram/TikTok `sameAs` links in schema | Medium | Low | Pending (client) |
+| Product schemas on susu-kambing, sayur-segar | Medium | Low | Pending price confirmation |
+| About page: farm owner name + photo | Medium | Low | Pending (client) |
+| Backlinks: Seedly/FB groups/mosque boards | High | Medium | Manual outreach |
+| blog/aqiqah-vs-qurban authority (pos 39.7) | High | Medium | Needs backlinks |
+| blog/apa-itu-aqiqah authority (pos 47.4) | High | Medium | Needs backlinks |
 
 ---
 

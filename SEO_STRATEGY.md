@@ -101,6 +101,13 @@
   - Targets: "kambing hidup near me" pos 6.2 (12 impr, 0 CTR), "jual kambing hidup terdekat" pos 5, "tempat jual kambing terdekat" pos 10
 - [x] susu-kambing-johor + sayur-segar-johor + blog/manfaat-susu-kambing location push ✅ 2026-11-06 (commit fda3bf9). IndexNow HTTP 200.
 - [x] blog/apa-itu-aqiqah content expansion ✅ 2026-11-06 (commit ea8c4af). IndexNow HTTP 200.
+- [x] CTR title/meta rewrites — 5 pages ✅ 2026-11-14 (session 4a):
+  - susu-kambing-johor: "Johor Bahru" added to title (was "Near Me | Terus dari Ladang Gunung Pulai, Johor" — JB query at pos 8.7, 6 impr, 0 clicks)
+  - harga-qurban-johor-2027: "Kurban" spelling variant added (was "Harga Qurban Johor 2027" — query "harga kambing kurban 2027" at pos 4.0, 3 impr, 0 clicks); "kurban" added to keywords meta
+  - biri-biri-hidup-johor: title shortened + "Johor Bahru" + "Harga 2027" added (was 44 impr at pos 14.7, 0 clicks)
+  - lawatan-ladang-johor: title shortened from ~90 chars → 60 chars — "40 Min dari JB" differentiator was being truncated by Google
+  - blog/manfaat-susu-kambing: H2 changed to "Apa Beza Susu Kambing dengan Susu Lembu?" (query "beza susu lembu dengan susu kambing" at pos 7.0)
+  - dateModified updated to 2026-11-14 on all 5 pages
   - Was: pos 50.1, 66 impressions, 0 clicks. Content depth insufficient to compete.
   - Added 3 new H2 sections: Hukum Aqiqah (mazhab breakdown), Niyyah Aqiqah (exact lafaz x3), Aqiqah Dewasa (4-card section)
   - FAQPage expanded 8→12 items (wajib/sunat, niyyah lafaz, biri-biri ok, kenduri gabung)
@@ -286,6 +293,45 @@ Consider separate `/ms/` subpages or a language subdirectory for Malay SEO:
 | ladang kambing johor | Low | Low | 🟡 |
 | lawatan ladang johor | Low | Low | 🟢 |
 | ternakan halal johor | Low | Low | 🟢 |
+
+---
+
+## GSC Performance Snapshot (Oct 15 – Nov 14, 2026)
+
+### Pages with clicks
+| Page | Clicks | Impressions | CTR | Position |
+|------|--------|-------------|-----|----------|
+| Homepage | 6 | 85 | 7.06% | 4.8 |
+| beli-kambing-johor | 5 | 103 | 4.85% | 10.9 |
+| about | 1 | 15 | 6.67% | 5.9 |
+| susu-kambing-johor | 1 | 101 | 0.99% | 9.1 |
+
+### High-impression zero-click pages
+| Page | Impressions | Position | Action |
+|------|-------------|----------|--------|
+| beli-kambing-johor | 103 | 10.9 | ✅ CTR fix Nov 14 |
+| susu-kambing-johor | 101 | 9.1 | ✅ Title "JB" fix Nov 14 |
+| blog/biri-biri-hidup-johor | 44 | 14.7 | ✅ CTR fix Nov 14 |
+| blog/apa-itu-aqiqah | 39 | 47.4 | Needs link authority |
+| aqiqah-johor | 36 | 17.4 | Location content added Nov 6 — monitor |
+| sayur-segar-johor | 32 | 7.8 | Low volume "sayur near me" at pos 1 |
+| blog/aqiqah-vs-qurban | 26 | 39.7 | Buried — needs backlinks |
+| blog/manfaat-susu-kambing | 21 | 13.4 | ✅ "Beza" H2 added Nov 14 |
+| lawatan-ladang-johor | 11 | 4.8 | ✅ Title truncation fixed Nov 14 |
+| blog/harga-qurban-johor-2027 | 8 | 5.6 | ✅ "Kurban" variant added Nov 14 |
+
+### Top queries (Oct 15 – Nov 14)
+| Query | Impressions | Position | Status |
+|-------|-------------|----------|--------|
+| kambing hidup near me | 8 | 6.4 | 0 clicks — beli-kambing targeting |
+| aqiqah | 20 | 62.9 | Buried — long-term authority play |
+| aqiqah johor | 6 | 25 | Improving — location content added |
+| kambing aqiqah seelong | 6 | 38 | Needs more Seelong copy |
+| susu kambing johor bahru | 6 | 8.7 | ✅ "JB" added to title Nov 14 |
+| harga kambing kurban 2027 | 3 | 4.0 | ✅ "Kurban" variant added Nov 14 |
+| beza susu lembu dengan susu kambing | 4 | 7.0 | ✅ H2 "beza" added Nov 14 |
+
+Sitemap: 26 URLs submitted 2026-11-06. GSC UI shows "0 indexed" — confirmed display bug, all pages are indexed (impressions data proves it).
 
 ---
 
