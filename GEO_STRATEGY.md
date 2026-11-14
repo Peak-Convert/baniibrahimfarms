@@ -117,6 +117,13 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
   - biri-biri-hidup-johor: "Johor Bahru" + "Harga 2027" in title (44 impr, pos 14.7, 0 clicks)
   - lawatan-ladang-johor: title truncation fixed — shortened from ~90 → 60 chars ("40 Min dari JB" was being cut)
   - manfaat-susu-kambing: H2 "Apa Beza Susu Kambing dengan Susu Lembu?" (query "beza susu lembu dengan susu kambing" pos 7.0)
+- [x] Location depth + new biri-biri aqiqah article ✅ 2026-11-14 (commit 49c0b5b, session 4b):
+  - aqiqah-johor: town distance cards → H3 anchor subsections for 5 towns (Seelong, Senai, Kulai, JB, Skudai) — explicit heading text matches long-tail location queries; Kulai FAQPage schema added
+  - qurban-johor: "Kawasan Liputan" with 4 H3 anchors + 3 location FAQPage schema entries; related guides 3→5 (adds harga-qurban-johor-2027 + jenis-kambing-qurban-sah)
+  - sayur-segar-johor: "Johor Bahru" in title + stale dateModified fixed (was 2026-09-19)
+  - `blog/harga-kambing-biri-biri-aqiqah.html` — NEW: MS article targeting "harga kambing biri-biri untuk aqiqah" (GSC pos 52.5). Article + FAQPage (7 Q&As covering price, Syariah validity, biri-biri vs kambing price difference, baka choice) + LocalBusiness + Speakable. Author Yusof Ibrahim. Harga table: Dorper RM850–2000, Boer RM750–1500, Kacang RM400–800.
+  - blog/index: 16th article card; CollectionPage schema updated
+  - sitemap.xml: 27 URLs; IndexNow submitted (5 URLs)
 
 ---
 

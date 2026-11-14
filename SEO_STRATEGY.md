@@ -108,6 +108,14 @@
   - lawatan-ladang-johor: title shortened from ~90 chars → 60 chars — "40 Min dari JB" differentiator was being truncated by Google
   - blog/manfaat-susu-kambing: H2 changed to "Apa Beza Susu Kambing dengan Susu Lembu?" (query "beza susu lembu dengan susu kambing" at pos 7.0)
   - dateModified updated to 2026-11-14 on all 5 pages
+- [x] CTR fix + location depth + new article ✅ 2026-11-14 (commit 49c0b5b, session 4b):
+  - sayur-segar-johor: title "Sayur Segar Johor Bahru | Bebas Pestisid, Dipetik Hari Sama" (was 86 chars "near me", dateModified was stale 2026-09-19)
+  - aqiqah-johor: 6-card town distance grid REPLACED with 5 H3 anchor subsections (#kambing-aqiqah-seelong, -senai, -kulai, #aqiqah-johor-bahru, #aqiqah-skudai) + full paragraphs; Kulai FAQPage schema entry added (13th Q&A); dateModified 2026-11-14
+  - qurban-johor: "Kawasan Liputan" section added with 4 H3 anchors (#qurban-johor-bahru, -kulai, -senai-skudai, -seelong); 3 location FAQ schema entries; related guides 3→5; dateModified 2026-11-14
+  - blog/harga-kambing-biri-biri-aqiqah (NEW, 27th page): targets "harga kambing biri-biri untuk aqiqah" (GSC pos 52.5, 0 clicks); Article + FAQPage (7 Q&As) + LocalBusiness + BreadcrumbList + Speakable; author Yusof Ibrahim
+  - blog/index: new card + CollectionPage schema (16th ItemList entry); dateModified 2026-11-14
+  - sitemap.xml: 26→27 URLs
+  - IndexNow submitted for all 5 changed URLs
   - Was: pos 50.1, 66 impressions, 0 clicks. Content depth insufficient to compete.
   - Added 3 new H2 sections: Hukum Aqiqah (mazhab breakdown), Niyyah Aqiqah (exact lafaz x3), Aqiqah Dewasa (4-card section)
   - FAQPage expanded 8→12 items (wajib/sunat, niyyah lafaz, biri-biri ok, kenduri gabung)
