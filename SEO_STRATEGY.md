@@ -126,6 +126,9 @@
   - Both articles: "You Are What Your Food Ate" health section — McDonald's analogy, 6-row nutrition table, 4 health cards, green callout. FAQPage 8th Q&A: "Is grass-fed meat healthier?"
   - blog/index: 17th + 18th article cards; sitemap: 29 URLs
   - IndexNow submitted for all changed URLs
+- [x] CTR fixes — aqiqah-vs-qurban + beli-kambing-johor ✅ 2026-11-15 (commits ca42efd + 2a84a84, session 4d):
+  - blog/aqiqah-vs-qurban: "Qurbani" spelling added to title, H1, meta, OG, schema headline — targets "aqiqah vs qurbani" (10 impr, pos 35.5, 0 clicks) + "qurbani and aqiqah" (10 impr, pos 73.9). dateModified 2026-11-15.
+  - beli-kambing-johor: title shortened 90 → 67 chars ("Beli Kambing Hidup Johor Bahru | Makan Rumput, Terus dari Penternak"); meta updated with grass-fed differentiator; visible price table added (Dorper RM850-2000, Boer RM750-1500, Kacang RM400-800); internal links added to both grass-fed articles. Targets "kambing hidup near me" pos 6.4 (8 impr, 0 clicks), "kambing hidup" pos 5.5.
   - Was: pos 50.1, 66 impressions, 0 clicks. Content depth insufficient to compete.
   - Added 3 new H2 sections: Hukum Aqiqah (mazhab breakdown), Niyyah Aqiqah (exact lafaz x3), Aqiqah Dewasa (4-card section)
   - FAQPage expanded 8→12 items (wajib/sunat, niyyah lafaz, biri-biri ok, kenduri gabung)

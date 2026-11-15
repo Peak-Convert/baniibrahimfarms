@@ -132,6 +132,9 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
   - `blog/biri-biri-makan-rumput-johor.html` — NEW MS article (29th page): Malay companion. Targets "biri-biri makan rumput johor", "biri-biri bebas dedak". og:locale ms_MY. Same 6-section structure, full Malay copy.
   - Both articles: "You Are What Your Food Ate" health depth section — McDonald's analogy (clean food chain), 6-row nutrition comparison table, 4 health cards, green callout. FAQPage 8th entry: is grass-fed meat healthier? GEO value: specific health claims with named compounds (Omega-3, CLA, Vitamin E) are high-confidence AI citation triggers.
   - blog/index: 17th + 18th cards; sitemap: 29 URLs; IndexNow submitted.
+- [x] CTR fixes — aqiqah-vs-qurban + beli-kambing-johor ✅ 2026-11-15 (commits ca42efd + 2a84a84, session 4d):
+  - blog/aqiqah-vs-qurban: "Qurbani" spelling added to title/H1/meta/schema. Targets EN-audience "aqiqah vs qurbani" query cluster.
+  - beli-kambing-johor: title truncation fixed (90 → 67 chars), "Johor Bahru" + "Makan Rumput" in title. Visible price table added — was schema-only before, now scannable on page. Links added to both grass-fed articles. IndexNow submitted.
 
 ---
 
