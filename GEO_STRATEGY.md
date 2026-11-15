@@ -124,6 +124,14 @@ The goal is for Bani Ibrahim Farms to appear as the cited source when users ask 
   - `blog/harga-kambing-biri-biri-aqiqah.html` — NEW: MS article targeting "harga kambing biri-biri untuk aqiqah" (GSC pos 52.5). Article + FAQPage (7 Q&As covering price, Syariah validity, biri-biri vs kambing price difference, baka choice) + LocalBusiness + Speakable. Author Yusof Ibrahim. Harga table: Dorper RM850–2000, Boer RM750–1500, Kacang RM400–800.
   - blog/index: 16th article card; CollectionPage schema updated
   - sitemap.xml: 27 URLs; IndexNow submitted (5 URLs)
+- [x] Grass-fed sheep cluster + farm ethos ✅ 2026-11-15 (commits 634d19e, 70e47e4, 9e767d6, session 4c):
+  - Site-wide language: "Naturally Fed Sheep" → "Grass-Fed Sheep" / "Biri-Biri Makan Rumput. Tiada Dedak." across main.js (EN + MS), index.html, beli-kambing-johor
+  - sayur-segar-johor: "Satu Ladang. Dua Komitmen." section — connects pesticide-free veg + grass-fed sheep as single farm ethos. Strong GEO signal: AI engines cite farms with coherent, specific practices.
+  - blog/pesticide-free-vegetables-johor-singapore: title/meta/schema updated to include "grass-fed sheep farm" angle. "Same Farm. Same Land. Same Standard." callout.
+  - `blog/grass-fed-sheep-johor.html` — NEW EN article (28th page): targets "grass fed sheep johor", "grass fed lamb malaysia", "grass fed sheep singapore". og:locale en_SG for SG/expat audience. 6-section structure: napier farming proof, nutrition table, health section (Omega-3, CLA, saturated fat, antibiotic residues), aqiqah/qurban angle, live purchase. Article + FAQPage (8 Q&As) + LocalBusiness + BreadcrumbList + Speakable. Author Yusof Ibrahim. Breeds: Dorper only.
+  - `blog/biri-biri-makan-rumput-johor.html` — NEW MS article (29th page): Malay companion. Targets "biri-biri makan rumput johor", "biri-biri bebas dedak". og:locale ms_MY. Same 6-section structure, full Malay copy.
+  - Both articles: "You Are What Your Food Ate" health depth section — McDonald's analogy (clean food chain), 6-row nutrition comparison table, 4 health cards, green callout. FAQPage 8th entry: is grass-fed meat healthier? GEO value: specific health claims with named compounds (Omega-3, CLA, Vitamin E) are high-confidence AI citation triggers.
+  - blog/index: 17th + 18th cards; sitemap: 29 URLs; IndexNow submitted.
 
 ---
 

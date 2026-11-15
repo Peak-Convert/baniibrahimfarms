@@ -116,6 +116,16 @@
   - blog/index: new card + CollectionPage schema (16th ItemList entry); dateModified 2026-11-14
   - sitemap.xml: 26→27 URLs
   - IndexNow submitted for all 5 changed URLs
+- [x] Grass-fed sheep + pesticide-free veg site-wide update ✅ 2026-11-15 (commits 634d19e, 70e47e4, 9e767d6, session 4c):
+  - main.js + index.html: "Naturally Fed Sheep" → "Grass-Fed Sheep" / "Biri-Biri Makan Rumput" site-wide (hero badge, Why Us, About — EN + MS)
+  - beli-kambing-johor: 3 feed-language instances updated to "makan rumput, tiada dedak"
+  - sayur-segar-johor: new "Satu Ladang. Dua Komitmen." Farm Ethos section (3 cards: pesticide-free veg + grass-fed sheep + Gunung Pulai)
+  - blog/pesticide-free-vegetables-johor-singapore: title/meta/schema updated to reference grass-fed sheep farm; callout box "Same Farm. Same Land. Same Standard."
+  - blog/grass-fed-sheep-johor (NEW, 28th page): EN article targeting "grass fed sheep johor", "grass fed lamb malaysia", "grass fed sheep singapore". og:locale en_SG. Article + FAQPage (8 Q&As) + LocalBusiness + BreadcrumbList + Speakable. Sections: napier farming story, comparison table, health section (Omega-3/CLA/saturated fat/antibiotic residues), aqiqah/qurban angle, live purchase. Breeds: Dorper only.
+  - blog/biri-biri-makan-rumput-johor (NEW, 29th page): MS companion targeting "biri-biri makan rumput johor", "biri-biri bebas dedak". Same structure as EN. og:locale ms_MY.
+  - Both articles: "You Are What Your Food Ate" health section — McDonald's analogy, 6-row nutrition table, 4 health cards, green callout. FAQPage 8th Q&A: "Is grass-fed meat healthier?"
+  - blog/index: 17th + 18th article cards; sitemap: 29 URLs
+  - IndexNow submitted for all changed URLs
   - Was: pos 50.1, 66 impressions, 0 clicks. Content depth insufficient to compete.
   - Added 3 new H2 sections: Hukum Aqiqah (mazhab breakdown), Niyyah Aqiqah (exact lafaz x3), Aqiqah Dewasa (4-card section)
   - FAQPage expanded 8→12 items (wajib/sunat, niyyah lafaz, biri-biri ok, kenduri gabung)
