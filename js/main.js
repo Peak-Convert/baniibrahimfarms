@@ -65,7 +65,7 @@ const T = {
     svc7_link:    "Learn More",
     svc8_name:    "Premium Lamb Cuts",
     svc8_desc:    "Fresh local lamb cuts from Malaysia's largest established lamb farm in Desaru. Slaughtered weekly. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages and more. Halal. Self-collect JB or delivery within Johor.",
-    svc8_link:    "Order via WhatsApp",
+    svc8_link:    "View Fresh Lamb Cuts",
 
     // WHY
     why_label:    "Why Choose Us",
@@ -344,6 +344,10 @@ function applyLang(l) {
     if (t[key] !== undefined) {
       el.innerHTML = t[key];
     }
+  });
+
+  document.querySelectorAll('[data-href-en]').forEach(el => {
+    el.href = l === 'en' ? el.dataset.hrefEn : el.dataset.hrefMs;
   });
 
   // Update lang toggle buttons
