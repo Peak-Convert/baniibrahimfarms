@@ -64,7 +64,7 @@ const T = {
     svc7_desc:    "Own-made organic fertiliser from our pesticide-free goats. Zero chemicals. Rich in NPK. For home gardens, vegetable farms, and orchards. Johor pickup or delivery.",
     svc7_link:    "Learn More",
     svc8_name:    "Premium Lamb Cuts",
-    svc8_desc:    "Fresh lamb cuts from our own farm. Slaughtered weekly. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages and more. Halal. Self-collect JB or delivery within Johor.",
+    svc8_desc:    "Fresh local lamb cuts from Malaysia's largest established lamb farm in Desaru. Slaughtered weekly. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages and more. Halal. Self-collect JB or delivery within Johor.",
     svc8_link:    "Order via WhatsApp",
 
     // WHY
