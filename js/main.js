@@ -63,6 +63,9 @@ const T = {
     svc7_name:    "Organic Goat Manure Fertiliser",
     svc7_desc:    "Own-made organic fertiliser from our pesticide-free goats. Zero chemicals. Rich in NPK. For home gardens, vegetable farms, and orchards. Johor pickup or delivery.",
     svc7_link:    "Learn More",
+    svc8_name:    "Premium Lamb Cuts",
+    svc8_desc:    "Fresh lamb cuts from our own farm. Slaughtered weekly. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages and more. Halal. Self-collect JB or delivery within Johor.",
+    svc8_link:    "Order via WhatsApp",
 
     // WHY
     why_label:    "Why Choose Us",
@@ -222,6 +225,9 @@ const T = {
     svc7_name:    "Baja Organik Tahi Kambing",
     svc7_desc:    "Baja organik buatan sendiri dari kambing kami yang bebas pestisid. Tiada bahan kimia. Kaya nitrogen, fosforus, dan kalium. Untuk kebun, ladang sayur, dan dusun. Pickup atau penghantaran dalam Johor.",
     svc7_link:    "Ketahui Lebih Lanjut",
+    svc8_name:    "Potongan Daging Biri-Biri Premium",
+    svc8_desc:    "Daging biri-biri segar dari ladang kami sendiri. Disembelih setiap minggu. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages dan lain-lain. Halal. Ambil di JB atau penghantaran dalam Johor.",
+    svc8_link:    "Pesan via WhatsApp",
 
     // WHY
     why_label:    "Kenapa Pilih Kami",
