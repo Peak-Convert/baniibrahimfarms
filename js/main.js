@@ -74,7 +74,7 @@ const T = {
     why1_h:       "Syariah-Compliant",
     why1_p:       "Every slaughter is performed by a trained Muslim professional. Proper niyyah. Full Islamic rites. Every time.",
     why2_h:       "Good Feed. No Gamey Smell.",
-    why2_p:       "Our sheep eat fresh-cut grass, greens and corn grown on our own farm, mixed into silage. Not dedak-only. Good nutrition means meat that tak bau.",
+    why2_p:       "Our sheep eat fresh-cut grass, greens and corn grown on our own farm, mixed into silage. Not dedak-only. Good nutrition means meat with no gamey smell.",
     why3_h:       "Full Documentation",
     why3_p:       "You get photo and video of every aqiqah and qurban. Sent to your email after slaughter.",
     why4_h:       "Est. 2015",
