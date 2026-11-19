@@ -1,7 +1,25 @@
 # Bani Ibrahim Farms — SEO Strategy & Enhancement Plan
 **Domain:** baniibrahimfarms.com
 **Location:** Gunung Pulai, Johor, Malaysia
-**Last updated:** 2026-11-06 (session 3c)
+**Last updated:** 2026-11-19 (claim accuracy fixes)
+
+---
+
+## Messaging Rules — Approved Product Claims (updated 2026-11-19)
+Use these when writing any new page, meta or schema. They replace older claims in the changelog below.
+
+**Sheep feed**
+- ✅ Say: natural, nutritious, farm-grown feed — fresh-cut napier and other grasses, farm-grown greens, the farm's own corn, mixed and made into silage. "Not dedak-only."
+- ✅ Benefit: no gamey smell / cleaner taste (EN) · "tak bau hamis" (MS only — never use "tak bau"/"hamis" in English copy)
+- ✅ Metaphor: healthy home-cooked food vs junk/fast food → our sheep vs dedak-only sheep ("dedak-only feed is the junk food of the farm")
+- ❌ Do not say: "grass-fed", "grass only", "no grains"/"tiada bijirin" (corn is a grain), "no dedak"/"tiada dedak" as an absolute
+- ❌ Do not use grass-fed nutrition claims: Omega-3, CLA, Vitamin E, Omega-6 ratio
+- Keep existing URLs `/blog/grass-fed-sheep-johor` and `/blog/biri-biri-makan-rumput-johor` (ranking), but titles/copy follow the rules above
+
+**Lamb meat (`fresh-halal-lamb-cuts-johor`, `daging-biri-biri-johor`)**
+- ✅ Say: sold frozen; less than 1 month from slaughter to customer (vs AU/NZ imports frozen for months); no gamey smell; one of the most affordable prices for its quality
+- ✅ Market framing: "most lamb sold in Singapore and Malaysia is imported" — target both SG and MY (Johor) buyers
+- ❌ Do not say: "never frozen", "fresh"/"segar" for the meat, "slaughtered weekly" (unconfirmed), "every/all lamb is imported", "the only fresh lamb in the market"
 
 ---
 
@@ -116,7 +134,7 @@
   - blog/index: new card + CollectionPage schema (16th ItemList entry); dateModified 2026-11-14
   - sitemap.xml: 26→27 URLs
   - IndexNow submitted for all 5 changed URLs
-- [x] Grass-fed sheep + pesticide-free veg site-wide update ✅ 2026-11-15 (commits 634d19e, 70e47e4, 9e767d6, session 4c):
+- [x] Grass-fed sheep + pesticide-free veg site-wide update ✅ 2026-11-15 (commits 634d19e, 70e47e4, 9e767d6, session 4c): ⚠️ SUPERSEDED 2026-11-19: grass-fed / no-grain / no-dedak claims and Omega-3/CLA content were inaccurate and have been removed — see Messaging Rules
   - main.js + index.html: "Naturally Fed Sheep" → "Grass-Fed Sheep" / "Biri-Biri Makan Rumput" site-wide (hero badge, Why Us, About — EN + MS)
   - beli-kambing-johor: 3 feed-language instances updated to "makan rumput, tiada dedak"
   - sayur-segar-johor: new "Satu Ladang. Dua Komitmen." Farm Ethos section (3 cards: pesticide-free veg + grass-fed sheep + Gunung Pulai)
@@ -126,6 +144,12 @@
   - Both articles: "You Are What Your Food Ate" health section — McDonald's analogy, 6-row nutrition table, 4 health cards, green callout. FAQPage 8th Q&A: "Is grass-fed meat healthier?"
   - blog/index: 17th + 18th article cards; sitemap: 29 URLs
   - IndexNow submitted for all changed URLs
+- [x] Claim accuracy fixes ✅ 2026-11-19 (PRs #1–#4). Supersedes the 2026-11-15 grass-fed entry above. See "Messaging Rules" at the top.
+  - Lamb pages (EN + MS): "Never Frozen" removed → frozen, under 1 month from slaughter; SG + MY targeting ("most lamb in Singapore and Malaysia is imported"); affordable-for-quality messaging + price FAQ
+  - Feed copy site-wide: "grass-fed / no grains / no dedak" → natural farm-grown feed (grass, greens, own corn, silage), not dedak-only, no gamey smell. 12 files incl. main.js, index, beli-kambing, buy-sheep-goat, farm-visit, sayur-segar, blog index, pesticide-free veg post
+  - blog/grass-fed-sheep-johor + blog/biri-biri-makan-rumput-johor rewritten (URLs kept): new titles "Naturally Fed Sheep in Johor | Farm-Grown Feed, No Gamey Smell" / "Biri-Biri Makan Makanan Semulajadi di Johor | Tak Bau Hamis"; Omega-3/CLA claims and nutrition table removed; new healthy-food vs junk-food metaphor + "Our Sheep vs Dedak-Only Sheep" table; FAQPage rewritten (7 Q&As)
+  - UI: invisible hero outline buttons fixed on both lamb pages and both feed guides
+  - TODO: re-submit changed URLs to IndexNow / GSC Request Indexing
 - [x] CTR fixes — aqiqah-vs-qurban + beli-kambing-johor ✅ 2026-11-15 (commits ca42efd + 2a84a84, session 4d):
   - blog/aqiqah-vs-qurban: "Qurbani" spelling added to title, H1, meta, OG, schema headline — targets "aqiqah vs qurbani" (10 impr, pos 35.5, 0 clicks) + "qurbani and aqiqah" (10 impr, pos 73.9). dateModified 2026-11-15.
   - beli-kambing-johor: title shortened 90 → 67 chars ("Beli Kambing Hidup Johor Bahru | Makan Rumput, Terus dari Penternak"); meta updated with grass-fed differentiator; visible price table added (Dorper RM850-2000, Boer RM750-1500, Kacang RM400-800); internal links added to both grass-fed articles. Targets "kambing hidup near me" pos 6.4 (8 impr, 0 clicks), "kambing hidup" pos 5.5.
