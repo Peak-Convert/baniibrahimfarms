@@ -64,8 +64,8 @@ const T = {
     svc7_desc:    "Own-made organic fertiliser from our pesticide-free goats. Zero chemicals. Rich in NPK. For home gardens, vegetable farms, and orchards. Johor pickup or delivery.",
     svc7_link:    "Learn More",
     svc8_name:    "Premium Lamb Cuts",
-    svc8_desc:    "Fresh local lamb cuts from Malaysia's largest established lamb farm in Desaru. Slaughtered weekly. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages and more. Halal. Self-collect JB or delivery within Johor.",
-    svc8_link:    "View Fresh Lamb Cuts",
+    svc8_desc:    "Local lamb cuts from Malaysia's largest established lamb farm in Desaru. Less than 1 month from slaughter, with no gamey smell. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages and more. Halal. Self-collect JB or delivery within Johor.",
+    svc8_link:    "View Lamb Cuts",
 
     // WHY
     why_label:    "Why Choose Us",
@@ -226,8 +226,8 @@ const T = {
     svc7_desc:    "Baja organik buatan sendiri dari kambing kami yang bebas pestisid. Tiada bahan kimia. Kaya nitrogen, fosforus, dan kalium. Untuk kebun, ladang sayur, dan dusun. Pickup atau penghantaran dalam Johor.",
     svc7_link:    "Ketahui Lebih Lanjut",
     svc8_name:    "Potongan Daging Biri-Biri Premium",
-    svc8_desc:    "Daging biri-biri segar dari ladang kami sendiri. Disembelih setiap minggu. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages dan lain-lain. Halal. Ambil di JB atau penghantaran dalam Johor.",
-    svc8_link:    "Pesan via WhatsApp",
+    svc8_desc:    "Daging biri-biri tempatan, kurang 1 bulan dari sembelih dan tidak berbau hamis. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages dan lain-lain. Halal. Ambil di JB atau penghantaran dalam Johor.",
+    svc8_link:    "Lihat Potongan Daging",
 
     // WHY
     why_label:    "Kenapa Pilih Kami",
