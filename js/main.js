@@ -142,14 +142,14 @@ const T = {
     os_cta:         "Enquire via WhatsApp",
 
     // QUICK ANSWERS
-    qa_label:     "What You Need to Know",
+    qa_label:     "About the Farm",
     qa_h2:        "Clear Answers. No Fluff.",
-    qa1_q:        "What is Aqiqah?",
-    qa1_a:        "Aqiqah is a Sunnah practice in Islam. A goat is slaughtered to celebrate the birth of a child, typically within 7 days, though it can be done at any age. Two goats for a boy. One for a girl. The meat is shared with family and given to those in need. We handle the full process: slaughter, distribution, and documentation.",
-    qa2_q:        "What is Qurban?",
-    qa2_a:        "Qurban is the Islamic ritual of sacrificing a livestock animal during Eid al-Adha (10th to 13th Zulhijjah). It honours the sacrifice of the Prophet Ibrahim (AS). One sheep or goat covers one person. One cow covers up to seven. The meat is split three ways: family, relatives, and those in need. We perform qurban in Gunung Pulai, Johor, with full Syariah compliance and full photo documentation.",
-    qa3_q:        "Why Choose a Halal Certified Farm?",
-    qa3_a:        "For aqiqah and qurban to be valid under Islamic law, the animal must be slaughtered by a Muslim, with correct niyyah, and in accordance with halal requirements. A certified halal farm ensures the animal is healthy, well-raised, and slaughtered correctly. At Bani Ibrahim Farms, every slaughter is documented and sent to your email.",
+    qa1_q:        "What does Bani Ibrahim Farms do?",
+    qa1_a:        "We are a family halal farm in Gunung Pulai, Johor. We raise grass-fed sheep and goats, grow pesticide-free vegetables, and produce fresh lamb cuts slaughtered weekly. We also handle aqiqah and qurban with full Syariah compliance and photo documentation. Everything comes directly from us. No agents, no middlemen.",
+    qa2_q:        "Why is the meat grass-fed and what difference does it make?",
+    qa2_a:        "Our sheep eat fresh-cut grass, greens, and corn grown on our own farm, mixed into silage. No cheap dedak-only feed. Good nutrition means the meat has no gamey smell, a clean flavour, and better texture. It is also how sheep are meant to be raised. What your food eats matters.",
+    qa3_q:        "How do I order or book a service?",
+    qa3_a:        "Everything goes through WhatsApp. Tell us what you need: lamb cuts, live sheep or goat, aqiqah, qurban, vegetables, fertiliser, or a farm visit. We confirm availability, give you current pricing, and take it from there. No forms. No waiting. Direct from farm.",
 
     // CONTACT
     contact_label:  "Get In Touch",
@@ -304,14 +304,14 @@ const T = {
     os_cta:         "Tanya via WhatsApp",
 
     // QUICK ANSWERS
-    qa_label:     "Apa Yang Perlu Anda Tahu",
+    qa_label:     "Tentang Ladang",
     qa_h2:        "Jawapan Jelas. Tanpa Bunga-Bunga.",
-    qa1_q:        "Apakah Aqiqah?",
-    qa1_a:        "Aqiqah adalah amalan Sunnah dalam Islam. Seekor kambing disembelih untuk meraikan kelahiran anak, biasanya dalam tempoh 7 hari, walaupun boleh dilakukan pada bila-bila usia. Dua ekor untuk anak lelaki. Satu untuk anak perempuan. Daging dikongsi bersama keluarga dan diagih kepada yang memerlukan. Kami uruskan keseluruhan proses: sembelihan, pengagihan, dan dokumentasi.",
-    qa2_q:        "Apakah Qurban?",
-    qa2_a:        "Qurban adalah ritual Islam menyembelih haiwan ternakan semasa Hari Raya Aidiladha (10 hingga 13 Zulhijjah). Ia mengenang pengorbanan Nabi Ibrahim (AS). Seekor kambing meliputi satu orang. Seekor lembu meliputi sehingga tujuh orang. Daging dibahagi tiga: untuk keluarga, saudara-mara, dan yang memerlukan. Bani Ibrahim Farms melakukan qurban di Gunung Pulai, Johor, dengan pematuhan Syariah penuh dan dokumentasi foto lengkap.",
-    qa3_q:        "Mengapa Pilih Ladang Halal Bertauliah?",
-    qa3_a:        "Untuk aqiqah dan qurban sah di sisi Islam, haiwan mesti disembelih oleh seorang Muslim, dengan niat yang betul, dan mengikut keperluan halal. Ladang halal bertauliah memastikan haiwan sihat, dipelihara dengan baik, dan disembelih dengan betul. Di Bani Ibrahim Farms, setiap sembelihan didokumentasikan dan dihantar ke emel anda.",
+    qa1_q:        "Apa yang ditawarkan Bani Ibrahim Farms?",
+    qa1_a:        "Kami adalah ladang halal keluarga di Gunung Pulai, Johor. Kami ternakan biri-biri dan kambing makan rumput, tanam sayur bebas pestisid, dan sediakan potongan daging segar yang disembelih setiap minggu. Kami juga uruskan aqiqah dan qurban dengan pematuhan Syariah penuh dan dokumentasi foto. Semua terus dari kami. Tiada ejen, tiada orang tengah.",
+    qa2_q:        "Kenapa daging kami makan rumput dan apa bezanya?",
+    qa2_a:        "Biri-biri kami makan rumput segar, sayur dan jagung dari ladang kami sendiri, dicampur menjadi silaj. Bukan dedak murah sahaja. Pemakanan yang baik bermakna daging tidak berbau hamis, rasa bersih, dan tekstur lebih baik. Itulah cara biri-biri sepatutnya dibesarkan. Apa yang dimakan oleh makanan anda itu penting.",
+    qa3_q:        "Bagaimana saya nak buat tempahan atau pesan?",
+    qa3_a:        "Semua melalui WhatsApp. Beritahu kami apa yang anda perlukan: potongan daging, biri-biri atau kambing hidup, aqiqah, qurban, sayur, baja, atau lawatan ladang. Kami sahkan ketersediaan, beri harga semasa, dan uruskan selebihnya. Tiada borang. Tiada tunggu lama. Terus dari ladang.",
 
     // CONTACT
     contact_label:  "Hubungi Kami",
