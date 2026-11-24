@@ -16,9 +16,9 @@ const T = {
 
     // HERO
     hero_badge:   "🌿 Halal Livestock Farm · Gunung Pulai, Johor",
-    hero_h1a:     "Your Aqiqah.",
-    hero_h1b:     "Done Right. Proven with <span style=\"color:var(--gold)\">Photos.</span>",
-    hero_sub:     "A family farm in Gunung Pulai, Johor. Syariah-compliant aqiqah and qurban. Same-day photo proof sent to your WhatsApp. No middlemen.",
+    hero_h1a:     "Rooted in Faith,",
+    hero_h1b:     "Raised with <span style=\"color:var(--gold)\">Care.</span>",
+    hero_sub:     "A family halal farm in Gunung Pulai, Johor. Grass-fed sheep. Fresh vegetables. Premium lamb cuts. Aqiqah and qurban handled with full documentation. Direct from farm, no middlemen.",
     hero_cta1:    "WhatsApp Us Now",
     hero_cta2:    "See Our Services",
     hero_f1:      "Syariah-Compliant",
@@ -30,7 +30,7 @@ const T = {
     about_label:  "Our Story",
     about_h2:     "A Farm Built on Faith and Family",
     about_p1:     "Bani Ibrahim Farms is a family-run halal farm in Gunung Pulai, Johor, founded by Yusof Ibrahim. We have been growing vegetables since 2015. In 2026 we expanded into sheep and goat livestock: aqiqah, qurban, and live sales.",
-    about_p2:     "Named after the Prophet Ibrahim (AS), whose legacy of sacrifice is the foundation of aqiqah and qurban. Our sheep are grass-fed. No grains. No dedak. Raised on fresh-cut grass in the Gunung Pulai highlands. Open space. The way it should be.",
+    about_p2:     "Named after the Prophet Ibrahim (AS), whose legacy of faith and devotion is the spirit behind everything we do here. Our sheep are grass-fed. No grains. No dedak. Raised on fresh-cut napier grass in the Gunung Pulai highlands. Open space. The way it should be.",
     about_p3:     "You deal directly with the farm. No agents. No middlemen. Photo and video sent to your email after slaughter.",
     about_s1n:    "100%",
     about_s1l:    "Syariah-Compliant",
@@ -44,7 +44,7 @@ const T = {
     // SERVICES
     svc_label:    "What We Offer",
     svc_h2:       "Our Services",
-    svc_sub:      "Pick your service. We take care of the rest.",
+    svc_sub:      "Grass-fed sheep. Fresh produce. Premium lamb cuts. Farm visits. And sacred rites done right. All from one farm in Gunung Pulai.",
     svc1_name:    "Aqiqah",
     svc1_desc:    "Tell us the name, date of birth, and how many animals. We select a healthy animal, perform the slaughter with proper niyyah, and send you photo and video proof to your email.",
     svc1_link:    "Enquire via WhatsApp",
@@ -178,9 +178,9 @@ const T = {
 
     // HERO
     hero_badge:   "🌿 Ladang Ternakan Halal · Gunung Pulai, Johor",
-    hero_h1a:     "Aqiqah Anda.",
-    hero_h1b:     "Dilakukan Betul. Dibuktikan dengan <span style=\"color:var(--gold)\">Foto.</span>",
-    hero_sub:     "Ladang keluarga di Gunung Pulai, Johor. Aqiqah dan qurban patuh Syariah. Bukti foto dan video dihantar ke emel anda. Tiada orang tengah.",
+    hero_h1a:     "Dibina atas Iman,",
+    hero_h1b:     "Dibesarkan dengan <span style=\"color:var(--gold)\">Amanah.</span>",
+    hero_sub:     "Ladang halal keluarga di Gunung Pulai, Johor. Biri-biri makan rumput. Sayur segar. Daging premium. Aqiqah dan qurban dengan dokumentasi penuh. Terus dari ladang, tiada orang tengah.",
     hero_cta1:    "WhatsApp Kami Sekarang",
     hero_cta2:    "Lihat Perkhidmatan",
     hero_f1:      "Patuh Syariah",
@@ -192,7 +192,7 @@ const T = {
     about_label:  "Kisah Kami",
     about_h2:     "Ladang yang Dibina atas Iman dan Keluarga",
     about_p1:     "Bani Ibrahim Farms adalah ladang keluarga di Gunung Pulai, Johor, diasaskan oleh Yusof Ibrahim. Kami mula menanam sayur sejak 2015. Pada 2026 kami berkembang ke ternakan biri-biri dan kambing: aqiqah, qurban, dan jualan hidup.",
-    about_p2:     "Dinamakan sempena Nabi Ibrahim (AS), yang warisannya dalam pengorbanan menjadi asas aqiqah dan qurban. Biri-biri kami makan rumput segar. Tiada bijirin. Tiada dedak. Dibesarkan di tanah tinggi Gunung Pulai. Ruang yang cukup. Cara yang betul.",
+    about_p2:     "Dinamakan sempena Nabi Ibrahim (AS), yang warisannya dalam keimanan dan pengabdian menjadi semangat di sebalik segala yang kami lakukan di sini. Biri-biri kami makan rumput napier segar. Tiada bijirin. Tiada dedak. Dibesarkan di tanah tinggi Gunung Pulai. Ruang yang cukup. Cara yang betul.",
     about_p3:     "Anda berurusan terus dengan ladang. Tiada ejen. Tiada orang tengah. Foto dan video dihantar ke emel anda selepas sembelihan.",
     about_s1n:    "100%",
     about_s1l:    "Patuh Syariah",
@@ -206,7 +206,7 @@ const T = {
     // SERVICES
     svc_label:    "Apa Yang Kami Tawarkan",
     svc_h2:       "Perkhidmatan Kami",
-    svc_sub:      "Pilih perkhidmatan anda. Kami urus selebihnya.",
+    svc_sub:      "Biri-biri makan rumput. Hasil ladang segar. Daging premium. Lawatan ladang. Dan ibadah dilaksanakan dengan betul. Semua dari satu ladang di Gunung Pulai.",
     svc1_name:    "Aqiqah",
     svc1_desc:    "Beritahu kami nama, tarikh lahir, dan berapa ekor haiwan. Kami pilih haiwan yang sihat, lakukan sembelihan dengan niat yang betul, dan hantar bukti foto serta video ke emel anda.",
     svc1_link:    "Tanya via WhatsApp",
