@@ -48,8 +48,8 @@ const T = {
     step1_p:      "Tell us what you need. Aqiqah, qurban, lamb cuts, live goat, fresh vegetables, fertiliser, or a farm visit. No forms. Just message us directly.",
     step2_h:      "We confirm",
     step2_p:      "We confirm date, current pricing, and availability the same day. You deal directly with the farm. No agents, no middlemen, no waiting.",
-    step3_h:      "Done. Documented.",
-    step3_p:      "Your order is fulfilled with full Syariah compliance. For aqiqah and qurban, photo and video documentation is sent to your email after slaughter.",
+    step3_h:      "We deliver.",
+    step3_p:      "Your order leaves the farm fresh. Your service gets done right. Everything is handled directly by us, no middlemen, no drop in quality.",
 
     // SERVICES
     svc_label:    "What We Offer",
@@ -220,8 +220,8 @@ const T = {
     step1_p:      "Beritahu kami apa yang anda perlukan. Aqiqah, qurban, daging, kambing hidup, sayur segar, baja, atau lawatan ladang. Tiada borang. Terus mesej kami.",
     step2_h:      "Kami sahkan",
     step2_p:      "Kami sahkan tarikh, harga semasa, dan ketersediaan pada hari yang sama. Anda berurusan terus dengan ladang. Tiada ejen, tiada orang tengah, tiada tunggu.",
-    step3_h:      "Selesai. Terdokumentasi.",
-    step3_p:      "Pesanan anda dipenuhi dengan pematuhan Syariah penuh. Untuk aqiqah dan qurban, dokumentasi foto dan video dihantar ke emel anda selepas sembelihan.",
+    step3_h:      "Kami hantar.",
+    step3_p:      "Pesanan anda keluar dari ladang dalam keadaan segar. Perkhidmatan anda dilaksanakan dengan betul. Semua diuruskan terus oleh kami, tiada orang tengah, tiada kompromi kualiti.",
 
     // SERVICES
     svc_label:    "Apa Yang Kami Tawarkan",
