@@ -282,8 +282,12 @@ img { max-width: 100%; display: block; }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(15,43,30,0.72) 0%, rgba(27,67,50,0.55) 60%, rgba(15,43,30,0.45) 100%);
+  background: rgba(10,30,20,0.62);
   z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .hero-overlay { background: rgba(10,30,20,0.72); }
 }
 
 .hero-content {
@@ -319,15 +323,17 @@ img { max-width: 100%; display: block; }
   font-size: clamp(36px, 6vw, 64px);
   color: var(--white);
   margin-bottom: 24px;
+  text-shadow: 0 2px 16px rgba(0,0,0,0.5);
 }
 
 .hero h1 span { color: var(--gold); }
 
 .hero-sub {
   font-size: 19px;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.9);
   margin-bottom: 40px;
   max-width: 580px;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.4);
 }
 
 .hero-ctas { display: flex; gap: 16px; flex-wrap: wrap; }
