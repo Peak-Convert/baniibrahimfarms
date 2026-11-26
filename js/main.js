@@ -41,10 +41,20 @@ const T = {
     about_s4n:    "365",
     about_s4l:    "Days Open",
 
+    // HOW TO BOOK
+    steps_label:  "How It Works",
+    steps_h2:     "Book in three steps",
+    step1_h:      "WhatsApp us",
+    step1_p:      "Tell us what you need. Aqiqah, qurban, lamb cuts, live goat, fresh vegetables, fertiliser, or a farm visit. No forms. Just message us directly.",
+    step2_h:      "We confirm",
+    step2_p:      "We confirm date, current pricing, and availability the same day. You deal directly with the farm. No agents, no middlemen, no waiting.",
+    step3_h:      "Done. Documented.",
+    step3_p:      "Your order is fulfilled with full Syariah compliance. For aqiqah and qurban, photo and video documentation is sent to your email after slaughter.",
+
     // SERVICES
     svc_label:    "What We Offer",
-    svc_h2:       "Our Services",
-    svc_sub:      "Grass-fed sheep. Fresh produce. Premium lamb cuts. Farm visits. And sacred rites done right. All from one farm in Gunung Pulai.",
+    svc_h2:       "Everything from the farm.",
+    svc_sub:      "Seven services. One halal farm. All direct. No agents, no middlemen, no shortcuts.",
     svc1_name:    "Aqiqah",
     svc1_desc:    "Tell us the name, date of birth, and how many animals. We select a healthy animal, perform the slaughter with proper niyyah, and send you photo and video proof to your email.",
     svc1_link:    "Enquire via WhatsApp",
@@ -69,8 +79,8 @@ const T = {
 
     // WHY
     why_label:    "Why Choose Us",
-    why_h2:       "Honest Farming. Every Time.",
-    why_sub:      "We do not cut corners. Not on the animals. Not on the slaughter. Not on your documentation.",
+    why_h2:       "Raised by us. You can trust that.",
+    why_sub:      "Most of what we sell, we raise ourselves. The rest, we know the source. We don't cut corners on how we farm or how we handle your order.",
     why1_h:       "Syariah-Compliant",
     why1_p:       "Every slaughter is performed by a trained Muslim professional. Proper niyyah. Full Islamic rites. Every time.",
     why2_h:       "Good Feed. No Gamey Smell.",
@@ -203,10 +213,20 @@ const T = {
     about_s4n:    "365",
     about_s4l:    "Hari Dibuka",
 
+    // HOW TO BOOK
+    steps_label:  "Cara Ia Berfungsi",
+    steps_h2:     "Tempah dalam tiga langkah",
+    step1_h:      "WhatsApp kami",
+    step1_p:      "Beritahu kami apa yang anda perlukan. Aqiqah, qurban, daging, kambing hidup, sayur segar, baja, atau lawatan ladang. Tiada borang. Terus mesej kami.",
+    step2_h:      "Kami sahkan",
+    step2_p:      "Kami sahkan tarikh, harga semasa, dan ketersediaan pada hari yang sama. Anda berurusan terus dengan ladang. Tiada ejen, tiada orang tengah, tiada tunggu.",
+    step3_h:      "Selesai. Terdokumentasi.",
+    step3_p:      "Pesanan anda dipenuhi dengan pematuhan Syariah penuh. Untuk aqiqah dan qurban, dokumentasi foto dan video dihantar ke emel anda selepas sembelihan.",
+
     // SERVICES
     svc_label:    "Apa Yang Kami Tawarkan",
-    svc_h2:       "Perkhidmatan Kami",
-    svc_sub:      "Biri-biri makan rumput. Hasil ladang segar. Daging premium. Lawatan ladang. Dan ibadah dilaksanakan dengan betul. Semua dari satu ladang di Gunung Pulai.",
+    svc_h2:       "Semua dari ladang.",
+    svc_sub:      "Tujuh perkhidmatan. Satu ladang halal. Semua terus. Tiada ejen, tiada orang tengah, tiada jalan pintas.",
     svc1_name:    "Aqiqah",
     svc1_desc:    "Beritahu kami nama, tarikh lahir, dan berapa ekor haiwan. Kami pilih haiwan yang sihat, lakukan sembelihan dengan niat yang betul, dan hantar bukti foto serta video ke emel anda.",
     svc1_link:    "Tanya via WhatsApp",
@@ -231,8 +251,8 @@ const T = {
 
     // WHY
     why_label:    "Kenapa Pilih Kami",
-    why_h2:       "Pertanian Jujur. Setiap Kali.",
-    why_sub:      "Kami tidak ambil jalan pintas. Bukan pada haiwan. Bukan pada sembelihan. Bukan pada dokumentasi anda.",
+    why_h2:       "Dibesarkan oleh kami. Anda boleh percaya.",
+    why_sub:      "Kebanyakan yang kami jual, kami ternakan sendiri. Selebihnya, kami tahu sumbernya. Kami tidak ambil jalan pintas dalam cara kami bertani atau uruskan pesanan anda.",
     why1_h:       "Patuh Syariah",
     why1_p:       "Setiap sembelihan dilakukan oleh profesional Muslim yang terlatih. Niat yang betul. Tatacara Islam yang penuh. Setiap kali.",
     why2_h:       "Makanan Baik. Tak Bau.",
