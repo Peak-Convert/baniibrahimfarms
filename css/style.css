@@ -4,6 +4,7 @@
    ============================================================ */
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { overflow-x: hidden; }
 
 :root {
   --green:   #1B4332;
@@ -299,6 +300,7 @@ img { max-width: 100%; display: block; }
 .hero-badge {
   display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
   background: rgba(201,168,76,0.15);
   border: 1px solid rgba(201,168,76,0.3);
@@ -310,6 +312,7 @@ img { max-width: 100%; display: block; }
   padding: 6px 14px;
   border-radius: 20px;
   margin-bottom: 24px;
+  max-width: 100%;
 }
 
 .hero h1 {
@@ -698,27 +701,35 @@ footer {
   .about-image-placeholder { height: 280px; }
   .nav-links { display: none; }
   .nav-hamburger { display: flex; }
+  .lang-toggle { display: none; }
 }
 
 @media (max-width: 600px) {
-  .section { padding: 48px 0; }
+  .section { padding: 56px 0; }
   .services-grid { grid-template-columns: 1fr; }
   .why-grid { grid-template-columns: 1fr; }
   .hero-features { gap: 16px; }
   .contact-wrapper { padding: 28px 20px; }
   .contact-info { gap: 20px; }
   .hero-ctas { flex-direction: column; }
-  .hero-ctas .btn { justify-content: center; }
+  .hero-ctas .btn { justify-content: center; width: 100%; }
   .about-stats { grid-template-columns: 1fr 1fr; }
   .footer-inner { flex-direction: column; gap: 16px; }
   .section-sub { font-size: 15px; margin-bottom: 32px; }
   .os-network-banner { padding: 24px 20px; }
   .service-card { padding: 28px 24px; }
+  .hero { padding-top: 68px; padding-bottom: 40px; min-height: 100svh; }
+  .hero-content { padding: 0 4px; }
+  .steps-grid { gap: 10px; }
+  .step-card { padding: 24px 20px; }
+  .testi-grid { gap: 16px; }
+  .qa-grid { gap: 12px; }
 }
 
 @media (max-width: 480px) {
   .hero h1 { font-size: clamp(28px, 9vw, 40px); }
   .hero-sub { font-size: 16px; }
+  .hero-badge { font-size: 11px; padding: 5px 12px; }
   .about-stats { grid-template-columns: 1fr 1fr; gap: 12px; }
   .stat-number { font-size: 28px; }
   .stat-card { padding: 16px; }
@@ -727,6 +738,10 @@ footer {
   .os-cta { width: 100%; text-align: center; }
   .footer-links { flex-direction: column; gap: 8px; }
   .footer-bottom { flex-direction: column; text-align: center; gap: 6px; }
+  .why-grid { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+  .hero-ctas .btn { font-size: 15px; padding: 14px 20px; }
+  .nav-logo-img { height: 36px; }
 }
 
 /* ── HOW TO BOOK ── */
