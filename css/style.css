@@ -261,18 +261,12 @@ img { max-width: 100%; display: block; }
 .hero {
   position: relative;
   min-height: 100vh;
-  background: url('/hero-poster.jpg') center center / cover no-repeat;
+  background:
+    linear-gradient(rgba(10,30,20,0.72), rgba(10,30,20,0.72)),
+    url('/hero-poster.jpg') center center / cover no-repeat;
   display: flex;
   align-items: center;
   padding: 100px 0 60px;
-}
-
-.hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(10,30,20,0.72);
-  z-index: 0;
 }
 
 .hero-video {
@@ -281,7 +275,7 @@ img { max-width: 100%; display: block; }
 
 .hero .container {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .hero-content {
@@ -297,6 +291,13 @@ img { max-width: 100%; display: block; }
     object-fit: cover;
     object-position: center;
     z-index: 0;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(10,30,20,0.65);
+    z-index: 1;
   }
 }
 
