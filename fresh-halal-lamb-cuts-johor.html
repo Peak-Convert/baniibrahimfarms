@@ -97,6 +97,36 @@
       line-height: 1.6;
       margin: 0;
     }
+
+    /* ── MOBILE ── */
+    @media (max-width: 600px) {
+      .product-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      .product-card img {
+        height: 240px;
+      }
+      .product-card-body {
+        padding: 14px 16px 18px;
+      }
+      .cut-guide-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+    }
+
+    @media (min-width: 601px) and (max-width: 900px) {
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .product-card img {
+        height: 260px;
+      }
+      .cut-guide-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
   </style>
 
   <!-- Schema: LocalBusiness / FoodEstablishment -->
@@ -439,7 +469,7 @@
     <h2 class="section-title">Our Lamb vs Imported Lamb. Here is What Changes.</h2>
     <p class="section-sub speakable">Most lamb products at CS Foods, Cold Storage, and online halal butchers in Singapore and Malaysia are imported from Australia or New Zealand. Here is what that means for what ends up on your plate.</p>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:40px;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:40px;">
 
       <div style="padding:28px;background:var(--white);border:2px solid var(--green);border-radius:12px;">
         <div style="font-size:28px;margin-bottom:12px;">🌿</div>
@@ -540,7 +570,7 @@
     <h2 class="section-title">Collect in JB on Your Next Trip Across</h2>
     <p style="color:var(--text-light);margin-bottom:28px;line-height:1.8;" class="speakable">Thousands of Singaporeans cross to Johor Bahru every week for food, petrol, and groceries. Our collection point is only 20 minutes from the 2nd Link (Tuas). Add a lamb order to your next JB trip. WhatsApp us at least a day ahead to confirm your cuts and we prepare the order before you arrive.</p>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:28px;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:28px;">
       <div style="padding:22px 24px;background:var(--white);border:2px solid var(--green);border-radius:10px;text-align:center;">
         <div style="font-size:28px;margin-bottom:10px;">🏪</div>
         <h3 style="font-size:16px;color:var(--green);margin-bottom:8px;">Self-Collect in JB</h3>
