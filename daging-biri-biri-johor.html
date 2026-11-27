@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daging Biri-Biri Johor | Kurang 1 Bulan dari Sembelih, Terus dari Ladang</title>
-  <meta name="description" content="Beli daging biri-biri tempatan di Johor, kurang 1 bulan dari sembelih, tidak berbau hamis, dan antara harga paling berpatutan untuk kualitinya. Pengedar utama ladang biri-biri tempatan terbesar di Malaysia, berpangkalan di Desaru. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages dan lain-lain. Halal. Ambil di JB atau hantar dalam Johor. WhatsApp +60132481071.">
-  <meta name="keywords" content="daging biri-biri segar johor, daging kambing potong johor, beli daging biri-biri johor, mutton rack johor, fresh lamb johor, daging biri-biri potong segar, lamb cuts johor, mutton johor, shabu shabu kambing johor, daging kambing segar johor bahru, premium lamb johor, beli daging kambing online johor, fresh mutton johor, lamb shoulder johor, mutton shank johor, daging biri-biri tempatan malaysia, daging biri-biri halal johor">
+  <meta name="description" content="Beli daging biri-biri tempatan di Johor, kurang 1 bulan dari sembelih, tidak berbau hamis, dan antara harga paling berpatutan untuk kualitinya. Pengedar utama ladang biri-biri tempatan terbesar di Malaysia, berpangkalan di Desaru. 9 jenis potongan: Mutton Rack, Shoulder, Daging Cincang, Shabu Shabu, Meatballs, Sausages dan lain-lain. Halal. Ambil di JB atau hantar dalam Johor. WhatsApp +60132481071.">
+  <meta name="keywords" content="daging biri-biri segar johor, daging kambing potong johor, beli daging biri-biri johor, mutton rack johor, fresh lamb johor, daging biri-biri potong segar, lamb cuts johor, mutton johor, shabu shabu kambing johor, daging kambing segar johor bahru, premium lamb johor, beli daging kambing online johor, fresh mutton johor, lamb shoulder johor, mutton shank johor, daging biri-biri tempatan malaysia, daging biri-biri halal johor, daging cincang biri-biri johor, lamb mince johor, minced lamb johor">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://baniibrahimfarms.com/daging-biri-biri-johor">
   <link rel="alternate" hreflang="ms" href="https://baniibrahimfarms.com/daging-biri-biri-johor">
@@ -48,9 +48,9 @@
     }
     .product-card img {
       width: 100%;
-      aspect-ratio: 3 / 2;
+      height: 300px;
       object-fit: contain;
-      background: #111;
+      background: #0d0d0d;
       display: block;
     }
     .product-card-body {
@@ -74,6 +74,59 @@
       text-decoration: none;
     }
     .product-card-body a:hover { text-decoration: underline; }
+    .cut-guide-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 32px;
+    }
+    .cut-guide-card {
+      padding: 22px 24px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .cut-guide-card h3 {
+      font-size: 15px;
+      color: var(--green);
+      margin-bottom: 6px;
+    }
+    .cut-guide-card p {
+      font-size: 13px;
+      color: var(--text-light);
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    /* ── MOBILE ── */
+    @media (max-width: 600px) {
+      .product-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      .product-card img {
+        height: 240px;
+      }
+      .product-card-body {
+        padding: 14px 16px 18px;
+      }
+      .cut-guide-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+    }
+
+    @media (min-width: 601px) and (max-width: 900px) {
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .product-card img {
+        height: 260px;
+      }
+      .cut-guide-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
   </style>
 
   <!-- Schema: LocalBusiness / FoodEstablishment -->
@@ -82,7 +135,7 @@
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "FoodEstablishment"],
     "name": "Bani Ibrahim Farms",
-    "description": "Pengedar utama daging biri-biri tempatan di Johor, kurang 1 bulan dari sembelih. 8 jenis potongan halal dari ladang biri-biri terbesar di Malaysia. Mutton Rack, Shoulder, Shabu Shabu, Meatballs, Sausages dan lain-lain.",
+    "description": "Pengedar utama daging biri-biri tempatan di Johor, kurang 1 bulan dari sembelih. 9 jenis potongan halal dari ladang biri-biri terbesar di Malaysia. Mutton Rack, Shoulder, Daging Cincang, Shabu Shabu, Meatballs, Sausages dan lain-lain.",
     "url": "https://baniibrahimfarms.com/daging-biri-biri-johor",
     "telephone": "+60132481071",
     "address": {
@@ -95,6 +148,9 @@
       {"@type": "City", "name": "Johor Bahru"},
       {"@type": "City", "name": "Skudai"},
       {"@type": "City", "name": "Kulai"},
+      {"@type": "City", "name": "Senai"},
+      {"@type": "City", "name": "Kluang"},
+      {"@type": "City", "name": "Pontian"},
       {"@type": "AdministrativeArea", "name": "Johor"}
     ],
     "servesCuisine": "Halal",
@@ -114,7 +170,7 @@
     "@context": "https://schema.org",
     "@type": "ItemList",
     "name": "Potongan Daging Biri-Biri Tempatan di Johor",
-    "description": "8 jenis potongan daging biri-biri halal dari ladang tempatan terbesar di Malaysia. Kurang 1 bulan dari sembelih, disimpan beku dengan sistem cold chain.",
+    "description": "9 jenis potongan daging biri-biri halal dari ladang tempatan terbesar di Malaysia. Kurang 1 bulan dari sembelih, disimpan beku dengan sistem cold chain.",
     "itemListElement": [
       {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Mutton Cubes","description":"Daging biri-biri dipotong kiub. Sesuai untuk kari, rendang, semur, dan sup. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-cubes.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
       {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Mutton Rack","description":"Rusuk biri-biri premium untuk bakar dan panggang. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-rack.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
@@ -123,7 +179,8 @@
       {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Mutton Shank","description":"Betis biri-biri dengan sumsum yang kaya untuk sup berat atau slow-cook. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-shank.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
       {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Meatballs","description":"Bebola daging biri-biri 100% halal untuk sup, pasta, atau masakan harian.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/meatballs.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
       {"@type":"ListItem","position":7,"item":{"@type":"Product","name":"Sausages","description":"Sosej daging biri-biri halal untuk sarapan, BBQ, atau masakan harian.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/sausages.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
-      {"@type":"ListItem","position":8,"item":{"@type":"Product","name":"Shabu Shabu","description":"Hirisan nipis daging biri-biri untuk steamboat dan hotpot. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/shabu-shabu.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}}
+      {"@type":"ListItem","position":8,"item":{"@type":"Product","name":"Shabu Shabu","description":"Hirisan nipis daging biri-biri untuk steamboat dan hotpot. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/shabu-shabu.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
+      {"@type":"ListItem","position":9,"item":{"@type":"Product","name":"Daging Cincang Biri-Biri","description":"Daging biri-biri cincang 100% halal. Untuk keema, burger, kofta, pasta, atau meatloaf. Kurang 1 bulan dari sembelih.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/lamb-mince.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}}
     ]
   }
   </script>
@@ -137,12 +194,12 @@
       {
         "@type": "Question",
         "name": "Di mana boleh beli daging biri-biri tempatan di Johor?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Bani Ibrahim Farms adalah pengedar utama daging biri-biri tempatan di Johor. Kami mengedarkan daging dari ladang biri-biri terbesar dan paling mapan di Malaysia, berpangkalan di Desaru. 8 jenis potongan tersedia termasuk Mutton Rack, Shoulder, Shabu Shabu, Meatballs, dan Sausages. WhatsApp +60132481071 untuk harga dan stok semasa."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Bani Ibrahim Farms adalah pengedar utama daging biri-biri tempatan di Johor. Kami mengedarkan daging dari ladang biri-biri terbesar dan paling mapan di Malaysia, berpangkalan di Desaru. 9 jenis potongan tersedia termasuk Mutton Rack, Shoulder, Daging Cincang, Shabu Shabu, Meatballs, dan Sausages. WhatsApp +60132481071 untuk harga dan stok semasa."}
       },
       {
         "@type": "Question",
         "name": "Apakah potongan daging biri-biri yang tersedia?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Kami menyediakan 8 jenis potongan: Mutton Cubes, Mutton Rack, Mutton/Lamb Shoulder, Mutton Legs, Mutton Shank, Meatballs, Sausages, dan Shabu Shabu. WhatsApp kami untuk semak stok semasa kerana ketersediaan stok berubah-ubah."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Kami menyediakan 9 jenis potongan: Mutton Cubes, Mutton Rack, Mutton/Lamb Shoulder, Mutton Legs, Mutton Shank, Daging Cincang Biri-Biri, Meatballs, Sausages, dan Shabu Shabu. WhatsApp kami untuk semak stok semasa kerana ketersediaan stok berubah-ubah."}
       },
       {
         "@type": "Question",
@@ -191,7 +248,7 @@
     "name": "Daging Biri-Biri Johor | Kurang 1 Bulan dari Sembelih | Bani Ibrahim Farms",
     "url": "https://baniibrahimfarms.com/daging-biri-biri-johor",
     "inLanguage": "ms",
-    "dateModified": "2026-11-16",
+    "dateModified": "2026-11-27",
     "speakable": {"@type":"SpeakableSpecification","cssSelector":[".speakable"]},
     "breadcrumb": {
       "@type": "BreadcrumbList",
@@ -248,14 +305,14 @@
     </nav>
     <p class="section-label">Premium Lamb Cuts · Halal · Ladang Tempatan Malaysia · Johor</p>
     <h1 class="page-hero-h1">Daging Biri-Biri Johor :<br><span style="color:var(--gold)">Dari Ladang ke Meja Anda</span></h1>
-    <p class="page-hero-sub speakable">Kami adalah pengedar utama daging biri-biri tempatan di Johor, dari ladang biri-biri terbesar dan paling mapan di Malaysia. Kurang 1 bulan dari sembelih ke tangan anda, tidak berbau hamis, dan antara harga paling berpatutan untuk kualiti sebegini. 8 jenis potongan tersedia. Halal. Ambil di JB atau penghantaran dalam Johor.</p>
+    <p class="page-hero-sub speakable">Kami adalah pengedar utama daging biri-biri tempatan di Johor, dari ladang biri-biri terbesar dan paling mapan di Malaysia. Kurang 1 bulan dari sembelih ke tangan anda, tidak berbau hamis, dan antara harga paling berpatutan untuk kualiti sebegini. 9 jenis potongan tersedia. Halal. Ambil di JB atau penghantaran dalam Johor.</p>
     <div class="hero-ctas" style="margin-top:32px;">
       <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20daging%20biri-biri%20di%20Bani%20Ibrahim%20Farms."
          target="_blank" rel="noopener" class="btn btn-primary">
         <span>💬</span> Tanya Harga via WhatsApp
       </a>
       <a href="#potongan-daging" class="btn btn-outline">
-        Lihat Semua Potongan ↓
+        Lihat Semua 9 Potongan ↓
       </a>
     </div>
   </div>
@@ -309,14 +366,14 @@
 <!-- PRODUCTS -->
 <section class="section" id="potongan-daging">
   <div class="container">
-    <p class="section-label">8 Jenis Potongan Tersedia</p>
-    <h2 class="section-title">Premium Lamb Cuts — Daging Biri-Biri Tempatan</h2>
+    <p class="section-label">9 Jenis Potongan Tersedia</p>
+    <h2 class="section-title">Premium Lamb Cuts | Daging Biri-Biri Tempatan</h2>
     <p class="section-sub speakable">Semua potongan dari ladang biri-biri terbesar dan paling mapan di Malaysia. Kurang 1 bulan dari sembelih. Halal. WhatsApp kami untuk harga semasa dan stok.</p>
 
     <div class="product-grid">
 
       <div class="product-card">
-        <img src="/images/products/mutton-cubes.jpg" alt="Mutton Cubes — daging biri-biri potong kiub halal Johor" loading="lazy" width="600" height="600">
+        <img src="/images/products/mutton-cubes.jpg" alt="Mutton Cubes — daging biri-biri potong kiub halal Johor" loading="lazy" width="1264" height="848">
         <div class="product-card-body">
           <h3>Mutton Cubes</h3>
           <p>Daging biri-biri dipotong kiub. Sesuai untuk kari, rendang, semur, sup, dan masakan harian. Lembut, berperisa, mudah dimasak.</p>
@@ -325,7 +382,16 @@
       </div>
 
       <div class="product-card">
-        <img src="/images/products/mutton-rack.jpg" alt="Mutton Rack — rusuk biri-biri premium halal Johor" loading="lazy" width="600" height="600">
+        <img src="/images/products/lamb-mince.jpg" alt="Daging Cincang Biri-Biri halal Johor — minced lamb 100% halal" loading="lazy" width="842" height="1264">
+        <div class="product-card-body">
+          <h3>Daging Cincang Biri-Biri</h3>
+          <p>Daging biri-biri cincang 100%, halal. Untuk keema, burger, kofta, pasta, atau meatloaf. Kualiti ladang yang sama seperti semua potongan lain, dikisar halus.</p>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Daging%20Cincang%20Biri-Biri%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="/images/products/mutton-rack.jpg" alt="Mutton Rack — rusuk biri-biri premium halal Johor" loading="lazy" width="1025" height="1535">
         <div class="product-card-body">
           <h3>Mutton Rack</h3>
           <p>Rusuk biri-biri premium. Untuk acara khas, majlis, atau hidangan istimewa. Bakar, panggang, atau masak oven. Pepper dan garam sahaja sudah mengagumkan.</p>
@@ -334,7 +400,7 @@
       </div>
 
       <div class="product-card">
-        <img src="/images/products/lamb-shoulder.jpg" alt="Mutton Lamb Shoulder — daging bahu biri-biri halal Johor" loading="lazy" width="600" height="600">
+        <img src="/images/products/lamb-shoulder.jpg" alt="Mutton Lamb Shoulder — daging bahu biri-biri halal Johor" loading="lazy" width="1024" height="1535">
         <div class="product-card-body">
           <h3>Mutton/Lamb Shoulder</h3>
           <p>Daging bahu biri-biri, kaya dengan lemak semulajadi. Sesuai untuk slow-cook, kari pekat, nasi briyani, atau masakan Arab. Lembut apabila dimasak lama.</p>
@@ -343,7 +409,7 @@
       </div>
 
       <div class="product-card">
-        <img src="/images/products/mutton-legs.jpg" alt="Mutton Legs — kaki biri-biri halal Johor" loading="lazy" width="600" height="600">
+        <img src="/images/products/mutton-legs.jpg" alt="Mutton Legs — kaki biri-biri halal Johor" loading="lazy" width="848" height="1264">
         <div class="product-card-body">
           <h3>Mutton Legs</h3>
           <p>Kaki biri-biri penuh daging. Popular untuk sup kaki yang kaya, kari, atau dibakar utuh untuk majlis dan kenduri. Daging padat dan berperisa semulajadi.</p>
@@ -361,7 +427,7 @@
       </div>
 
       <div class="product-card">
-        <img src="/images/products/meatballs.jpg" alt="Meatballs biri-biri — bebola daging biri-biri halal Johor" loading="lazy" width="600" height="600">
+        <img src="/images/products/meatballs.jpg" alt="Meatballs biri-biri — bebola daging biri-biri halal Johor" loading="lazy" width="848" height="1264">
         <div class="product-card-body">
           <h3>Meatballs</h3>
           <p>Bebola daging biri-biri 100%, halal. Tiada campuran daging lain. Sesuai untuk sup, pasta, masak tomato, atau dimakan dengan nasi. Siap untuk dimasak terus.</p>
@@ -373,7 +439,7 @@
         <img src="/images/products/sausages.jpg" alt="Sausages biri-biri — sosej daging biri-biri halal Johor" loading="lazy" width="600" height="600">
         <div class="product-card-body">
           <h3>Sausages</h3>
-          <p>Sosej daging biri-biri halal. Tanpa daging babi. Sesuai untuk sarapan, BBQ, atau masakan harian. Halal dari sumber yang kami kawal dan percayai.</p>
+          <p>Sosej daging biri-biri halal. Sesuai untuk sarapan, BBQ, atau masakan harian. Dari sumber yang kami kawal dan percayai.</p>
           <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Sausages%20biri-biri%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
         </div>
       </div>
@@ -405,8 +471,57 @@
 </section>
 
 
+<!-- CUT GUIDE -->
+<section class="section section-alt" id="panduan-potongan">
+  <div class="container">
+    <p class="section-label">Tidak Pasti Potongan Mana?</p>
+    <h2 class="section-title">Potongan Mana untuk Masakan Apa</h2>
+    <p class="section-sub">Panduan ringkas untuk tukang masak di rumah dan pembeli restoran.</p>
+
+    <div class="cut-guide-grid">
+      <div class="cut-guide-card">
+        <h3>Mutton Rack</h3>
+        <p>Bakar, panggang, masak oven. Hidangan istimewa untuk tetamu. Terbaik dengan hanya garam, pepper, dan api panas.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Mutton/Lamb Shoulder</h3>
+        <p>Slow-cook, nasi briyani, kari pekat, pulled lamb. Lemak kolagen memberikan kedalaman rasa apabila dimasak lama.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Mutton Shank</h3>
+        <p>Braise, sup berat, bone broth. Sumsum tulang memperkayakan setiap sup yang dimasak bersamanya.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Mutton Legs</h3>
+        <p>Bakar utuh untuk majlis atau kenduri, sup kaki, atau kari. Terbaik untuk hidangan berkuantiti besar.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Mutton Cubes</h3>
+        <p>Kari, rendang, semur, stew. Menyerap rempah dengan baik. Potongan harian paling popular di kalangan isirumah.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Shabu Shabu</h3>
+        <p>Steamboat, hotpot, sukiyaki. Hirisan nipis masak dalam sekelip mata dalam kuah panas. Rasa semulajadi yang kaya.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Meatballs</h3>
+        <p>Sup, pasta, masakan tomato, dimakan dengan nasi. Tiada persediaan diperlukan. Siap untuk dimasak terus.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Sausages</h3>
+        <p>BBQ, sarapan, digoreng dengan telur, atau masak dengan sayur.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Daging Cincang Biri-Biri</h3>
+        <p>Kari keema, burger biri-biri, kofta, pasta bolognese, meatloaf. Kualiti ladang yang sama, dikisar halus.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- LOCAL VS IMPORT -->
-<section class="section section-alt" id="segar-vs-frozen">
+<section class="section" id="segar-vs-frozen">
   <div class="container">
     <p class="section-label">Kualiti yang Berbeza</p>
     <h2 class="section-title">Daging Kami vs Daging Import. Apa Bezanya?</h2>
@@ -536,6 +651,9 @@
       <a href="/qurban-johor" class="btn btn-outline" style="color:var(--green);border-color:var(--green);">
         Perkhidmatan Qurban →
       </a>
+      <a href="/blog/biri-biri-makan-rumput-johor" class="btn btn-outline" style="color:var(--green);border-color:var(--green);">
+        Cara Kami Beri Makan Biri-Biri →
+      </a>
       <a href="/sayur-segar-johor" class="btn btn-outline" style="color:var(--green);border-color:var(--green);">
         Sayur Segar Johor →
       </a>
@@ -559,7 +677,7 @@
           <span class="faq-chevron" aria-hidden="true">▾</span>
         </button>
         <div class="faq-answer" role="region">
-          <p class="speakable">Bani Ibrahim Farms adalah pengedar utama daging biri-biri tempatan di Johor. Kami mengedarkan daging dari ladang biri-biri terbesar dan paling mapan di Malaysia, berpangkalan di Desaru. 8 jenis potongan tersedia. WhatsApp +60132481071 untuk harga dan stok semasa.</p>
+          <p class="speakable">Bani Ibrahim Farms adalah pengedar utama daging biri-biri tempatan di Johor. Kami mengedarkan daging dari ladang biri-biri terbesar dan paling mapan di Malaysia, berpangkalan di Desaru. 9 jenis potongan tersedia. WhatsApp +60132481071 untuk harga dan stok semasa.</p>
         </div>
       </div>
 
@@ -569,7 +687,7 @@
           <span class="faq-chevron" aria-hidden="true">▾</span>
         </button>
         <div class="faq-answer" role="region">
-          <p>8 jenis potongan: Mutton Cubes, Mutton Rack, Mutton/Lamb Shoulder, Mutton Legs, Mutton Shank, Meatballs, Sausages, dan Shabu Shabu. WhatsApp kami untuk semak stok semasa kerana ketersediaan stok berubah-ubah.</p>
+          <p>9 jenis potongan: Mutton Cubes, Mutton Rack, Mutton/Lamb Shoulder, Mutton Legs, Mutton Shank, Daging Cincang Biri-Biri, Meatballs, Sausages, dan Shabu Shabu. WhatsApp kami untuk semak stok semasa kerana ketersediaan stok berubah-ubah.</p>
         </div>
       </div>
 
