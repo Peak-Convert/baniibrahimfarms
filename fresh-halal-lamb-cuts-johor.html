@@ -97,6 +97,50 @@
       line-height: 1.6;
       margin: 0;
     }
+    .product-price {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .price-row {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
+    .price-amount {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--green);
+      line-height: 1;
+    }
+    .price-unit {
+      font-size: 12px;
+      color: var(--text-light);
+    }
+    .price-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      background: #c0392b;
+      color: #fff;
+      padding: 2px 7px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .price-until {
+      font-size: 11px;
+      color: var(--text-light);
+      margin: 0 0 10px;
+    }
+    .price-wa {
+      font-size: 11px;
+      color: var(--text-light);
+      margin: 0 0 10px;
+      font-style: italic;
+    }
 
     /* ── MOBILE ── */
     @media (max-width: 600px) {
@@ -164,23 +208,25 @@
   }
   </script>
 
-  <!-- Schema: ItemList (8 products) -->
+  <!-- Schema: ItemList (11 products) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Halal Lamb Cuts from Johor, Malaysia",
-    "description": "9 premium halal lamb cuts from Malaysia's largest local lamb farm. Frozen, and less than 1 month from slaughter. Not months like imports. Self-collect JB or delivery across Johor.",
+    "name": "Halal Lamb and Beef Cuts from Johor, Malaysia",
+    "description": "11 halal lamb and beef cuts from Malaysia's largest local lamb farm. Frozen, less than 1 month from slaughter. Year-end promo pricing until 31 Dec 2026. Self-collect JB or delivery across Johor.",
     "itemListElement": [
-      {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Mutton Cubes","description":"Lamb cubed for curries, stews, braises, and soups. Less than 1 month from slaughter. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-cubes.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
-      {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Mutton Rack","description":"Premium lamb rack for grilling, roasting, or oven baking. The cut that needs nothing but salt and pepper. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-rack.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
-      {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Lamb Shoulder","description":"Shoulder cut rich in natural fat. Best for slow cooking, biryani, and aromatic curries. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/lamb-shoulder.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
-      {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Mutton Legs","description":"Full leg of lamb for soups, curries, or whole roast occasions. Dense, flavourful, no gamey smell. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-legs.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
-      {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Mutton Shank","description":"Lamb shank with rich bone marrow for heavy soups and slow braises. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-shank.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
-      {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Lamb Meatballs","description":"100% halal lamb meatballs. For soups, pasta, or daily cooking. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/meatballs.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
-      {"@type":"ListItem","position":7,"item":{"@type":"Product","name":"Lamb Sausages","description":"Halal lamb sausages. For BBQ, breakfast, or everyday cooking. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/sausages.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
-      {"@type":"ListItem","position":8,"item":{"@type":"Product","name":"Lamb Shabu Shabu","description":"Thin-sliced lamb for steamboat and hotpot. Sliced thin from frozen for clean, uniform slices. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/shabu-shabu.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
-      {"@type":"ListItem","position":9,"item":{"@type":"Product","name":"Lamb Mince","description":"100% halal minced lamb. For keema, burgers, kofta, pasta, or meatloaf. Farm-fresh, less than 1 month from slaughter. Halal.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/lamb-mince.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}}
+      {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Lamb Leg","description":"Halal lamb leg steaks, 125g per pack. Less than 1 month from slaughter. Year-end promo RM8.63/pack until 31 Dec 2026.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-legs.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR","price":"8.63","priceValidUntil":"2026-12-31"}}},
+      {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Lamb Shoulder","description":"Halal lamb shoulder chops, 150g per pack. Rich in natural fat. Best for slow cooking, biryani, and curries. Year-end promo RM8.63/pack until 31 Dec 2026.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/lamb-shoulder.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR","price":"8.63","priceValidUntil":"2026-12-31"}}},
+      {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Lamb Mix","description":"Mixed halal lamb cuts, 150g per pack. Great for trying different cuts. Year-end promo RM8.63/pack until 31 Dec 2026.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/lamb-cuts-promo.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR","price":"8.63","priceValidUntil":"2026-12-31"}}},
+      {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Lamb Rack","description":"Premium halal lamb rack chops, 100g per pack. For grilling and roasting. Year-end promo RM10.35/pack until 31 Dec 2026.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-rack.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR","price":"10.35","priceValidUntil":"2026-12-31"}}},
+      {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Lamb Loin","description":"Halal lamb loin chops from the most tender section, 150g per pack. For grilling and pan-frying. Year-end promo RM11.50/pack until 31 Dec 2026.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/lamb-cuts-promo.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR","price":"11.50","priceValidUntil":"2026-12-31"}}},
+      {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Lamb Cube","description":"Halal diced lamb, 320g per pack. For curries, rendang, stews, and soups. Year-end promo RM17.71/pack until 31 Dec 2026.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-cubes.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR","price":"17.71","priceValidUntil":"2026-12-31"}}},
+      {"@type":"ListItem","position":7,"item":{"@type":"Product","name":"Meatball","description":"100% halal lamb meatballs, 260g per pack. For soups, pasta, or daily cooking. Year-end promo RM12.65/pack until 31 Dec 2026.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/meatballs.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR","price":"12.65","priceValidUntil":"2026-12-31"}}},
+      {"@type":"ListItem","position":8,"item":{"@type":"Product","name":"Minced Beef","description":"100% halal minced beef, 400g per pack. For keema, burgers, kofta, or pasta. Year-end promo RM17.25/pack until 31 Dec 2026.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/lamb-mince.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR","price":"17.25","priceValidUntil":"2026-12-31"}}},
+      {"@type":"ListItem","position":9,"item":{"@type":"Product","name":"Shabu-Shabu Beef","description":"Halal thin-sliced beef for steamboat and hotpot, 200g per pack. Year-end promo RM17.83/pack until 31 Dec 2026.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/shabu-shabu.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR","price":"17.83","priceValidUntil":"2026-12-31"}}},
+      {"@type":"ListItem","position":10,"item":{"@type":"Product","name":"Sausages","description":"Halal lamb sausages. For BBQ, breakfast, or everyday cooking.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/sausages.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}},
+      {"@type":"ListItem","position":11,"item":{"@type":"Product","name":"Mutton Shank","description":"Halal lamb shank with rich bone marrow. For heavy soups and long braises.","brand":{"@type":"Brand","name":"Bani Ibrahim Farms"},"image":"https://baniibrahimfarms.com/images/products/mutton-shank.jpg","offers":{"@type":"Offer","availability":"https://schema.org/InStoreOnly","priceCurrency":"MYR"}}}
     ]
   }
   </script>
@@ -366,99 +412,199 @@
 <!-- PRODUCTS -->
 <section class="section" id="cuts">
   <div class="container">
-    <p class="section-label">9 Cuts Available</p>
-    <h2 class="section-title">Halal Lamb Cuts — Local Malaysian Farm</h2>
-    <p class="section-sub speakable">All cuts from Malaysia's largest established local lamb farm in Desaru, Johor. Less than 1 month from slaughter. Halal. WhatsApp us for current pricing and availability.</p>
+    <p class="section-label">11 Cuts Available</p>
+    <h2 class="section-title">Halal Lamb and Beef Cuts | Local Malaysian Farm</h2>
+    <p class="section-sub speakable">All cuts from Malaysia's largest established local lamb farm in Desaru, Johor. Less than 1 month from slaughter. Halal. Year-end promo prices until 31 Dec 2026.</p>
+
+    <div style="margin-bottom:28px;padding:14px 20px;background:#fdf3f3;border-left:4px solid #c0392b;border-radius:0 8px 8px 0;">
+      <p style="margin:0;font-size:14px;color:#c0392b;font-weight:600;">Year-End Promotion. Promo prices valid until 31 December 2026. WhatsApp to order.</p>
+    </div>
 
     <div class="product-grid">
 
       <div class="product-card">
-        <img src="/images/products/mutton-rack.jpg" alt="Halal mutton rack Johor — premium lamb rack chops for grilling" loading="lazy" width="853" height="1280">
+        <img src="/images/products/mutton-legs.jpg" alt="Lamb Leg Johor — local halal lamb leg steak 125g per pack" loading="lazy" width="848" height="1264">
         <div class="product-card-body">
-          <h3>Mutton Rack</h3>
-          <p>Premium lamb rack chops. Grill it, roast it, bake it. The cut that makes an impression. Salt, pepper, high heat. That is the full recipe when the lamb has no gamey smell.</p>
-          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Mutton%20Rack%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
+          <h3>Lamb Leg</h3>
+          <p>Leg steaks with marrow bone. Dense, naturally flavourful. For soups, curries, or seared for a quick meal. 125g per pack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 8.63</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Year-End Promo</span>
+            </div>
+            <p class="price-until">Valid till 31 Dec 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20Lamb%20Leg%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Order via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/lamb-shoulder.jpg" alt="Halal lamb shoulder chops Johor — slow cook biryani shoulder cut" loading="lazy" width="853" height="1280">
+        <img src="/images/products/lamb-shoulder.jpg" alt="Lamb Shoulder Johor — local halal lamb shoulder 150g per pack" loading="lazy" width="1024" height="1535">
         <div class="product-card-body">
           <h3>Lamb Shoulder</h3>
-          <p>Bone-in shoulder chops, rich in natural fat and flavour. The go-to cut for slow cooking, biryani, and thick curries. Becomes extraordinarily tender over long cooking times.</p>
-          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Lamb%20Shoulder%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
+          <p>Bone-in shoulder chops, rich in natural fat. The go-to cut for slow cooking, biryani, and thick curries. 150g per pack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 8.63</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Year-End Promo</span>
+            </div>
+            <p class="price-until">Valid till 31 Dec 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20Lamb%20Shoulder%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Order via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/mutton-legs.jpg" alt="Halal mutton leg steaks Johor — centre-cut leg steak with marrow bone" loading="lazy" width="853" height="1280">
+        <img src="/images/products/lamb-cuts-promo.jpg" alt="Lamb Mix Johor — mixed local halal lamb cuts 150g per pack" loading="lazy" width="1280" height="960">
         <div class="product-card-body">
-          <h3>Mutton Leg Steaks</h3>
-          <p>Centre-cut leg steaks with marrow bone. Dense, naturally flavourful. Popular for rich soups, curries, or seared in a pan for a quick meal.</p>
-          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Mutton%20Legs%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
+          <h3>Lamb Mix</h3>
+          <p>A mix of local halal lamb cuts in one pack. The entry point to our full range. Great for trying different cuts at an affordable price. 150g per pack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 8.63</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Year-End Promo</span>
+            </div>
+            <p class="price-until">Valid till 31 Dec 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20Lamb%20Mix%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Order via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/mutton-cubes.jpg" alt="Halal mutton cubes Johor — diced lamb for curry and stew" loading="lazy" width="1280" height="853">
+        <img src="/images/products/mutton-rack.jpg" alt="Lamb Rack Johor — premium local halal lamb rack 100g per pack" loading="lazy" width="1025" height="1535">
         <div class="product-card-body">
-          <h3>Mutton Cubes</h3>
-          <p>Lamb diced for curries, stews, rendang, and soups. Tender and naturally flavourful. No marinade needed, and no gamey smell.</p>
-          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Mutton%20Cubes%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
+          <h3>Lamb Rack</h3>
+          <p>Premium rack chops. Grill it, roast it, bake it. Salt, pepper, high heat. That is the full recipe when the lamb has no gamey smell. 100g per pack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 10.35</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Year-End Promo</span>
+            </div>
+            <p class="price-until">Valid till 31 Dec 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20Lamb%20Rack%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Order via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/lamb-mince.jpg" alt="Halal minced lamb Johor — 100% lamb mince" loading="lazy" width="853" height="1280">
+        <img src="/images/products/lamb-cuts-promo.jpg" alt="Lamb Loin Johor — local halal lamb loin chops 150g per pack" loading="lazy" width="1280" height="960">
         <div class="product-card-body">
-          <h3>Lamb Mince</h3>
-          <p>100% halal minced lamb. For keema, burgers, kofta, pasta, or meatloaf. The same farm-fresh quality as every other cut, ground fine.</p>
-          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Lamb%20Mince%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
+          <h3>Lamb Loin</h3>
+          <p>Loin chops from the most tender section of the lamb. Lean, fine-grained, and fast to cook. For grilling, pan-frying, or oven roasting. 150g per pack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 11.50</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Year-End Promo</span>
+            </div>
+            <p class="price-until">Valid till 31 Dec 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20Lamb%20Loin%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Order via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/meatballs.jpg" alt="Halal lamb meatballs Johor — 100% lamb meatballs" loading="lazy" width="853" height="1280">
+        <img src="/images/products/mutton-cubes.jpg" alt="Lamb Cube Johor — local halal diced lamb 320g per pack" loading="lazy" width="1264" height="848">
         <div class="product-card-body">
-          <h3>Lamb Meatballs</h3>
-          <p>100% halal lamb meatballs. For soups, pasta, tomato-based dishes, or served with rice. Ready to cook straight from cold.</p>
-          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Lamb%20Meatballs%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
+          <h3>Lamb Cube</h3>
+          <p>Lamb diced for curries, stews, rendang, and soups. Absorbs spices well. No marinade needed, no gamey smell. 320g per pack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 17.71</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Year-End Promo</span>
+            </div>
+            <p class="price-until">Valid till 31 Dec 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20Lamb%20Cube%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Order via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/mutton-shank.jpg" alt="Halal mutton shank Johor — lamb shank with bone marrow for soup" loading="lazy" width="600" height="400">
+        <img src="/images/products/meatballs.jpg" alt="Meatball Johor — halal lamb meatballs 260g per pack" loading="lazy" width="848" height="1264">
+        <div class="product-card-body">
+          <h3>Meatball</h3>
+          <p>100% halal lamb meatballs. For soups, pasta, tomato-based dishes, or served with rice. Ready to cook straight from cold. 260g per pack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 12.65</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Year-End Promo</span>
+            </div>
+            <p class="price-until">Valid till 31 Dec 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20Meatball%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Order via WhatsApp →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="/images/products/lamb-mince.jpg" alt="Minced Beef Johor — halal minced beef 400g per pack" loading="lazy" width="842" height="1264">
+        <div class="product-card-body">
+          <h3>Minced Beef</h3>
+          <p>100% halal minced beef. For keema, burgers, kofta, pasta bolognese, or meatloaf. Ground fine and ready to cook. 400g per pack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 17.25</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Year-End Promo</span>
+            </div>
+            <p class="price-until">Valid till 31 Dec 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20Minced%20Beef%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Order via WhatsApp →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="/images/products/shabu-shabu.jpg" alt="Shabu-Shabu Beef Johor — halal thin sliced beef for steamboat 200g per pack" loading="lazy" width="600" height="400">
+        <div class="product-card-body">
+          <h3>Shabu-Shabu Beef</h3>
+          <p>Thin-sliced halal beef for steamboat and hotpot. Sliced thin from frozen for clean, uniform slices. Cooks in seconds in hot broth. 200g per pack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 17.83</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Year-End Promo</span>
+            </div>
+            <p class="price-until">Valid till 31 Dec 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20Shabu-Shabu%20Beef%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Order via WhatsApp →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="/images/products/sausages.jpg" alt="Lamb Sausages Johor — halal lamb sausages for BBQ" loading="lazy" width="600" height="400">
+        <div class="product-card-body">
+          <h3>Sausages</h3>
+          <p>Halal lamb sausages. For BBQ, breakfast, or everyday cooking. From the same farm as every other cut on this page.</p>
+          <div class="product-price">
+            <p class="price-wa">WhatsApp us for current pricing and availability.</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Sausages%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="/images/products/mutton-shank.jpg" alt="Mutton Shank Johor — halal lamb shank with bone marrow" loading="lazy" width="600" height="400">
         <div class="product-card-body">
           <h3>Mutton Shank</h3>
           <p>Lamb shank with rich bone marrow. For heavy soups and long braises. The marrow adds depth to broths that nothing else can replicate.</p>
+          <div class="product-price">
+            <p class="price-wa">WhatsApp us for current pricing and availability.</p>
+          </div>
           <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Mutton%20Shank%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="/images/products/sausages.jpg" alt="Halal lamb sausages Johor — halal sausages for BBQ" loading="lazy" width="600" height="400">
-        <div class="product-card-body">
-          <h3>Lamb Sausages</h3>
-          <p>Halal lamb sausages. For BBQ, breakfast, or everyday cooking. Sourced from the same farm as every other cut on this page.</p>
-          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Lamb%20Sausages%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <img src="/images/products/shabu-shabu.jpg" alt="Halal lamb shabu shabu Johor — thin sliced lamb for steamboat hotpot" loading="lazy" width="600" height="400">
-        <div class="product-card-body">
-          <h3>Lamb Shabu Shabu</h3>
-          <p>Thin-sliced lamb for steamboat and hotpot. Sliced thin from frozen for clean, uniform slices. The clean, natural sweetness of our local lamb in hot broth is unlike anything from a supermarket.</p>
-          <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Lamb%20Shabu%20Shabu%20at%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Enquire via WhatsApp →</a>
         </div>
       </div>
 
     </div>
 
     <div style="margin-top:28px;text-align:center;">
-      <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20all%20available%20lamb%20cuts%20at%20Bani%20Ibrahim%20Farms."
+      <a href="https://wa.me/60132481071?text=Hello%2C%20I%27d%20like%20to%20order%20halal%20lamb%20and%20beef%20cuts%20from%20Bani%20Ibrahim%20Farms."
          target="_blank" rel="noopener" class="btn btn-green">
-        <span>💬</span> Ask About All Cuts
+        <span>💬</span> Order via WhatsApp
       </a>
     </div>
   </div>
@@ -526,7 +672,7 @@
 
     <div class="cut-guide-grid">
       <div class="cut-guide-card">
-        <h3>Mutton Rack</h3>
+        <h3>Lamb Rack</h3>
         <p>Grilling, roasting, oven baking. Dinner party centrepiece. Best with just salt, pepper, and high heat.</p>
       </div>
       <div class="cut-guide-card">
@@ -534,32 +680,40 @@
         <p>Slow cooking, biryani, thick curries, pulled lamb. Collagen-rich fat gives depth over long cooking times.</p>
       </div>
       <div class="cut-guide-card">
-        <h3>Mutton Shank</h3>
-        <p>Braises, heavy soups, bone broth. Bone marrow enriches every broth it touches.</p>
+        <h3>Lamb Loin</h3>
+        <p>Grilling, pan-frying, quick oven roast. The most tender section. Lean and fast to cook.</p>
       </div>
       <div class="cut-guide-card">
-        <h3>Mutton Legs</h3>
-        <p>Whole roast for gatherings, leg of lamb soup, or curried whole. Best for larger portions and special occasions.</p>
+        <h3>Lamb Leg</h3>
+        <p>Soups, curries, or seared in a pan. Dense, naturally flavourful, marrow bone included.</p>
       </div>
       <div class="cut-guide-card">
-        <h3>Mutton Cubes</h3>
+        <h3>Lamb Mix</h3>
+        <p>Mixed cuts in one pack. Great for trying different cuts or for everyday family cooking.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Lamb Cube</h3>
         <p>Curries, rendang, stews, semur. Absorbs spices well. The everyday workhorse cut for most households.</p>
       </div>
       <div class="cut-guide-card">
-        <h3>Lamb Shabu Shabu</h3>
-        <p>Steamboat, hotpot, sukiyaki. Thin slices cook in seconds in hot broth. The clean, natural sweetness of our lamb stands out.</p>
+        <h3>Shabu-Shabu Beef</h3>
+        <p>Steamboat, hotpot, sukiyaki. Thin slices cook in seconds in hot broth.</p>
       </div>
       <div class="cut-guide-card">
-        <h3>Lamb Meatballs</h3>
+        <h3>Meatball</h3>
         <p>Soups, pasta, tomato dishes, served with rice. No prep needed. Ready to cook straight from cold.</p>
       </div>
       <div class="cut-guide-card">
-        <h3>Lamb Sausages</h3>
+        <h3>Minced Beef</h3>
+        <p>Keema curry, burgers, kofta, pasta bolognese, meatloaf. Ground fine and ready to use.</p>
+      </div>
+      <div class="cut-guide-card">
+        <h3>Sausages</h3>
         <p>BBQ, breakfast, grilled with eggs, or pan-fried with vegetables.</p>
       </div>
       <div class="cut-guide-card">
-        <h3>Lamb Mince</h3>
-        <p>Keema curry, lamb burgers, kofta, pasta bolognese, meatloaf. Same farm-fresh quality, ground fine.</p>
+        <h3>Mutton Shank</h3>
+        <p>Braises, heavy soups, bone broth. Bone marrow enriches every broth it touches.</p>
       </div>
     </div>
   </div>

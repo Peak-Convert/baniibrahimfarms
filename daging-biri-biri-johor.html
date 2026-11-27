@@ -97,6 +97,50 @@
       line-height: 1.6;
       margin: 0;
     }
+    .product-price {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .price-row {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
+    .price-amount {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--green);
+      line-height: 1;
+    }
+    .price-unit {
+      font-size: 12px;
+      color: var(--text-light);
+    }
+    .price-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      background: #c0392b;
+      color: #fff;
+      padding: 2px 7px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .price-until {
+      font-size: 11px;
+      color: var(--text-light);
+      margin: 0 0 10px;
+    }
+    .price-wa {
+      font-size: 11px;
+      color: var(--text-light);
+      margin: 0 0 10px;
+      font-style: italic;
+    }
 
     /* ── MOBILE ── */
     @media (max-width: 600px) {
@@ -366,90 +410,190 @@
 <!-- PRODUCTS -->
 <section class="section" id="potongan-daging">
   <div class="container">
-    <p class="section-label">9 Jenis Potongan Tersedia</p>
-    <h2 class="section-title">Premium Lamb Cuts | Daging Biri-Biri Tempatan</h2>
-    <p class="section-sub speakable">Semua potongan dari ladang biri-biri terbesar dan paling mapan di Malaysia. Kurang 1 bulan dari sembelih. Halal. WhatsApp kami untuk harga semasa dan stok.</p>
+    <p class="section-label">11 Jenis Potongan Tersedia</p>
+    <h2 class="section-title">Lamb and Beef Cuts | Daging Biri-Biri Tempatan</h2>
+    <p class="section-sub speakable">Semua potongan dari ladang biri-biri terbesar dan paling mapan di Malaysia. Kurang 1 bulan dari sembelih. Halal. Harga promosi akhir tahun sehingga 31 Dis 2026.</p>
+
+    <div style="margin-bottom:28px;padding:14px 20px;background:#fdf3f3;border-left:4px solid #c0392b;border-radius:0 8px 8px 0;">
+      <p style="margin:0;font-size:14px;color:#c0392b;font-weight:600;">Promosi Akhir Tahun. Harga promosi sah sehingga 31 Disember 2026. WhatsApp untuk pesan.</p>
+    </div>
 
     <div class="product-grid">
 
       <div class="product-card">
-        <img src="/images/products/mutton-cubes.jpg" alt="Mutton Cubes — daging biri-biri potong kiub halal Johor" loading="lazy" width="1264" height="848">
+        <img src="/images/products/mutton-legs.jpg" alt="Lamb Leg Johor — daging kaki biri-biri halal tempatan 125g sepack" loading="lazy" width="848" height="1264">
         <div class="product-card-body">
-          <h3>Mutton Cubes</h3>
-          <p>Daging biri-biri dipotong kiub. Sesuai untuk kari, rendang, semur, sup, dan masakan harian. Lembut, berperisa, mudah dimasak.</p>
-          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Mutton%20Cubes%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+          <h3>Lamb Leg</h3>
+          <p>Stik kaki biri-biri dengan tulang sumsum. Padat dan berperisa semulajadi. Untuk sup, kari, atau digoreng pantas. 125g sepack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 8.63</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Promo Akhir Tahun</span>
+            </div>
+            <p class="price-until">Sah sehingga 31 Dis 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20Lamb%20Leg%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Pesan via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/lamb-mince.jpg" alt="Daging Cincang Biri-Biri halal Johor — minced lamb 100% halal" loading="lazy" width="842" height="1264">
+        <img src="/images/products/lamb-shoulder.jpg" alt="Lamb Shoulder Johor — daging bahu biri-biri halal tempatan 150g sepack" loading="lazy" width="1024" height="1535">
         <div class="product-card-body">
-          <h3>Daging Cincang Biri-Biri</h3>
-          <p>Daging biri-biri cincang 100%, halal. Untuk keema, burger, kofta, pasta, atau meatloaf. Kualiti ladang yang sama seperti semua potongan lain, dikisar halus.</p>
-          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Daging%20Cincang%20Biri-Biri%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+          <h3>Lamb Shoulder</h3>
+          <p>Daging bahu biri-biri, kaya dengan lemak semulajadi. Untuk slow-cook, kari pekat, nasi briyani. Lembut apabila dimasak lama. 150g sepack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 8.63</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Promo Akhir Tahun</span>
+            </div>
+            <p class="price-until">Sah sehingga 31 Dis 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20Lamb%20Shoulder%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Pesan via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/mutton-rack.jpg" alt="Mutton Rack — rusuk biri-biri premium halal Johor" loading="lazy" width="1025" height="1535">
+        <img src="/images/products/lamb-cuts-promo.jpg" alt="Lamb Mix Johor — campuran potongan biri-biri halal tempatan 150g sepack" loading="lazy" width="1280" height="960">
         <div class="product-card-body">
-          <h3>Mutton Rack</h3>
-          <p>Rusuk biri-biri premium. Untuk acara khas, majlis, atau hidangan istimewa. Bakar, panggang, atau masak oven. Pepper dan garam sahaja sudah mengagumkan.</p>
-          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Mutton%20Rack%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+          <h3>Lamb Mix</h3>
+          <p>Campuran potongan biri-biri halal dalam satu pack. Sesuai untuk mencuba pelbagai jenis potongan atau untuk masakan harian keluarga. 150g sepack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 8.63</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Promo Akhir Tahun</span>
+            </div>
+            <p class="price-until">Sah sehingga 31 Dis 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20Lamb%20Mix%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Pesan via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/lamb-shoulder.jpg" alt="Mutton Lamb Shoulder — daging bahu biri-biri halal Johor" loading="lazy" width="1024" height="1535">
+        <img src="/images/products/mutton-rack.jpg" alt="Lamb Rack Johor — rusuk biri-biri premium halal tempatan 100g sepack" loading="lazy" width="1025" height="1535">
         <div class="product-card-body">
-          <h3>Mutton/Lamb Shoulder</h3>
-          <p>Daging bahu biri-biri, kaya dengan lemak semulajadi. Sesuai untuk slow-cook, kari pekat, nasi briyani, atau masakan Arab. Lembut apabila dimasak lama.</p>
-          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Lamb%20Shoulder%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+          <h3>Lamb Rack</h3>
+          <p>Rusuk biri-biri premium. Untuk majlis istimewa atau hidangan mewah. Bakar, panggang, atau masak oven. Pepper dan garam sahaja sudah cukup. 100g sepack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 10.35</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Promo Akhir Tahun</span>
+            </div>
+            <p class="price-until">Sah sehingga 31 Dis 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20Lamb%20Rack%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Pesan via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/mutton-legs.jpg" alt="Mutton Legs — kaki biri-biri halal Johor" loading="lazy" width="848" height="1264">
+        <img src="/images/products/lamb-cuts-promo.jpg" alt="Lamb Loin Johor — daging loin biri-biri halal tempatan 150g sepack" loading="lazy" width="1280" height="960">
         <div class="product-card-body">
-          <h3>Mutton Legs</h3>
-          <p>Kaki biri-biri penuh daging. Popular untuk sup kaki yang kaya, kari, atau dibakar utuh untuk majlis dan kenduri. Daging padat dan berperisa semulajadi.</p>
-          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Mutton%20Legs%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+          <h3>Lamb Loin</h3>
+          <p>Loin chop dari bahagian paling lembut biri-biri. Daging halus dan cepat masak. Sesuai untuk dibakar, digoreng, atau dipanggang oven. 150g sepack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 11.50</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Promo Akhir Tahun</span>
+            </div>
+            <p class="price-until">Sah sehingga 31 Dis 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20Lamb%20Loin%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Pesan via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/mutton-shank.jpg" alt="Mutton Shank — betis biri-biri halal Johor" loading="lazy" width="600" height="600">
+        <img src="/images/products/mutton-cubes.jpg" alt="Lamb Cube Johor — daging biri-biri potong kiub halal 320g sepack" loading="lazy" width="1264" height="848">
         <div class="product-card-body">
-          <h3>Mutton Shank</h3>
-          <p>Betis biri-biri dengan sumsum yang kaya. Untuk sup berat, slow-cook panjang. Sumsum tulang menambah kedalaman rasa yang sukar ditandingi.</p>
-          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Mutton%20Shank%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+          <h3>Lamb Cube</h3>
+          <p>Daging biri-biri dipotong kiub. Menyerap rempah dengan baik. Untuk kari, rendang, semur, dan sup. Tiada perap diperlukan. 320g sepack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 17.71</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Promo Akhir Tahun</span>
+            </div>
+            <p class="price-until">Sah sehingga 31 Dis 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20Lamb%20Cube%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Pesan via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/meatballs.jpg" alt="Meatballs biri-biri — bebola daging biri-biri halal Johor" loading="lazy" width="848" height="1264">
+        <img src="/images/products/meatballs.jpg" alt="Meatball Johor — bebola daging biri-biri halal 260g sepack" loading="lazy" width="848" height="1264">
         <div class="product-card-body">
-          <h3>Meatballs</h3>
-          <p>Bebola daging biri-biri 100%, halal. Tiada campuran daging lain. Sesuai untuk sup, pasta, masak tomato, atau dimakan dengan nasi. Siap untuk dimasak terus.</p>
-          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Meatballs%20biri-biri%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+          <h3>Meatball</h3>
+          <p>Bebola daging biri-biri 100% halal. Untuk sup, pasta, masak tomato, atau dimakan dengan nasi. Siap untuk dimasak terus dari sejuk beku. 260g sepack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 12.65</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Promo Akhir Tahun</span>
+            </div>
+            <p class="price-until">Sah sehingga 31 Dis 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20Meatball%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Pesan via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/sausages.jpg" alt="Sausages biri-biri — sosej daging biri-biri halal Johor" loading="lazy" width="600" height="600">
+        <img src="/images/products/lamb-mince.jpg" alt="Minced Beef Johor — daging lembu cincang halal 400g sepack" loading="lazy" width="842" height="1264">
+        <div class="product-card-body">
+          <h3>Minced Beef</h3>
+          <p>Daging lembu cincang 100% halal. Untuk kari keema, burger, kofta, pasta bolognese, atau meatloaf. Dikisar halus dan sedia dimasak. 400g sepack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 17.25</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Promo Akhir Tahun</span>
+            </div>
+            <p class="price-until">Sah sehingga 31 Dis 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20Minced%20Beef%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Pesan via WhatsApp →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="/images/products/shabu-shabu.jpg" alt="Shabu-Shabu Beef Johor — hirisan nipis daging lembu halal 200g sepack" loading="lazy" width="600" height="400">
+        <div class="product-card-body">
+          <h3>Shabu-Shabu Beef</h3>
+          <p>Hirisan nipis daging lembu halal untuk steamboat dan hotpot. Dihiris nipis ketika beku untuk potongan yang cantik dan seragam. Masak dalam sekelip mata. 200g sepack.</p>
+          <div class="product-price">
+            <div class="price-row">
+              <span class="price-amount">RM 17.83</span>
+              <span class="price-unit">/pack</span>
+              <span class="price-badge">Promo Akhir Tahun</span>
+            </div>
+            <p class="price-until">Sah sehingga 31 Dis 2026</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20Shabu-Shabu%20Beef%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Pesan via WhatsApp →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="/images/products/sausages.jpg" alt="Sausages biri-biri — sosej daging biri-biri halal Johor" loading="lazy" width="600" height="400">
         <div class="product-card-body">
           <h3>Sausages</h3>
-          <p>Sosej daging biri-biri halal. Sesuai untuk sarapan, BBQ, atau masakan harian. Dari sumber yang kami kawal dan percayai.</p>
-          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Sausages%20biri-biri%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+          <p>Sosej daging biri-biri halal. Untuk sarapan, BBQ, atau masakan harian. Dari sumber yang kami kawal dan percayai.</p>
+          <div class="product-price">
+            <p class="price-wa">WhatsApp kami untuk harga dan stok semasa.</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Sausages%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
         </div>
       </div>
 
       <div class="product-card">
-        <img src="/images/products/shabu-shabu.jpg" alt="Shabu Shabu biri-biri — hirisan nipis daging biri-biri halal Johor" loading="lazy" width="600" height="600">
+        <img src="/images/products/mutton-shank.jpg" alt="Mutton Shank Johor — betis biri-biri halal dengan sumsum tulang" loading="lazy" width="600" height="400">
         <div class="product-card-body">
-          <h3>Shabu Shabu</h3>
-          <p>Hirisan nipis daging biri-biri untuk steamboat, hotpot, dan sukiyaki. Dihiris nipis ketika beku untuk potongan yang cantik dan seragam.</p>
-          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Shabu%20Shabu%20biri-biri%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
+          <h3>Mutton Shank</h3>
+          <p>Betis biri-biri dengan sumsum yang kaya. Untuk sup berat dan slow-cook panjang. Sumsum tulang menambah kedalaman rasa yang sukar ditandingi.</p>
+          <div class="product-price">
+            <p class="price-wa">WhatsApp kami untuk harga dan stok semasa.</p>
+          </div>
+          <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20tentang%20Mutton%20Shank%20di%20Bani%20Ibrahim%20Farms." target="_blank" rel="noopener">Tanya Harga via WhatsApp →</a>
         </div>
       </div>
 
@@ -462,9 +606,9 @@
     </div>
 
     <div style="margin-top:28px;text-align:center;">
-      <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20tanya%20semua%20potongan%20daging%20biri-biri%20yang%20tersedia%20di%20Bani%20Ibrahim%20Farms."
+      <a href="https://wa.me/60132481071?text=Salam%2C%20saya%20ingin%20pesan%20daging%20dari%20Bani%20Ibrahim%20Farms."
          target="_blank" rel="noopener" class="btn btn-green">
-        <span>💬</span> Tanya Stok Semua Potongan
+        <span>💬</span> Pesan via WhatsApp
       </a>
     </div>
   </div>
